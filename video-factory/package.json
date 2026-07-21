@@ -1,0 +1,17 @@
+{
+  "name": "video-factory-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=packages/remotion",
+    "build": "npm run build --workspace=packages/remotion",
+    "install-deps": "npm install"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^26.1.1"
+  }
+}

@@ -1,0 +1,39 @@
+# Environment & Secret Files
+.env
+.env.*
+*.env
+*.pem
+*.key
+.youtube-credentials.json
+config.toml
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build Outputs & Heavy Media Renders
+renders/
+gallery/
+outputs/
+build/
+*.mp4
+*.mp3
+*.wav
+*.webp
+*.gif
+*.png
+*.jpg
+*.jpeg
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Temp / Scratch files with credentials
+scratch/
+.system_generated/
+database/*.db
+database/tracker.json

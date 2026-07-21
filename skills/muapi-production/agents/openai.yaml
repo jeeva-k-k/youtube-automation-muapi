@@ -1,0 +1,4 @@
+interface:
+  display_name: "MUAPI Production"
+  short_description: "Produce and publish media with MUAPI"
+  default_prompt: "Use $muapi-production to plan, create, validate, organize, and publish this media project."
