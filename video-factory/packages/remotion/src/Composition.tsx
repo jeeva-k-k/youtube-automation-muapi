@@ -24,6 +24,7 @@ import { AnimalVisuals } from './visuals/AnimalVisuals';
 import { EarthEnvironmentVisuals } from './visuals/EarthEnvironmentVisuals';
 import { PhysicsChemistryVisuals } from './visuals/PhysicsChemistryVisuals';
 import { BootesVoidVisual } from './visuals/BootesVoidVisual';
+import { QuantumTunnelingVisual } from './visuals/QuantumTunnelingVisual';
 
 export interface SceneConfig { id: string; start: number; end: number; eyebrow: string; title: string; visual: { type: string } }
 export interface CaptionPhrase { start: number; end: number; text: string }
@@ -32,11 +33,14 @@ export interface ProjectData { project_id: string; theme: string; title: string;
 const SubtitleRenderer: React.FC<{ captions: CaptionPhrase[]; t: number }> = ({ captions, t }) => {
   const active = captions.find(c => t >= c.start && t <= c.end);
   if (!active) return null;
-  return <div style={{ fontSize: '38px', fontWeight: 'bold', color: '#fff', textAlign: 'center', padding: '14px 30px', background: 'rgba(5,5,10,0.85)', borderRadius: '20px', border: '1px solid rgba(0,240,255,0.3)', boxShadow: '0 8px 32px rgba(0,0,0,0.6)', textShadow: '0 2px 4px rgba(0,0,0,0.5)', maxWidth: '900px', lineHeight: '1.35' }}>{active.text}</div>;
+  return <div style={{ fontSize: '38px', fontWeight: 'bold', color: '#fff', textAlign: 'center', padding: '14px 30px', background: 'rgba(5,5,10,0.85)', borderRadius: '20px', border: '1px solid rgba(0,240,255,0.4)', boxShadow: '0 8px 32px rgba(0,0,0,0.6)', textShadow: '0 2px 4px rgba(0,0,0,0.5)', maxWidth: '900px', lineHeight: '1.35' }}>{active.text}</div>;
 };
 
 const ProjectVisualRouter: React.FC<{ projectId: string; sceneId: string; title: string; eyebrow: string; theme: string }> = ({ projectId, sceneId, title, eyebrow, theme }) => {
   switch (projectId) {
+    case 'quantum-tunneling-solid-barriers':
+    case 'V052':
+      return <QuantumTunnelingVisual sceneId={sceneId} title={title} eyebrow={eyebrow} />;
     case 'bootes-void-universe-silence':
     case 'V051':
       return <BootesVoidVisual sceneId={sceneId} title={title} eyebrow={eyebrow} theme={theme} />;
@@ -113,7 +117,7 @@ const ProjectVisualRouter: React.FC<{ projectId: string; sceneId: string; title:
     case 'extra-electron-atom':
       return <PhysicsChemistryVisuals projectId={projectId} sceneId={sceneId} title={title} eyebrow={eyebrow} theme={theme} />;
       
-    default: return <BootesVoidVisual sceneId={sceneId} title={title} eyebrow={eyebrow} theme={theme} />;
+    default: return <QuantumTunnelingVisual sceneId={sceneId} title={title} eyebrow={eyebrow} />;
   }
 };
 
@@ -135,28 +139,28 @@ export const VideoComposition: React.FC<ProjectData> = (props) => {
 
 const calculateMetadata: CalculateMetadataFunction<ProjectData> = ({ props }) => ({
   fps: props.format?.fps || 30, width: props.format?.width || 1080, height: props.format?.height || 1920,
-  durationInFrames: Math.ceil((props.format?.duration || 14) * (props.format?.fps || 30))
+  durationInFrames: Math.ceil((props.format?.duration || 15) * (props.format?.fps || 30))
 });
 
 export const MyComposition = () => {
   const inputProps = getInputProps() as ProjectData;
   const defaultProps: ProjectData = {
-    project_id: 'bootes-void-universe-silence',
-    theme: 'space',
-    title: 'THE BOÖTES VOID',
-    eyebrow: 'COSMIC ANOMALY',
-    format: { width: 1080, height: 1920, fps: 30, duration: 14 },
+    project_id: 'quantum-tunneling-solid-barriers',
+    theme: 'physics',
+    title: 'QUANTUM TUNNELING',
+    eyebrow: 'PHYSICS IMPOSSIBLE',
+    format: { width: 1080, height: 1920, fps: 30, duration: 15 },
     scenes: [
-      { id: 'scene_1', start: 0, end: 2.5, eyebrow: 'COSMIC ANOMALY', title: 'THE BOÖTES VOID', visual: { type: 'intro' } },
-      { id: 'scene_2', start: 2.5, end: 5.5, eyebrow: 'IMPOSSIBLE SCALE', title: '330 MILLION LIGHT-YEARS', visual: { type: 'diagram' } },
-      { id: 'scene_3', start: 5.5, end: 9.5, eyebrow: 'COSMIC COMPARISON', title: '2,000 VS ONLY 60 GALAXIES', visual: { type: 'simulation' } },
-      { id: 'scene_4', start: 9.5, end: 14.0, eyebrow: 'TOTAL COSMIC ISOLATION', title: 'WE WOULD BE ALONE IN THE DARK', visual: { type: 'summary' } }
+      { id: 'scene_1', start: 0, end: 3.0, eyebrow: 'PHYSICS IMPOSSIBLE', title: 'QUANTUM TUNNELING', visual: { type: 'intro' } },
+      { id: 'scene_2', start: 3.0, end: 6.5, eyebrow: 'PROBABILITY WAVE', title: 'PARTICLES AS WAVES', visual: { type: 'diagram' } },
+      { id: 'scene_3', start: 6.5, end: 10.5, eyebrow: 'INSTANT MATERIALIZATION', title: 'BARRIER PENETRATION', visual: { type: 'simulation' } },
+      { id: 'scene_4', start: 10.5, end: 15.0, eyebrow: 'ESSENTIAL FOR LIFE', title: 'POWERING THE SUN', visual: { type: 'summary' } }
     ],
     captions: [
-      { start: 0, end: 2.5, text: 'Imagine a hole in space so vast, it could hold 2,000 Milky Ways...' },
-      { start: 2.5, end: 5.5, text: 'This is the Boötes Void, 330 million light-years wide.' },
-      { start: 5.5, end: 9.5, text: 'Where thousands of galaxies should exist, astronomers found only sixty.' },
-      { start: 9.5, end: 14.0, text: 'If our galaxy was in the center, we wouldn’t have known other galaxies existed until the 1960s!' }
+      { start: 0, end: 3.0, text: 'In quantum physics, particles can pass right through solid barriers!' },
+      { start: 3.0, end: 6.5, text: 'Subatomic particles behave like probability waves spread across space.' },
+      { start: 6.5, end: 10.5, text: 'Because the wave extends past the barrier, the particle can instantly materialize on the other side!' },
+      { start: 10.5, end: 15.0, text: 'Without quantum tunneling, nuclear fusion in the Sun would stop, and life would not exist!' }
     ],
     audioPath: ''
   };

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-07-21T15:04:27.390Z",
+  "updated_at": "2026-07-21T15:23:17.041Z",
   "topics": [
     {
       "code": "V001",
@@ -367,6 +367,21 @@
       "normalized_title": "the botes void universes longest silence",
       "created_at": "2026-07-21T15:03:55.521Z",
       "updated_at": "2026-07-21T15:04:22.447Z"
+    },
+    {
+      "code": "V052",
+      "category": "Quantum Physics",
+      "working_title": "Quantum Tunneling: How Particles Pass Through Solid Barriers",
+      "concept_keywords": [
+        "quantum",
+        "tunneling",
+        "particle",
+        "barrier",
+        "fusion",
+        "wave"
+      ],
+      "normalized_title": "quantum tunneling how particles pass through solid barriers",
+      "created_at": "2026-07-21T15:23:08.259Z"
     }
   ],
   "videos": [
@@ -376,6 +391,13 @@
       "rendered_file": "/Users/jeeva/Documents/MUAPI/renders/V051_BootesVoid.mp4",
       "status": "rendered_and_validated",
       "created_at": "2026-07-21T15:04:27.390Z"
+    },
+    {
+      "project_id": "V052",
+      "working_title": "Quantum Tunneling: How Particles Pass Through Solid Barriers",
+      "rendered_file": "/Users/jeeva/Documents/MUAPI/renders/V052_QuantumTunneling.mp4",
+      "status": "rendered_and_validated",
+      "created_at": "2026-07-21T15:23:17.039Z"
     }
   ],
   "schedules": [

@@ -1,0 +1,53 @@
+{
+  "project_id": "V052",
+  "slug": "quantum-tunneling-solid-barriers",
+  "working_title": "Quantum Tunneling: How Particles Pass Through Solid Barriers",
+  "category": "Quantum Physics",
+  "duration_sec": 15,
+  "aspect_ratio": "9:16",
+  "resolution": "1080x1920",
+  "script": {
+    "hook": "In our world, throwing a ball at a brick wall means it bounces back... but in the quantum world, it passes right through!",
+    "body_1": "This is Quantum Tunneling. Subatomic particles behave like probability waves instead of solid spheres.",
+    "body_2": "Because the wave extends past the barrier, there is a real chance the particle instantly materializes on the other side!",
+    "conclusion": "Without quantum tunneling, the Sun couldn't fuse hydrogen, and life on Earth wouldn't exist!"
+  },
+  "audio": {
+    "target_lufs": -16,
+    "master_file": "video-factory/projects/quantum-tunneling-solid-barriers/audio_master.mp3"
+  },
+  "scenes": [
+    {
+      "id": "scene_1",
+      "start_sec": 0,
+      "end_sec": 3.0,
+      "type": "quantum_wave_hook",
+      "title": "QUANTUM TUNNELING",
+      "eyebrow": "PHYSICS IMPOSSIBLE"
+    },
+    {
+      "id": "scene_2",
+      "start_sec": 3.0,
+      "end_sec": 6.5,
+      "type": "wave_function_diagram",
+      "title": "PARTICLES AS WAVES",
+      "eyebrow": "PROBABILITY WAVE"
+    },
+    {
+      "id": "scene_3",
+      "start_sec": 6.5,
+      "end_sec": 10.5,
+      "type": "barrier_passing_simulation",
+      "title": "BARRIER PENETRATION",
+      "eyebrow": "INSTANT MATERIALIZATION"
+    },
+    {
+      "id": "scene_4",
+      "start_sec": 10.5,
+      "end_sec": 15.0,
+      "type": "sun_fusion_conclusion",
+      "title": "POWERING THE SUN",
+      "eyebrow": "ESSENTIAL FOR LIFE"
+    }
+  ]
+}
