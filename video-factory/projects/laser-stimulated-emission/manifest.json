@@ -1,0 +1,99 @@
+{
+  "project_id": "laser-stimulated-emission",
+  "topic": "Coherence & Stimulated Emission",
+  "eyebrow": "QUANTUM PHYSICS",
+  "title": "HOW A LASER WORKS",
+  "theme": "stimulated-emission",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 24.4
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 6.1,
+      "eyebrow": "QUANTUM PHYSICS",
+      "title": "HOW A LASER WORKS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 6.1,
+      "end": 12.2,
+      "eyebrow": "STIMULATED EMISSION",
+      "title": "PHOTON IN-PHASE EMISSION",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 12.2,
+      "end": 18.3,
+      "eyebrow": "AMPLIFICATION",
+      "title": "RESONATOR WAVE AMPLIFIER",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 18.3,
+      "end": 24.4,
+      "eyebrow": "SUMMARY",
+      "title": "COHERENT LASER OUTPUT",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.305,
+      "end": 3.05,
+      "text": "Excitation energy"
+    },
+    {
+      "start": 3.05,
+      "end": 6.1,
+      "text": "raises electrons higher"
+    },
+    {
+      "start": 6.1,
+      "end": 9.15,
+      "text": "A seed photon passes"
+    },
+    {
+      "start": 9.15,
+      "end": 12.2,
+      "text": "stimulating identical release"
+    },
+    {
+      "start": 12.2,
+      "end": 15.25,
+      "text": "Coherent waves mirror"
+    },
+    {
+      "start": 15.25,
+      "end": 18.3,
+      "text": "bouncing back and forth"
+    },
+    {
+      "start": 18.3,
+      "end": 21.35,
+      "text": "amplifying light waves"
+    },
+    {
+      "start": 21.35,
+      "end": 24.4,
+      "text": "into a focused beam"
+    }
+  ],
+  "audioPath": "laser-stimulated-emission-narration.wav"
+}

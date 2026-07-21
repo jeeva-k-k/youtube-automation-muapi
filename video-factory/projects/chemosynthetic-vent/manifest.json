@@ -1,0 +1,104 @@
+{
+  "project_id": "chemosynthetic-vent",
+  "topic": "Deep Ocean Chemosynthesis",
+  "eyebrow": "GEOLOGY",
+  "title": "THE DEEP OCEAN VENTS",
+  "theme": "botanical",
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.84
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.096,
+      "eyebrow": "GEOLOGY",
+      "title": "THE DEEP OCEAN VENTS",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.096,
+      "end": 10.192,
+      "eyebrow": "HYDROTHERMAL FLUX",
+      "title": "MINERAL VENTING",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.192,
+      "end": 16.016,
+      "eyebrow": "CHEMOSYNTHESIS",
+      "title": "CHEMICAL CATALYSIS",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.016,
+      "end": 21.84,
+      "eyebrow": "DEEP ECOSYSTEM",
+      "title": "CHEMICALLY DRIVEN LIFE",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.146,
+      "end": 2.548,
+      "text": "Along the ocean floor's volcanic fissures,"
+    },
+    {
+      "start": 2.548,
+      "end": 5.096,
+      "text": "hydrothermal vents spew mineral-dense fluids"
+    },
+    {
+      "start": 5.096,
+      "end": 7.426,
+      "text": "at temperatures exceeding four hundred degrees Celsius."
+    },
+    {
+      "start": 7.426,
+      "end": 9.828,
+      "text": "In this pitch-black abyss, survival seems impossible."
+    },
+    {
+      "start": 9.828,
+      "end": 12.522,
+      "text": "Yet, life thrives. Specialized bacteria perform chemosynthesis,"
+    },
+    {
+      "start": 12.522,
+      "end": 14.924,
+      "text": "converting toxic hydrogen sulfide into organic energy"
+    },
+    {
+      "start": 14.924,
+      "end": 17.108,
+      "text": "without a single ray of sunlight."
+    },
+    {
+      "start": 17.108,
+      "end": 19.656,
+      "text": "This chemical engine powers an entire deep-sea food web,"
+    },
+    {
+      "start": 19.656,
+      "end": 21.84,
+      "text": "proving that life can flourish in extreme environments."
+    }
+  ],
+  "audioPath": "chemosynthetic-vent-narration.wav"
+}

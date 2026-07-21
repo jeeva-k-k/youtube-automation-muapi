@@ -1,0 +1,29 @@
+{
+  "build_hash": "b59379338c61e7532932e12623a01b6c2d527d9086d85cb38728cb30df41383e",
+  "segments": {
+    "hook": {
+      "hash": "f8f7d1217229f8f54da7521acecb7000a94df1b566847a5e14454951163e515f",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-11-glymphatic-system-v4-production/segments/01-hook.mp4",
+      "frames": 410
+    },
+    "shrinkage": {
+      "hash": "0e6da21d70f68a79852ceb0cb93c3ebac620ca7967867fbcd4424a84ef5cf81d",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-11-glymphatic-system-v4-production/segments/02-shrinkage.mp4",
+      "frames": 447
+    },
+    "flow": {
+      "hash": "cdd164cd00ec06882189eb32b1664ea42705567bf8fab92bf84f6a23a0f140bd",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-11-glymphatic-system-v4-production/segments/03-flow.mp4",
+      "frames": 447
+    },
+    "conclusion": {
+      "hash": "9cfaa31f76d4e968697e1a780fb4eba75b35991c67372f6c62308a0be2a30b8a",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-11-glymphatic-system-v4-production/segments/04-conclusion.mp4",
+      "frames": 448
+    }
+  }
+}

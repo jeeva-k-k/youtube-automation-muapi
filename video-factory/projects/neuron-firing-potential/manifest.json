@@ -1,0 +1,99 @@
+{
+  "project_id": "neuron-firing-potential",
+  "topic": "Action Potentials & Synaptic Transmission",
+  "eyebrow": "NEUROSCIENCE",
+  "title": "HOW A NEURON FIRES",
+  "theme": "electric-synapse",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 23.28
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.82,
+      "eyebrow": "NEUROSCIENCE",
+      "title": "RESTING VOLTAGE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.82,
+      "end": 11.64,
+      "eyebrow": "DEPOLARIZATION",
+      "title": "SODIUM ION CHANNEL INFLUX",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.64,
+      "end": 17.46,
+      "eyebrow": "ACTION POTENTIAL",
+      "title": "SALTATORY AXON CONDUCTION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 17.46,
+      "end": 23.28,
+      "eyebrow": "SYNAPSE GAP",
+      "title": "VESICLE FUSION RELEASE",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.291,
+      "end": 2.91,
+      "text": "A neuron at rest"
+    },
+    {
+      "start": 2.91,
+      "end": 5.82,
+      "text": "holds a negative charge"
+    },
+    {
+      "start": 5.82,
+      "end": 8.73,
+      "text": "Sodium channels snap open"
+    },
+    {
+      "start": 8.73,
+      "end": 11.64,
+      "text": "flooding positive ions inside"
+    },
+    {
+      "start": 11.64,
+      "end": 14.55,
+      "text": "An electrical spike"
+    },
+    {
+      "start": 14.55,
+      "end": 17.46,
+      "text": "races down the axon"
+    },
+    {
+      "start": 17.46,
+      "end": 20.37,
+      "text": "Synaptic vesicles fuse"
+    },
+    {
+      "start": 20.37,
+      "end": 23.28,
+      "text": "releasing chemical neurotransmitters"
+    }
+  ],
+  "audioPath": "neuron-firing-potential-narration.wav"
+}

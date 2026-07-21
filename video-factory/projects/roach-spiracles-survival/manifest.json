@@ -1,0 +1,93 @@
+{
+  "project_id": "roach-spiracles-survival",
+  "theme": "roach-orange",
+  "title": "THE HEADLESS ROACH",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.36
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.163,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "THE HEADLESS ROACH",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.163,
+      "end": 10.325,
+      "eyebrow": "RESPIRATION",
+      "title": "SPIRACLE AIRPORT PORTAL NODES",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.325,
+      "end": 15.488,
+      "eyebrow": "SURVIVAL TIMELINE",
+      "title": "DECAPITATED CIRCULATION METRICS",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.488,
+      "end": 19.36,
+      "eyebrow": "SUMMARY",
+      "title": "INSECT VIABILITY RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.258,
+      "end": 2.581,
+      "text": "Cockroaches live headless for days"
+    },
+    {
+      "start": 2.581,
+      "end": 5.163,
+      "text": "breathing through body spiracles"
+    },
+    {
+      "start": 5.163,
+      "end": 7.744,
+      "text": "without using a mouth or nose"
+    },
+    {
+      "start": 7.744,
+      "end": 10.325,
+      "text": "and because their blood circulation"
+    },
+    {
+      "start": 10.325,
+      "end": 12.907,
+      "text": "does not lose pressure"
+    },
+    {
+      "start": 12.907,
+      "end": 15.488,
+      "text": "they survive indefinitely"
+    },
+    {
+      "start": 15.488,
+      "end": 19.36,
+      "text": "until dehydration halts body organs"
+    }
+  ],
+  "audioPath": "roach-spiracles-survival-narration.wav"
+}

@@ -1,0 +1,93 @@
+{
+  "project_id": "volcano-ash-aerosols",
+  "theme": "ash-orange",
+  "title": "HOW VOLCANIC ASH TRAVELS",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.28
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.141,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "HOW VOLCANIC ASH TRAVELS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.141,
+      "end": 10.283,
+      "eyebrow": "PARTICLE SHIFT",
+      "title": "STRATOSPHERE HEADING DIRECTION",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.283,
+      "end": 15.424,
+      "eyebrow": "AEROSOL DRIFT",
+      "title": "WIND VECTOR HEMISPHERE SPREAD",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.424,
+      "end": 19.28,
+      "eyebrow": "SUMMARY",
+      "title": "ATMOSPHERIC COOLING RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.257,
+      "end": 2.571,
+      "text": "Volcanic ash particles travel far"
+    },
+    {
+      "start": 2.571,
+      "end": 5.141,
+      "text": "circulating across continents"
+    },
+    {
+      "start": 5.141,
+      "end": 7.712,
+      "text": "as fine sulfur aerosols"
+    },
+    {
+      "start": 7.712,
+      "end": 10.283,
+      "text": "reach high stratospheric winds"
+    },
+    {
+      "start": 10.283,
+      "end": 12.853,
+      "text": "reflecting incoming solar rays"
+    },
+    {
+      "start": 12.853,
+      "end": 15.424,
+      "text": "to cool planetary regions"
+    },
+    {
+      "start": 15.424,
+      "end": 19.28,
+      "text": "away from the eruption center"
+    }
+  ],
+  "audioPath": "volcano-ash-aerosols-narration.wav"
+}

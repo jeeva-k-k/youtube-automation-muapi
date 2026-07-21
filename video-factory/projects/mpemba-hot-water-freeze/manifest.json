@@ -1,0 +1,93 @@
+{
+  "project_id": "mpemba-hot-water-freeze",
+  "theme": "freeze-cyan",
+  "title": "THE MPEMBA EFFECT",
+  "eyebrow": "PHYSICAL SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.48
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4.928,
+      "eyebrow": "PHYSICAL SCIENCE",
+      "title": "THE MPEMBA EFFECT",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4.928,
+      "end": 9.856,
+      "eyebrow": "COOLING CURVES",
+      "title": "EVAPORATION CONVECTION SCHEMES",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 9.856,
+      "end": 14.784,
+      "eyebrow": "FREEZING MATRICES",
+      "title": "THERMAL FLUID DYNAMICS SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 14.784,
+      "end": 18.48,
+      "eyebrow": "SUMMARY",
+      "title": "THERMODYNAMIC ANOMALIES",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.246,
+      "end": 2.464,
+      "text": "Hot water can sometimes freeze"
+    },
+    {
+      "start": 2.464,
+      "end": 4.928,
+      "text": "faster than cold water samples"
+    },
+    {
+      "start": 4.928,
+      "end": 7.392,
+      "text": "due to the Mpemba effect"
+    },
+    {
+      "start": 7.392,
+      "end": 9.856,
+      "text": "where rapid heat evaporation"
+    },
+    {
+      "start": 9.856,
+      "end": 12.32,
+      "text": "and intense convection flows"
+    },
+    {
+      "start": 12.32,
+      "end": 14.784,
+      "text": "speed up the cooling rates"
+    },
+    {
+      "start": 14.784,
+      "end": 18.48,
+      "text": "under specific laboratory setups"
+    }
+  ],
+  "audioPath": "mpemba-hot-water-freeze-narration.wav"
+}

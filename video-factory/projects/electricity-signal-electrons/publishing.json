@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-07-20T20:55:49.365Z",
+  "project_id": "electricity-signal-electrons",
+  "media_path": "/Users/jeeva/Documents/MUAPI/video-factory/projects/electricity-signal-electrons/renders/final.mp4",
+  "media_url": "https://cdn.muapi.ai/outputs/generated/8fe62549e63645d28539554e35887952.mp4",
+  "account_id": 587,
+  "title": "Which Is Faster: Electricity or the Electrons?",
+  "description": "The lamp turns on almost instantly, but individual electrons drift surprisingly slowly.\n\nThe electromagnetic signal propagates through the circuit very quickly, while electron drift speed in a conductor is usually much slower.\n\nThe electric field establishes along the circuit and nearby electrons respond; energy transfer is not one electron travelling from switch to bulb.\n\nThe electrons already present throughout the wire begin moving together when the circuit is completed.\n\n#Science #Physics&Chemistry #Shorts #SpaceFacts #VisualScience #Education",
+  "tags": [
+    "which is faster: electricity or the electrons",
+    "electricity signal electrons",
+    "visual science",
+    "science facts",
+    "explained",
+    "education",
+    "physics",
+    "chemistry"
+  ],
+  "privacy": "private",
+  "category_id": "28",
+  "made_for_kids": false,
+  "request_id": "b3a364f1-42bf-480b-b790-d523a1ae46ce",
+  "youtube_url": "https://www.youtube.com/watch?v=JGuZFS6vNWk",
+  "actual_cost_usd": 0.01,
+  "actual_cost_credits": 1,
+  "status": "completed"
+}

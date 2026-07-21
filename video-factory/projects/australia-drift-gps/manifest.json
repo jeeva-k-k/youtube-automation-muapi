@@ -1,0 +1,93 @@
+{
+  "project_id": "australia-drift-gps",
+  "theme": "australia-blue",
+  "title": "THE DRIFTING CONTINENT",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.92
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.045,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "THE DRIFTING CONTINENT",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.045,
+      "end": 10.091,
+      "eyebrow": "DRIFT RATE",
+      "title": "7 CENTIMETER NORTHEAST DIAL",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.091,
+      "end": 15.136,
+      "eyebrow": "GPS OFFSET",
+      "title": "TECTONIC DISPLACEMENT MEASURE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.136,
+      "end": 18.92,
+      "eyebrow": "SUMMARY",
+      "title": "NAVIGATION ALIGNMENT RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.252,
+      "end": 2.523,
+      "text": "Australia moves northeastward"
+    },
+    {
+      "start": 2.523,
+      "end": 5.045,
+      "text": "drifting seven centimeters annually"
+    },
+    {
+      "start": 5.045,
+      "end": 7.568,
+      "text": "due to plate tectonic forces"
+    },
+    {
+      "start": 7.568,
+      "end": 10.091,
+      "text": "offsetting precise GPS targets"
+    },
+    {
+      "start": 10.091,
+      "end": 12.613,
+      "text": "requiring navigation systems"
+    },
+    {
+      "start": 12.613,
+      "end": 15.136,
+      "text": "to adjust coordinates"
+    },
+    {
+      "start": 15.136,
+      "end": 18.92,
+      "text": "to match real-world drift rates"
+    }
+  ],
+  "audioPath": "australia-drift-gps-narration.wav"
+}

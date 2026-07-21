@@ -1,0 +1,93 @@
+{
+  "id": "exoplanet-rain-glass",
+  "topic": "Atmospheric Physics & Weather",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "title": "THE PLANET Raining GLASS",
+  "theme": "exoplanet-blue",
+  "narration_text": "Which planet rains glass sideways? Exoplanet HD one eighty-nine seven thirty-three b. This deep blue gas giant experiences supersonic winds blowing at fifty-four hundred miles per hour. The atmosphere is packed with silicate particles, which condense into liquid glass rain flying horizontally.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "THE PLANET Raining GLASS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "WIND TUNNEL",
+      "title": "5400 MPH SUPERSONIC STREAM",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "WEATHER ENGINE",
+      "title": "SILICA WEATHER CONDENSATION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 15,
+      "eyebrow": "SUMMARY",
+      "title": "GLASS RAIN METRICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "One planet rains glass sideways"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "Exoplanet HD 189733 b"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "This giant cobalt world"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "has 5,400 mile per hour winds"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "Packed with silicate clouds"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "that condense into liquid glass"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "swept sideways at supersonic speeds"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

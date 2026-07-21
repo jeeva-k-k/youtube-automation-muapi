@@ -1,0 +1,93 @@
+{
+  "id": "saturn-water-float",
+  "topic": "Density & Volume Mechanics",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "title": "THE PLANET THAT FLOATS",
+  "theme": "saturn-ocean",
+  "narration_text": "If a planet-sized ocean existed, one world would float: Saturn. This gas giant has an average density of point six eight grams per cubic centimetre, lower than liquid water. Although it has no solid surface, as a scale-impossible thought experiment, Saturn is light enough to float.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "THE PLANET THAT FLOATS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "DENSITY BALANCE",
+      "title": "WATER COMPARISON METRICS",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "BUOYANCY FORCE",
+      "title": "OCEAN FLOAT SIMULATION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 15,
+      "eyebrow": "SUMMARY",
+      "title": "SATURN FLOATING MECHANICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "In a giant ocean"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "Saturn would float"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "Its average density"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "is lower than water"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "At point six eight grams"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "per cubic centimetre"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "making it light enough to float"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

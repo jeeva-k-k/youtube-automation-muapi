@@ -1,0 +1,93 @@
+{
+  "project_id": "electricity-signal-electrons",
+  "theme": "drift-purple",
+  "title": "HOW FAST IS ELECTRICITY?",
+  "eyebrow": "PHYSICAL SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 17.68
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4.715,
+      "eyebrow": "PHYSICAL SCIENCE",
+      "title": "HOW FAST IS ELECTRICITY?",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4.715,
+      "end": 9.429,
+      "eyebrow": "DRIFT RATE",
+      "title": "SLOW COPPER ELECTRON SPEED DIAL",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 9.429,
+      "end": 14.144,
+      "eyebrow": "WAVE FLOW",
+      "title": "EM SIGNAL WAVE PROPAGATION SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 14.144,
+      "end": 17.68,
+      "eyebrow": "SUMMARY",
+      "title": "ELECTRICAL DYNAMICS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.236,
+      "end": 2.357,
+      "text": "Electrical signals travel fast"
+    },
+    {
+      "start": 2.357,
+      "end": 4.715,
+      "text": "propagating near the speed of light"
+    },
+    {
+      "start": 4.715,
+      "end": 7.072,
+      "text": "along conductive wire paths"
+    },
+    {
+      "start": 7.072,
+      "end": 9.429,
+      "text": "while individual electrons drift"
+    },
+    {
+      "start": 9.429,
+      "end": 11.787,
+      "text": "at slow speeds of millimeters"
+    },
+    {
+      "start": 11.787,
+      "end": 14.144,
+      "text": "per second in the metal"
+    },
+    {
+      "start": 14.144,
+      "end": 17.68,
+      "text": "shoving neighbors forward slowly"
+    }
+  ],
+  "audioPath": "electricity-signal-electrons-narration.wav"
+}

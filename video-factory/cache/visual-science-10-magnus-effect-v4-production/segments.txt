@@ -1,0 +1,4 @@
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-10-magnus-effect-v4-production/segments/01-hook.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-10-magnus-effect-v4-production/segments/02-boundary.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-10-magnus-effect-v4-production/segments/03-pressure.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-10-magnus-effect-v4-production/segments/04-conclusion.mp4'

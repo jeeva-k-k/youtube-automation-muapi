@@ -1,0 +1,93 @@
+{
+  "project_id": "jupiter-day-rotation",
+  "theme": "jupiter-fast",
+  "title": "SHORTEST PLANET DAY",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.36
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.696,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "SHORTEST PLANET DAY",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.696,
+      "end": 11.392,
+      "eyebrow": "ROTATION RATE",
+      "title": "9.9 HOUR DAY VS EARTH",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.392,
+      "end": 17.088,
+      "eyebrow": "CENTRIFUGAL SHIFT",
+      "title": "EQUATORIAL DEFORMATION BULGE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 17.088,
+      "end": 21.36,
+      "eyebrow": "SUMMARY",
+      "title": "FAST ROTATION METRICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.285,
+      "end": 2.848,
+      "text": "Jupiter has the shortest day"
+    },
+    {
+      "start": 2.848,
+      "end": 5.696,
+      "text": "spinning in just 9.9 hours"
+    },
+    {
+      "start": 5.696,
+      "end": 8.544,
+      "text": "This rapid rotation speed"
+    },
+    {
+      "start": 8.544,
+      "end": 11.392,
+      "text": "creates massive centrifugal forces"
+    },
+    {
+      "start": 11.392,
+      "end": 14.24,
+      "text": "stretching the equator outward"
+    },
+    {
+      "start": 14.24,
+      "end": 17.088,
+      "text": "into an oblate spheroid"
+    },
+    {
+      "start": 17.088,
+      "end": 21.36,
+      "text": "with a visible bulge"
+    }
+  ],
+  "audioPath": "jupiter-day-rotation-narration.wav"
+}

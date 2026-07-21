@@ -1,0 +1,93 @@
+{
+  "id": "venus-day-rotation",
+  "topic": "Solar Day vs Sidereal Rotation",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "title": "A DAY LONGER THAN A YEAR",
+  "theme": "venus-yellow",
+  "narration_text": "One planet finishes a year before it finishes one rotation: Venus. One rotation day takes about two hundred forty-three Earth days, while one orbit year takes only two hundred twenty-five. On Venus, the slow retrograde rotation means the Sun rises in the west and sets in the east.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "VENUS ROTATION",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "YEAR VS DAY",
+      "title": "ORBITAL TIME COMPARISON",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "RETROGRADE SPIN",
+      "title": "WESTERN SOLAR SUNRISE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 15,
+      "eyebrow": "SUMMARY",
+      "title": "VENUS CALENDAR PARADOX",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "Venus finishes a year"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "before one rotation"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "One day is 243 Earth days"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "while one year is 225"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "Its slow retrograde spin"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "reverses the solar path"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "making the Sun rise in the west"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

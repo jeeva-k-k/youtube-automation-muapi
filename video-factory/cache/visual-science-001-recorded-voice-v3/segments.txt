@@ -1,0 +1,8 @@
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v3/segments/01-hook.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v3/segments/02-routes.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v3/segments/03-air.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v3/segments/04-bone.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v3/segments/05-mix.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v3/segments/06-microphone.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v3/segments/07-chain.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v3/segments/08-resolution.mp4'

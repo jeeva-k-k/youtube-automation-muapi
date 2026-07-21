@@ -1,0 +1,93 @@
+{
+  "project_id": "venus-day-rotation",
+  "theme": "venus-yellow",
+  "title": "A DAY LONGER THAN A YEAR",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 23.4
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 6.24,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "VENUS ROTATION",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 6.24,
+      "end": 12.48,
+      "eyebrow": "YEAR VS DAY",
+      "title": "ORBITAL TIME COMPARISON",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 12.48,
+      "end": 18.72,
+      "eyebrow": "RETROGRADE SPIN",
+      "title": "WESTERN SOLAR SUNRISE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 18.72,
+      "end": 23.4,
+      "eyebrow": "SUMMARY",
+      "title": "VENUS CALENDAR PARADOX",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.312,
+      "end": 3.12,
+      "text": "Venus finishes a year"
+    },
+    {
+      "start": 3.12,
+      "end": 6.24,
+      "text": "before one rotation"
+    },
+    {
+      "start": 6.24,
+      "end": 9.36,
+      "text": "One day is 243 Earth days"
+    },
+    {
+      "start": 9.36,
+      "end": 12.48,
+      "text": "while one year is 225"
+    },
+    {
+      "start": 12.48,
+      "end": 15.6,
+      "text": "Its slow retrograde spin"
+    },
+    {
+      "start": 15.6,
+      "end": 18.72,
+      "text": "reverses the solar path"
+    },
+    {
+      "start": 18.72,
+      "end": 23.4,
+      "text": "making the Sun rise in the west"
+    }
+  ],
+  "audioPath": "venus-day-rotation-narration.wav"
+}

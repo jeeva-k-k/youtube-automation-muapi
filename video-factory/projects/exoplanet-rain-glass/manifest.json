@@ -1,0 +1,93 @@
+{
+  "project_id": "exoplanet-rain-glass",
+  "theme": "exoplanet-blue",
+  "title": "THE PLANET Raining GLASS",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 24.6
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 6.56,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "THE PLANET Raining GLASS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 6.56,
+      "end": 13.12,
+      "eyebrow": "WIND TUNNEL",
+      "title": "5400 MPH SUPERSONIC STREAM",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 13.12,
+      "end": 19.68,
+      "eyebrow": "WEATHER ENGINE",
+      "title": "SILICA WEATHER CONDENSATION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 19.68,
+      "end": 24.6,
+      "eyebrow": "SUMMARY",
+      "title": "GLASS RAIN METRICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.328,
+      "end": 3.28,
+      "text": "One planet rains glass sideways"
+    },
+    {
+      "start": 3.28,
+      "end": 6.56,
+      "text": "Exoplanet HD 189733 b"
+    },
+    {
+      "start": 6.56,
+      "end": 9.84,
+      "text": "This giant cobalt world"
+    },
+    {
+      "start": 9.84,
+      "end": 13.12,
+      "text": "has 5,400 mile per hour winds"
+    },
+    {
+      "start": 13.12,
+      "end": 16.4,
+      "text": "Packed with silicate clouds"
+    },
+    {
+      "start": 16.4,
+      "end": 19.68,
+      "text": "that condense into liquid glass"
+    },
+    {
+      "start": 19.68,
+      "end": 24.6,
+      "text": "swept sideways at supersonic speeds"
+    }
+  ],
+  "audioPath": "exoplanet-rain-glass-narration.wav"
+}

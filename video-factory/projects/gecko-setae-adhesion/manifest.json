@@ -1,0 +1,93 @@
+{
+  "project_id": "gecko-setae-adhesion",
+  "theme": "gecko-cyan",
+  "title": "HOW GECKOS WALK ON CEILINGS",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.28
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.141,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "HOW GECKOS WALK ON CEILINGS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.141,
+      "end": 10.283,
+      "eyebrow": "NANO STRUCTURES",
+      "title": "SETAE HAIR BRANCHES DENSITY",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.283,
+      "end": 15.424,
+      "eyebrow": "ATTRACTION",
+      "title": "MOLECULAR VAN DER WAALS GRIP",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.424,
+      "end": 19.28,
+      "eyebrow": "SUMMARY",
+      "title": "GECKO FOOT MECHANICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.257,
+      "end": 2.571,
+      "text": "Geckos walk upside down"
+    },
+    {
+      "start": 2.571,
+      "end": 5.141,
+      "text": "using microscopic setae hairs"
+    },
+    {
+      "start": 5.141,
+      "end": 7.712,
+      "text": "on their toe pads"
+    },
+    {
+      "start": 7.712,
+      "end": 10.283,
+      "text": "creating molecular attractions"
+    },
+    {
+      "start": 10.283,
+      "end": 12.853,
+      "text": "known as Van der Waals forces"
+    },
+    {
+      "start": 12.853,
+      "end": 15.424,
+      "text": "to stick to glass walls"
+    },
+    {
+      "start": 15.424,
+      "end": 19.28,
+      "text": "without leaving sticky residue"
+    }
+  ],
+  "audioPath": "gecko-setae-adhesion-narration.wav"
+}

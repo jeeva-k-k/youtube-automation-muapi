@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080,height=1920,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <script src="../node_modules/gsap/dist/gsap.min.js"></script>
+</head>
+<body>
+<main id="stage" class="video-canvas">
+  <header id="header-zone">
+    <div class="brand-row">
+      <div class="brand"><i></i><span>ONE QUESTION / VISUALIZED</span></div>
+      <div class="episode">01</div>
+    </div>
+    <div class="progress"><b id="progress-fill"></b></div>
+    <div id="eyebrow" data-critical data-text></div>
+    <div id="title" data-critical data-text></div>
+  </header>
+
+  <section id="visual-zone">
+    <article id="scene-hook" class="scene">
+      <div class="hook-copy" data-critical>
+        <div class="memo-pill"><i></i>VOICE MEMO</div>
+        <div class="hook-note">The voice in your head<br>is a private listening mix.</div>
+        <canvas id="hook-wave-canvas" class="hook-wave" width="720" height="240" data-critical aria-label="Audio waveform"></canvas>
+      </div>
+      <div class="portrait portrait-hook"><img id="hero-image" alt="Person listening to a voice recording"></div>
+    </article>
+
+    <article id="scene-routes" class="scene diagram-scene">
+      <div class="diagram-card" data-critical>
+        <svg class="head-diagram" viewBox="0 0 900 760" aria-label="Air and bone conduction paths">
+          <g class="anatomy">
+            <path class="head-outline" d="M256 680 C190 615 176 505 196 386 C218 255 300 150 422 120 C550 88 672 142 725 236 C744 270 748 305 746 333 L823 379 L760 411 L773 459 L736 482 C747 570 696 654 609 696 L414 708"/>
+            <path class="skull" d="M311 616 C253 525 251 365 316 256 C374 160 501 137 604 185 C672 217 705 281 706 350"/>
+            <path class="jaw" d="M438 477 C493 579 589 625 707 562"/>
+            <path class="ear" d="M500 344 C447 315 416 370 437 433 C457 490 521 462 514 404 C509 368 480 354 464 382 C451 407 474 434 495 416"/>
+            <path class="canal" d="M532 397 L471 407"/>
+            <path class="cochlea" d="M443 408 C409 373 376 410 391 442 C406 471 447 456 447 426 C446 406 422 399 412 416 C404 431 421 442 432 432"/>
+          </g>
+          <path id="routes-air-path" class="route air" d="M774 439 C849 435 876 378 837 334 C784 273 658 291 567 341 C521 366 486 391 435 424"/>
+          <path id="routes-bone-path" class="route bone" d="M706 555 C641 598 568 571 515 518 C484 487 459 454 432 426"/>
+          <circle id="routes-air-dot" class="travel-dot air-fill" r="10"/>
+          <circle id="routes-bone-dot" class="travel-dot bone-fill" r="10"/>
+          <g class="svg-label air-label"><rect x="684" y="250" width="130" height="50" rx="25"/><text x="749" y="283">AIR</text></g>
+          <g class="svg-label bone-label"><rect x="590" y="604" width="158" height="50" rx="25"/><text x="669" y="637">BONE</text></g>
+          <g class="cochlea-label"><path d="M368 437 L262 500"/><text x="116" y="528">COCHLEA</text></g>
+        </svg>
+      </div>
+      <div class="equation" data-critical><span class="cyan">AIR</span><b>+</b><span class="amber">BONE</span><b>=</b><span>WHAT YOU HEAR</span></div>
+    </article>
+
+    <article id="scene-air" class="scene diagram-scene">
+      <div class="diagram-card" data-critical>
+        <svg class="head-diagram" viewBox="0 0 900 760" aria-label="Air conduction from mouth to inner ear">
+          <use href="#air-anatomy-placeholder"/>
+          <g class="anatomy">
+            <path class="head-outline" d="M256 680 C190 615 176 505 196 386 C218 255 300 150 422 120 C550 88 672 142 725 236 C744 270 748 305 746 333 L823 379 L760 411 L773 459 L736 482 C747 570 696 654 609 696 L414 708"/>
+            <path class="ear" d="M500 344 C447 315 416 370 437 433 C457 490 521 462 514 404 C509 368 480 354 464 382 C451 407 474 434 495 416"/>
+            <path class="canal" d="M532 397 L471 407"/>
+            <path class="cochlea" d="M443 408 C409 373 376 410 391 442 C406 471 447 456 447 426 C446 406 422 399 412 416 C404 431 421 442 432 432"/>
+          </g>
+          <path id="air-main-path" class="route air" d="M774 439 C849 435 876 378 837 334 C784 273 658 291 567 341 C521 366 486 391 435 424"/>
+          <circle id="air-dot" class="travel-dot air-fill" r="11"/>
+          <g class="svg-label air-label"><rect x="688" y="248" width="130" height="50" rx="25"/><text x="753" y="281">AIR</text></g>
+          <g class="cochlea-label"><path d="M368 437 L262 500"/><text x="116" y="528">INNER EAR</text></g>
+        </svg>
+      </div>
+      <div class="step-rail" data-critical><span>MOUTH</span><b>›</b><span>AIR</span><b>›</b><span>EAR CANAL</span><b>›</b><span>COCHLEA</span></div>
+    </article>
+
+    <article id="scene-bone" class="scene diagram-scene">
+      <div class="diagram-card" data-critical>
+        <svg class="head-diagram" viewBox="0 0 900 760" aria-label="Bone vibration toward the inner ear">
+          <g class="anatomy">
+            <path class="head-outline" d="M256 680 C190 615 176 505 196 386 C218 255 300 150 422 120 C550 88 672 142 725 236 C744 270 748 305 746 333 L823 379 L760 411 L773 459 L736 482 C747 570 696 654 609 696 L414 708"/>
+            <path class="skull" d="M311 616 C253 525 251 365 316 256 C374 160 501 137 604 185 C672 217 705 281 706 350"/>
+            <path class="jaw" d="M438 477 C493 579 589 625 707 562"/>
+            <path class="ear" d="M500 344 C447 315 416 370 437 433 C457 490 521 462 514 404 C509 368 480 354 464 382 C451 407 474 434 495 416"/>
+            <path class="cochlea" d="M443 408 C409 373 376 410 391 442 C406 471 447 456 447 426 C446 406 422 399 412 416 C404 431 421 442 432 432"/>
+          </g>
+          <path id="bone-main-path" class="route bone" d="M706 555 C641 598 568 571 515 518 C484 487 459 454 432 426"/>
+          <circle id="bone-dot" class="travel-dot bone-fill" r="11"/>
+          <g class="vibration-rings"><path d="M701 520 Q759 555 701 590"/><path d="M725 495 Q806 555 725 615"/><path d="M749 472 Q851 555 749 638"/></g>
+          <g class="svg-label bone-label"><rect x="586" y="607" width="166" height="50" rx="25"/><text x="669" y="640">BONE</text></g>
+          <g class="cochlea-label"><path d="M368 437 L262 500"/><text x="116" y="528">INNER EAR</text></g>
+        </svg>
+      </div>
+      <div class="step-rail bone-rail" data-critical><span>JAW</span><b>›</b><span>SKULL</span><b>›</b><span>COCHLEA</span></div>
+    </article>
+
+    <article id="scene-mix" class="scene compare-scene">
+      <div class="compare-card private-card" data-critical>
+        <div class="card-kicker">WHAT YOU HEAR</div>
+        <div class="route-pills"><span class="air-pill">AIR</span><b>+</b><span class="bone-pill">BONE</span><em>private mix</em></div>
+        <div class="spectrum" id="private-spectrum"></div>
+        <div class="card-note">More internal low-frequency energy</div>
+      </div>
+      <div class="compare-arrow">↓</div>
+      <div class="compare-card recording-card" data-critical>
+        <div class="card-kicker">WHAT THE MICROPHONE RECORDS</div>
+        <div class="route-pills"><span class="air-pill">AIR</span><em>primarily</em></div>
+        <div class="spectrum" id="recording-spectrum"></div>
+        <div class="card-note">The internal path is absent</div>
+      </div>
+    </article>
+
+    <article id="scene-microphone" class="scene mic-scene">
+      <svg class="mic-visual" viewBox="0 0 900 650" data-critical aria-label="Microphone captures air conduction only">
+        <path id="mic-air-path" class="route air" d="M80 300 C169 220 260 386 354 298"/>
+        <circle id="mic-air-dot" class="travel-dot air-fill" r="11"/>
+        <g class="microphone-icon"><rect x="400" y="175" width="130" height="240" rx="65"/><path d="M350 320 C350 475 580 475 580 320"/><path d="M465 450 L465 540 M375 540 L555 540"/><path d="M430 250 L500 250 M430 295 L500 295 M430 340 L500 340"/></g>
+        <path class="route bone muted-route" d="M95 495 C186 425 270 560 351 488"/>
+        <path class="cross" d="M142 426 L307 570 M307 426 L142 570"/>
+        <g class="capture-label"><rect x="230" y="586" width="470" height="58" rx="29"/><text x="465" y="624">AIR-CONDUCTED SIGNAL</text></g>
+      </svg>
+    </article>
+
+    <article id="scene-chain" class="scene chain-scene">
+      <div class="chain" data-critical>
+        <div class="chain-node cyan-border"><b>ROOM</b><span>acoustics</span></div><i>→</i>
+        <div class="chain-node amber-border"><b>MIC</b><span>response</span></div><i>→</i>
+        <div class="chain-node cyan-border"><b>SPEAKER</b><span>playback</span></div>
+      </div>
+      <canvas id="chain-wave-canvas" class="chain-wave" width="1520" height="300" data-critical aria-label="Processed audio waveform"></canvas>
+    </article>
+
+    <article id="scene-resolution" class="scene resolution-scene">
+      <div class="portrait portrait-closing"><img id="closing-image" alt="Person understanding why a recording sounds different"></div>
+      <div class="resolution-stack" data-critical>
+        <div><small>PRIVATE MIX</small><b class="cyan">AIR</b><i>+</i><b class="amber">BONE</b></div>
+        <span>↓</span>
+        <div class="recording-result"><small>RECORDING</small><b class="cyan">AIR</b></div>
+      </div>
+    </article>
+
+    <article id="generic-visuals" class="scene generic-scene">
+      <div id="generic-card" class="diagram-card" data-critical>
+        <div id="generic-stage" class="generic-stage"></div>
+      </div>
+      <div id="generic-footer" class="step-rail" data-critical></div>
+    </article>
+  </section>
+
+  <section id="caption-zone">
+    <div id="caption-panel" data-critical><div id="caption-text" data-text></div></div>
+  </section>
+
+  <section id="exclusion-zone" aria-hidden="true"><div>PLATFORM UI EXCLUSION — NO CONTENT</div></section>
+  <aside id="right-exclusion" aria-hidden="true"></aside>
+</main>
+<script src="render.js"></script>
+</body>
+</html>

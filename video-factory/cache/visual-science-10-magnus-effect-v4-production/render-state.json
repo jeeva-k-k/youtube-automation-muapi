@@ -1,0 +1,29 @@
+{
+  "build_hash": "59b91c4a608e1e0ed87605fd9cd13331fb6b28a2c0e8fe8a23090d4d19b447a3",
+  "segments": {
+    "hook": {
+      "hash": "93e38f2f1f0bbfe3dc1c4acef27f3b3a6e7bd051f82b4195dcec24630a05926d",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-10-magnus-effect-v4-production/segments/01-hook.mp4",
+      "frames": 360
+    },
+    "boundary": {
+      "hash": "31a88829c0334383db963635d6b3f33abfe7bc5cdd8ad68288811e3dfa707f90",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-10-magnus-effect-v4-production/segments/02-boundary.mp4",
+      "frames": 393
+    },
+    "pressure": {
+      "hash": "b4c485fa3104522f03f85b7f397936546592277c8f752497220516dc360c8ed6",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-10-magnus-effect-v4-production/segments/03-pressure.mp4",
+      "frames": 392
+    },
+    "conclusion": {
+      "hash": "add5f693c62db29db886d7dd3fb9491c31c91950a74b1d75617e0320141fa5bd",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-10-magnus-effect-v4-production/segments/04-conclusion.mp4",
+      "frames": 394
+    }
+  }
+}

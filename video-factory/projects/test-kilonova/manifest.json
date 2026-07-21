@@ -1,0 +1,136 @@
+{
+  "project_id": "test-kilonova",
+  "topic": "How Neutron Star Collisions Create Gold",
+  "audience": "general",
+  "language": "en",
+  "generic": true,
+  "theme": "cosmic",
+  "footer_rail": [
+    "ORBIT",
+    "GRAVITY WAVES",
+    "KILONOVA",
+    "GOLD ORIGIN"
+  ],
+  "narration_text": "Deep in the cosmic void, two ultra-dense neutron stars spiral closer and closer. Gravity deforms space-time around them, unleashing massive ripples known as gravitational waves. When they finally collide, a cataclysmic explosion—a kilonova—erupts. Under this extreme pressure and heat, heavy elements are synthesized. This cosmic forge is the origin of almost all the gold and platinum in our universe.",
+  "scenes": [
+    {
+      "id": "orbit",
+      "start": 0,
+      "end": 7.782,
+      "eyebrow": "ASTROPHYSICS",
+      "title": "THE SPIRAL",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "waves",
+      "start": 7.782,
+      "end": 15.563,
+      "eyebrow": "GRAVITY WAVES",
+      "title": "SPACE-TIME RIPPLES",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "kilonova",
+      "start": 15.563,
+      "end": 25.938,
+      "eyebrow": "NUCLEOSYNTHESIS",
+      "title": "THE KILONOVA BURST",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "outro",
+      "start": 25.938,
+      "end": 33.72,
+      "eyebrow": "HEAVY METALS",
+      "title": "ORIGIN OF GOLD",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.259,
+      "end": 3.242,
+      "text": "Deep in the cosmic void,"
+    },
+    {
+      "start": 3.242,
+      "end": 7.782,
+      "text": "two ultra-dense neutron stars spiral closer and closer."
+    },
+    {
+      "start": 7.782,
+      "end": 11.672,
+      "text": "Gravity deforms space-time around them,"
+    },
+    {
+      "start": 11.672,
+      "end": 15.563,
+      "text": "unleashing massive ripples known as gravitational waves."
+    },
+    {
+      "start": 15.563,
+      "end": 18.805,
+      "text": "When they finally collide,"
+    },
+    {
+      "start": 18.805,
+      "end": 22.696,
+      "text": "a cataclysmic explosion—a kilonova—erupts."
+    },
+    {
+      "start": 22.696,
+      "end": 25.938,
+      "text": "Under this extreme pressure, heavy elements are synthesized."
+    },
+    {
+      "start": 25.938,
+      "end": 29.829,
+      "text": "This cosmic forge is the origin"
+    },
+    {
+      "start": 29.829,
+      "end": 33.72,
+      "text": "of almost all the gold and platinum in our universe."
+    }
+  ],
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "crf": 18,
+    "duration": 33.72
+  },
+  "style_profile": "cinematic-science",
+  "brand_profile": "default-science-brand",
+  "caption_profile": "keyword-highlight",
+  "audio_profile": "narration-web",
+  "providers": {
+    "tts": "muapi",
+    "image": "muapi",
+    "video": "auto",
+    "alignment": "auto",
+    "publishing": "muapi"
+  },
+  "publishing": {
+    "platform": "youtube",
+    "privacy": "private",
+    "category_id": "28",
+    "language": "en",
+    "requires_human_approval": true
+  },
+  "limits": {
+    "max_cost_usd": 5,
+    "max_render_attempts": 2,
+    "max_provider_attempts": 3
+  },
+  "audioPath": "test-kilonova-narration.wav"
+}

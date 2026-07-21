@@ -1,0 +1,93 @@
+{
+  "project_id": "croc-bite-force",
+  "theme": "croc-green",
+  "title": "THE STRONGEST BITE",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.4
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.44,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "THE STRONGEST BITE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.44,
+      "end": 10.88,
+      "eyebrow": "FORCE SPECS",
+      "title": "16,000 NEWTON PRESSURE SCALE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.88,
+      "end": 16.32,
+      "eyebrow": "JAW CLOSURE",
+      "title": "SNAPPING COMPRESSION SANDBOX",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.32,
+      "end": 20.4,
+      "eyebrow": "SUMMARY",
+      "title": "CROCODILIAN MECHANICS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.272,
+      "end": 2.72,
+      "text": "The saltwater crocodile holds"
+    },
+    {
+      "start": 2.72,
+      "end": 5.44,
+      "text": "the strongest measured bite force"
+    },
+    {
+      "start": 5.44,
+      "end": 8.16,
+      "text": "delivering sixteen thousand Newtons"
+    },
+    {
+      "start": 8.16,
+      "end": 10.88,
+      "text": "of jaw crushing pressure"
+    },
+    {
+      "start": 10.88,
+      "end": 13.6,
+      "text": "driven by massive muscle groups"
+    },
+    {
+      "start": 13.6,
+      "end": 16.32,
+      "text": "to snap shut instantly"
+    },
+    {
+      "start": 16.32,
+      "end": 20.4,
+      "text": "on target objects"
+    }
+  ],
+  "audioPath": "croc-bite-force-narration.wav"
+}

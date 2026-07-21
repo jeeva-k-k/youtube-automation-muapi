@@ -9,23 +9,23 @@ A single unified production engine for creating, validating, uploading, and sche
 
 ---
 
-## 1. Interactive Workflow Initialization
+## 1. Step 1: Prompt User for Content Idea & Format
 
-When this master skill is invoked, ask the user to choose the content type and topic source:
+When this master skill is invoked, **always start by asking the user for their topic idea set or content plan**:
 
 ```
-1. Select Content Type:
+1. What kind of content would you like to create?
    [A] Science & Explainer Shorts (9:16 Vertical Video Factory)
    [B] Suno Music Video & Visualizer (16:9 Landscape & 9:16 Shorts)
 
-2. Select Topic Source:
-   [A] Upload / provide a CSV or plan file
-   [B] Provide a general niche / idea (e.g., "Space Mysteries" or "Lo-Fi Beats") -> AI generates non-duplicate topics
+2. How would you like to provide the topics/ideas?
+   [Option 1] Provide a concept / niche idea (e.g., "Physics paradoxes", "Deep sea creatures", "Lo-Fi Beats") -> AI will generate non-duplicate topics.
+   [Option 2] Upload or provide a custom CSV / JSON content plan file.
 ```
 
 ---
 
-## 2. Environment & Credit Optimization Setup
+## 2. Step 2: Environment & Credentials Check
 
 1. **MUAPI Key Verification**:
    - Check if `MUAPI_API_KEY` (or bearer token) is present.
@@ -44,16 +44,16 @@ When this master skill is invoked, ask the user to choose the content type and t
 
 ---
 
-## 3. Topic De-Duplication & Database Tracking
+## 3. Step 3: Topic De-Duplication & Database Registration
 
-Before creating any script or asset:
-- Query `video-factory/database/db.mjs` using `isTopicDuplicate(workingTitle, keywords)`.
-- If fuzzy normalized title matches or $\ge 3$ scientific/concept keywords overlap, reject the candidate topic and generate a unique alternative.
-- Store every valid topic, code (`V001`, `V002`...), and release metadata into `video-factory/database/tracker.json`.
+Before creating any script or rendering any video:
+1. Query `video-factory/database/db.mjs` using `isTopicDuplicate(workingTitle, keywords)`.
+2. If fuzzy normalized title matches or $\ge 3$ concept keywords overlap, reject the candidate topic and generate a unique alternative.
+3. Record every valid topic code (`V001`, `V002`...), category, working title, and release metadata into `video-factory/database/tracker.json`.
 
 ---
 
-## 4. Production Pipelines by Content Type
+## 4. Step 4: Production Pipelines by Content Type
 
 ### Workflow A: Science Explainer Shorts (9:16 Vertical)
 Follow `video-factory/PRODUCTION_RULES.md`:
@@ -75,7 +75,7 @@ Follow `video-factory/PRODUCTION_RULES.md`:
 
 ---
 
-## 5. Pre-Render Quality Gate & Local Compilation
+## 5. Step 5: Pre-Render Quality Gate & Local Compilation
 
 1. Run the **8-Point Quality Gate**:
    - [ ] Resolution: 1080×1920 (Shorts) / 1920×1080 (Landscape).
@@ -92,7 +92,7 @@ Follow `video-factory/PRODUCTION_RULES.md`:
 
 ---
 
-## 6. MuAPI Private Upload & Native YouTube API Scheduling
+## 6. Step 6: MuAPI Private Upload & Native YouTube API Scheduling
 
 1. **Private Upload ($0.01 per video)**:
    - Upload file to MuAPI storage (`POST /api/v1/upload_file`).

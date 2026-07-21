@@ -1,0 +1,83 @@
+{
+  "id": "mpemba-paradox",
+  "topic": "Mpemba Paradox",
+  "eyebrow": "THERMODYNAMICS",
+  "title": "THE MPEMBA PHENOMENON",
+  "theme": "blueprint",
+  "narration_text": "Under specific conditions, hot water can freeze faster than cold water—a thermodynamic mystery known as the Mpemba Effect. For centuries, scientists have debated why this happens. Key factors include rapid evaporation, which reduces the hot water's volume, and strong convection currents that accelerate heat loss. While still a subject of scientific inquiry, it challenges our basic assumptions about thermal dynamics and cooling rates.",
+  "scenes": [
+    {
+      "id": "orbit",
+      "start": 0,
+      "end": 7,
+      "eyebrow": "THERMODYNAMICS",
+      "title": "THE MPEMBA PHENOMENON",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "waves",
+      "start": 7,
+      "end": 14,
+      "eyebrow": "HEAT GRADIENT",
+      "title": "MOLECULAR CONVECTION DYNAMICS",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "kilonova",
+      "start": 14,
+      "end": 22,
+      "eyebrow": "FREEZING WAVE",
+      "title": "CONVECTIVE EVAPORATION PHASE",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "outro",
+      "start": 22,
+      "end": 30,
+      "eyebrow": "PARADOX RECAP",
+      "title": "COOLING FLUX SPECS",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 3.5,
+      "text": "Under specific conditions, hot water freezes faster than cold."
+    },
+    {
+      "start": 3.5,
+      "end": 7,
+      "text": "This thermodynamic mystery is the Mpemba Effect."
+    },
+    {
+      "start": 7,
+      "end": 10.5,
+      "text": "Key factors include rapid evaporation of hot water volume"
+    },
+    {
+      "start": 10.5,
+      "end": 14,
+      "text": "and strong convection currents accelerating heat loss."
+    },
+    {
+      "start": 14,
+      "end": 17.5,
+      "text": "While still researched, it challenges basic assumptions."
+    }
+  ],
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  }
+}

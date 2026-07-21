@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-001-recorded-voice-v3",
+  "title": "Why Your Recorded Voice Sounds Different",
+  "language": "en",
+  "format": {"width": 1080, "height": 1920, "fps": 30, "duration": 47.56},
+  "audio": "../../../outputs/visual-science/001-recorded-voice/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/001-recorded-voice/final/why-your-recorded-voice-sounds-different-vertical-v2.mp4",
+  "assets": {
+    "hero": "../../../outputs/visual-science/001-recorded-voice/assets/hero-portrait.png",
+    "closing": "../../../outputs/visual-science/001-recorded-voice/assets/closing-portrait.png"
+  },
+  "output": "../../../outputs/visual-science/001-recorded-voice/final/why-your-recorded-voice-sounds-different-vertical-v3.mp4",
+  "scenes": [
+    {"id":"hook","start":0.00,"end":5.18,"eyebrow":"VOICE MEMO","title":"WHY DOES MY VOICE SOUND WRONG?"},
+    {"id":"routes","start":5.18,"end":10.80,"eyebrow":"YOUR PRIVATE LISTENING MIX","title":"TWO PATHS. ONE VOICE."},
+    {"id":"air","start":10.80,"end":16.98,"eyebrow":"PATH 01 · AIR","title":"MOUTH → AIR → INNER EAR"},
+    {"id":"bone","start":16.98,"end":25.42,"eyebrow":"PATH 02 · BONE","title":"SKULL VIBRATION → INNER EAR"},
+    {"id":"mix","start":25.42,"end":35.41,"eyebrow":"WHY IT FEELS DIFFERENT","title":"YOUR MIX vs THE RECORDING"},
+    {"id":"microphone","start":35.41,"end":41.83,"eyebrow":"THE CRUCIAL DIFFERENCE","title":"THE MIC CAPTURES THE OUTSIDE PATH"},
+    {"id":"chain","start":41.83,"end":43.54,"eyebrow":"THEN IT CHANGES AGAIN","title":"ROOM → MIC → SPEAKER"},
+    {"id":"resolution","start":43.54,"end":47.56,"eyebrow":"THE TAKEAWAY","title":"SAME VOICE. DIFFERENT LISTENING MIX."}
+  ],
+  "captions": [
+    {"start":0.35,"end":2.61,"text":"Ever heard a recording of yourself?"},
+    {"start":3.04,"end":5.18,"text":"And thought, that cannot be me?"},
+    {"start":5.18,"end":7.48,"text":"It is you, but when you speak,"},
+    {"start":7.48,"end":10.80,"text":"you hear your voice through two routes."},
+    {"start":10.80,"end":13.71,"text":"First, sound travels through the air"},
+    {"start":13.71,"end":16.98,"text":"into your ear canal, like other voices do."},
+    {"start":16.98,"end":21.42,"text":"At the same time, vibrations move through your skull"},
+    {"start":21.42,"end":25.42,"text":"toward the inner ear."},
+    {"start":25.42,"end":29.53,"text":"Bone conduction changes the frequency balance,"},
+    {"start":29.53,"end":33.00,"text":"often making your voice feel"},
+    {"start":33.00,"end":35.41,"text":"fuller and deeper inside your head."},
+    {"start":35.41,"end":39.35,"text":"A microphone mostly captures the air path,"},
+    {"start":39.35,"end":41.83,"text":"without the internal vibration."},
+    {"start":41.83,"end":43.54,"text":"Room, microphone, and speaker color it again."},
+    {"start":43.54,"end":45.55,"text":"The recording sounds unfamiliar"},
+    {"start":45.55,"end":47.56,"text":"because one pathway from your private mix is missing."}
+  ]
+}

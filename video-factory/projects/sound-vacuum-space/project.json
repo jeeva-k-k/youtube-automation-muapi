@@ -1,0 +1,93 @@
+{
+  "id": "sound-vacuum-space",
+  "topic": "Wave Transmission Mediums",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "title": "CAN SOUND TRAVEL IN SPACE?",
+  "theme": "vacuum-silent",
+  "narration_text": "Can sound travel through space? No. Unlike light, sound is a mechanical wave that requires a medium like air or water to travel. Since space is a vacuum with no molecules to collide and transmit energy, cosmic explosions are completely silent, no matter how massive.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "CAN SOUND TRAVEL IN SPACE?",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "WAVE MEDIUMS",
+      "title": "MECHANICAL VS ELECTROMAGNETIC",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "PROPAGATION LATTICE",
+      "title": "MOLECULE VIBRATION VACUUM GAP",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 15,
+      "eyebrow": "SUMMARY",
+      "title": "COSMIC SILENCE RULES",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "Can sound travel through space?"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "The answer is a flat no"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "Unlike light waves"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "sound requires air to move"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "In a cosmic vacuum"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "there are no molecules to collide"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "making every giant explosion silent"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

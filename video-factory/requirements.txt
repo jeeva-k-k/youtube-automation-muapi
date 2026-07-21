@@ -1,0 +1,4 @@
+numpy
+scipy
+playwright==1.58.0
+prefect>=3.0,<4.0

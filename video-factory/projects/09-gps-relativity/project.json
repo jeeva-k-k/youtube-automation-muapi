@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-09-gps-relativity-v4-production",
+  "title": "Why GPS Satellites Require Relativistic Corrections",
+  "language": "en",
+  "generic": true,
+  "theme": "terminal",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 26,
+    "crf": 18
+  },
+  "audio": "../../../outputs/visual-science/09-gps-relativity/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/09-gps-relativity/narration/narration-normalized.wav",
+  "assets": {
+    "hero": "",
+    "closing": ""
+  },
+  "output": "../../../outputs/visual-science/09-gps-relativity/final/gps-relativity-vertical-production-master.mp4",
+  "layout_contract": {
+    "header_end_y": 288,
+    "visual_end_y": 1152,
+    "caption_end_y": 1498,
+    "critical_content_limit_y": 1536,
+    "right_control_gutter_px": 180,
+    "full_bleed_background": true
+  },
+  "footer_rail": [
+    "GPS ORBIT",
+    "TIME DRIFT",
+    "RELATIVITY",
+    "CORRECTION"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6,
+      "eyebrow": "GPS SYSTEM",
+      "title": "CLOCK COORDINATION",
+      "visual": {
+        "type": "console"
+      }
+    },
+    {
+      "id": "drift",
+      "start": 6,
+      "end": 13,
+      "eyebrow": "TIME WARP",
+      "title": "SPEED vs GRAVITY DRIFT",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "math",
+      "start": 13,
+      "end": 20,
+      "eyebrow": "CORRECTIONS",
+      "title": "THIRTY-EIGHT MICROSECONDS",
+      "visual": {
+        "type": "console"
+      }
+    },
+    {
+      "id": "conclusion",
+      "start": 20,
+      "end": 26,
+      "eyebrow": "THE EFFECT",
+      "title": "DRIFT OF SEVEN MILES DAILY",
+      "visual": {
+        "type": "orbit"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 3.5,
+      "text": "Your phone map works only because of relativity."
+    },
+    {
+      "start": 3.5,
+      "end": 6,
+      "text": "Satellites move fast,"
+    },
+    {
+      "start": 6,
+      "end": 9.5,
+      "text": "slowing their time by seven microseconds daily."
+    },
+    {
+      "start": 9.5,
+      "end": 13,
+      "text": "But they are also high up in weaker gravity,"
+    },
+    {
+      "start": 13,
+      "end": 16.5,
+      "text": "speeding time by forty-five microseconds daily."
+    },
+    {
+      "start": 16.5,
+      "end": 20,
+      "text": "The net drift of thirty-eight microseconds"
+    },
+    {
+      "start": 20,
+      "end": 23,
+      "text": "must be adjusted,"
+    },
+    {
+      "start": 23,
+      "end": 26,
+      "text": "or GPS coordinates would drift by miles."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "project_id": "blush-vessel-adrenaline",
+  "theme": "blush-pink",
+  "title": "THE ADRENALINE BLUSH",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.44
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.717,
+      "eyebrow": "HUMAN BODY",
+      "title": "THE ADRENALINE BLUSH",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.717,
+      "end": 11.435,
+      "eyebrow": "VESSEL EXPANSION",
+      "title": "AUTONOMIC CAPILLARY DILATION",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.435,
+      "end": 17.152,
+      "eyebrow": "BLOOD FLOW",
+      "title": "THERMAL FACIAL GLOW OVERLAY",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 17.152,
+      "end": 21.44,
+      "eyebrow": "SUMMARY",
+      "title": "BLUSHING MECHANICS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.286,
+      "end": 2.859,
+      "text": "When you blush in embarrassment"
+    },
+    {
+      "start": 2.859,
+      "end": 5.717,
+      "text": "adrenaline is instantly released"
+    },
+    {
+      "start": 5.717,
+      "end": 8.576,
+      "text": "widening facial blood vessels"
+    },
+    {
+      "start": 8.576,
+      "end": 11.435,
+      "text": "to increase local blood flow"
+    },
+    {
+      "start": 11.435,
+      "end": 14.293,
+      "text": "under highly dense capillaries"
+    },
+    {
+      "start": 14.293,
+      "end": 17.152,
+      "text": "making the vasodilation visible"
+    },
+    {
+      "start": 17.152,
+      "end": 21.44,
+      "text": "across your cheeks and face"
+    }
+  ],
+  "audioPath": "blush-vessel-adrenaline-narration.wav"
+}

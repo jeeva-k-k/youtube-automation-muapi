@@ -1,0 +1,29 @@
+{
+  "build_hash": "1140e19ed6e6b1c09eff4213e8f337040ae8092b7dad10aa785a2e07494f6aaa",
+  "segments": {
+    "hook": {
+      "hash": "e11275aeb9f34540435920071182f83169dde1f6481ed16952391844a1d426d5",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-08-onion-chemistry-v4-production/segments/01-hook.mp4",
+      "frames": 359
+    },
+    "enzymes": {
+      "hash": "bcb533d433739b42013547b805abdb5d404ac6472fb41644bf22a4dbbc74de87",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-08-onion-chemistry-v4-production/segments/02-enzymes.mp4",
+      "frames": 392
+    },
+    "tears": {
+      "hash": "43b887951b64888cd4912ef39ed7a05c85ec1785a7f1835f4ee9304ea58206f2",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-08-onion-chemistry-v4-production/segments/03-tears.mp4",
+      "frames": 391
+    },
+    "conclusion": {
+      "hash": "8fbfd34b080bb6957895b1e798d58f4f294bc5bbb9c511312f07640b21e8d411",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-08-onion-chemistry-v4-production/segments/04-conclusion.mp4",
+      "frames": 392
+    }
+  }
+}

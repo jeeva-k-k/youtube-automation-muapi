@@ -1,0 +1,93 @@
+{
+  "project_id": "challenger-deep-ocean",
+  "theme": "challenger-blue",
+  "title": "THE DEEPEST POINT ON EARTH",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.16
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.643,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "THE DEEPEST POINT ON EARTH",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.643,
+      "end": 11.285,
+      "eyebrow": "TRENCH BEND",
+      "title": "SUBDUCTION ZONE PROFILE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.285,
+      "end": 16.928,
+      "eyebrow": "PRESSURE DEPTH",
+      "title": "11,000 METER DEPTH SCALE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.928,
+      "end": 21.16,
+      "eyebrow": "SUMMARY",
+      "title": "CHALLENGER DEEP RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.282,
+      "end": 2.821,
+      "text": "Challenger Deep is the deepest point"
+    },
+    {
+      "start": 2.821,
+      "end": 5.643,
+      "text": "sinking 11 kilometers down"
+    },
+    {
+      "start": 5.643,
+      "end": 8.464,
+      "text": "at a subduction plate boundary"
+    },
+    {
+      "start": 8.464,
+      "end": 11.285,
+      "text": "where water pressures escalate"
+    },
+    {
+      "start": 11.285,
+      "end": 14.107,
+      "text": "exceeding one thousand times"
+    },
+    {
+      "start": 14.107,
+      "end": 16.928,
+      "text": "sea level atmospheric levels"
+    },
+    {
+      "start": 16.928,
+      "end": 21.16,
+      "text": "crushing objects in extreme dark"
+    }
+  ],
+  "audioPath": "challenger-deep-ocean-narration.wav"
+}

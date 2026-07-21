@@ -1,0 +1,64 @@
+{
+  "uploaded_at": "2026-07-20T17:01:26.480Z",
+  "entries": [
+    {
+      "timestamp": "2026-07-20T17:01:16.490Z",
+      "project_id": "glass-shatter-resonance",
+      "media_path": "/Users/jeeva/Documents/MUAPI/video-factory/projects/glass-shatter-resonance/renders/final.mp4",
+      "media_url": "https://cdn.muapi.ai/outputs/generated/81e46402532046c997fae30ad09dfc3a.mp4",
+      "account_id": 587,
+      "title": "How Sound Shatters Glass - Resonance Explained",
+      "description": "Every object has a natural frequency at which it vibrates most easily.\n\nWhen an external frequency matches this exact rate, the vibrations amplify through resonance. As the sound waves hit the glass, the molecular bonds stretch, creating micro-cracks. Under extreme stress, the glass shatters.\n\n#Science #Physics #Acoustics #Resonance #StandingWaves #SoundScience #VisualScience",
+      "tags": [
+        "resonance",
+        "sound resonance",
+        "glass shatter",
+        "how sound shatters glass",
+        "natural frequency",
+        "physics explained",
+        "standing waves",
+        "acoustics",
+        "visual science"
+      ],
+      "privacy": "private",
+      "category_id": "28",
+      "made_for_kids": false,
+      "request_id": "43d70057-306d-4f75-887d-3887bd91d126",
+      "youtube_url": "https://www.youtube.com/watch?v=f5XySzir5lg",
+      "actual_cost_usd": 0.01,
+      "actual_cost_credits": 1,
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-07-20T17:01:26.212Z",
+      "project_id": "neuron-firing-potential",
+      "media_path": "/Users/jeeva/Documents/MUAPI/video-factory/projects/neuron-firing-potential/renders/final.mp4",
+      "media_url": "https://cdn.muapi.ai/outputs/generated/ae51959a7705466392673f7d69bf9728.mp4",
+      "account_id": 587,
+      "title": "How a Neuron Fires - The Action Potential",
+      "description": "A neuron at rest holds a negative electrical charge inside its membrane.\n\nWhen a signal arrives, sodium channels snap open, flooding the cell with positive ions. This electrical spike races down the axon, leaping between myelin gaps. At the synapse, it triggers neurotransmitter release to fire the next neuron.\n\n#Science #Neuroscience #Neuron #ActionPotential #Biology #BrainScience #Synapse #VisualScience",
+      "tags": [
+        "neuron",
+        "action potential",
+        "how a neuron fires",
+        "neuroscience",
+        "synapse",
+        "neurotransmitters",
+        "myelin sheath",
+        "biology",
+        "brain science",
+        "visual science"
+      ],
+      "privacy": "private",
+      "category_id": "28",
+      "made_for_kids": false,
+      "request_id": "47728e39-5bb9-4e36-8a2b-a0378a88e85d",
+      "youtube_url": "https://www.youtube.com/watch?v=OOevQHYTu5s",
+      "actual_cost_usd": 0.01,
+      "actual_cost_credits": 1,
+      "status": "completed"
+    }
+  ],
+  "total_cost_usd": 0.02,
+  "remaining_balance": 8.10762
+}

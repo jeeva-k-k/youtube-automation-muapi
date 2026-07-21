@@ -1,0 +1,93 @@
+{
+  "id": "sun-earth-scale",
+  "topic": "Solar Volume & Packing Density",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "title": "SUN VS EARTH SIZE",
+  "theme": "sun-orange",
+  "narration_text": "How many Earths can fit inside the Sun? One point three million. If the Sun were a hollow sphere, you could pack hundreds of thousands of Earth-sized planets inside it. Diameter-wise, you would need to line up one hundred and nine Earths side by side just to span the width of the Sun.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "SUN VS EARTH SIZE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "SCALE RATIO",
+      "title": "DIAMETER VS VOLUME COMPARISON",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "VOLUME CAPACITY",
+      "title": "1.3 MILLION EARTHS PACKING",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 15,
+      "eyebrow": "SUMMARY",
+      "title": "SOLAR VOLUME MECHANICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "How many Earths fit inside the Sun?"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "One point three million"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "If the Sun were hollow"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "it would hold huge planet volume"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "Diameter-wise you need"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "one hundred and nine Earths"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "just to span the solar width"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

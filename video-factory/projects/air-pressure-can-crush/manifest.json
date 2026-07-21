@@ -1,0 +1,93 @@
+{
+  "project_id": "air-pressure-can-crush",
+  "theme": "crush-red",
+  "title": "THE CRUSH OF AIR PRESSURE",
+  "eyebrow": "PHYSICAL SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.16
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.376,
+      "eyebrow": "PHYSICAL SCIENCE",
+      "title": "THE CRUSH OF AIR PRESSURE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.376,
+      "end": 10.752,
+      "eyebrow": "FORCE WEIGHT",
+      "title": "100,000 PA ATMOSPHERE GAUGE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.752,
+      "end": 16.128,
+      "eyebrow": "COLLAPSE VECTOR",
+      "title": "STEAM CONDENSE CAN CRUSH SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.128,
+      "end": 20.16,
+      "eyebrow": "SUMMARY",
+      "title": "PRESSURE EQUILIBRIUM RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.269,
+      "end": 2.688,
+      "text": "Air pressure can crush cans"
+    },
+    {
+      "start": 2.688,
+      "end": 5.376,
+      "text": "when internal steam condenses"
+    },
+    {
+      "start": 5.376,
+      "end": 8.064,
+      "text": "creating an internal vacuum"
+    },
+    {
+      "start": 8.064,
+      "end": 10.752,
+      "text": "leaving outside air weights"
+    },
+    {
+      "start": 10.752,
+      "end": 13.44,
+      "text": "unbalanced against the metal"
+    },
+    {
+      "start": 13.44,
+      "end": 16.128,
+      "text": "pushing walls inward rapidly"
+    },
+    {
+      "start": 16.128,
+      "end": 20.16,
+      "text": "to collapse the container shape"
+    }
+  ],
+  "audioPath": "air-pressure-can-crush-narration.wav"
+}

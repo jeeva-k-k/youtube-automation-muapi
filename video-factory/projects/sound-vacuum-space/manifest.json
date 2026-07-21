@@ -1,0 +1,93 @@
+{
+  "project_id": "sound-vacuum-space",
+  "theme": "vacuum-silent",
+  "title": "CAN SOUND TRAVEL IN SPACE?",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 23
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 6.133,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "CAN SOUND TRAVEL IN SPACE?",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 6.133,
+      "end": 12.267,
+      "eyebrow": "WAVE MEDIUMS",
+      "title": "MECHANICAL VS ELECTROMAGNETIC",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 12.267,
+      "end": 18.4,
+      "eyebrow": "PROPAGATION LATTICE",
+      "title": "MOLECULE VIBRATION VACUUM GAP",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 18.4,
+      "end": 23,
+      "eyebrow": "SUMMARY",
+      "title": "COSMIC SILENCE RULES",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.307,
+      "end": 3.067,
+      "text": "Can sound travel through space?"
+    },
+    {
+      "start": 3.067,
+      "end": 6.133,
+      "text": "The answer is a flat no"
+    },
+    {
+      "start": 6.133,
+      "end": 9.2,
+      "text": "Unlike light waves"
+    },
+    {
+      "start": 9.2,
+      "end": 12.267,
+      "text": "sound requires air to move"
+    },
+    {
+      "start": 12.267,
+      "end": 15.333,
+      "text": "In a cosmic vacuum"
+    },
+    {
+      "start": 15.333,
+      "end": 18.4,
+      "text": "there are no molecules to collide"
+    },
+    {
+      "start": 18.4,
+      "end": 23,
+      "text": "making every giant explosion silent"
+    }
+  ],
+  "audioPath": "sound-vacuum-space-narration.wav"
+}

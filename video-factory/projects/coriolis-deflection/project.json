@@ -1,0 +1,88 @@
+{
+  "id": "coriolis-deflection",
+  "topic": "Coriolis Effect",
+  "eyebrow": "METEOROLOGY",
+  "title": "THE CORIOLIS DEFLECTION",
+  "theme": "chalkboard",
+  "narration_text": "Global winds do not blow in straight lines. Because Earth rotates on its axis, moving air is deflected by the Coriolis Effect. In the Northern Hemisphere, winds curve to the right, spinning cyclonic storms counter-clockwise. In the Southern Hemisphere, they deflect to the left, creating clockwise rotation. This atmospheric rotation dictates everything from local hurricane pathways to the massive trade winds that cross our oceans.",
+  "scenes": [
+    {
+      "id": "orbit",
+      "start": 0,
+      "end": 7,
+      "eyebrow": "METEOROLOGY",
+      "title": "THE CORIOLIS DEFLECTION",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "waves",
+      "start": 7,
+      "end": 14,
+      "eyebrow": "EARTH ROTATION",
+      "title": "CYCLONIC CORIOLIS CURVES",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "kilonova",
+      "start": 14,
+      "end": 22,
+      "eyebrow": "ATMOSPHERIC FLOW",
+      "title": "VORTEX CIRCULATION DETECTED",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "outro",
+      "start": 22,
+      "end": 30,
+      "eyebrow": "CLIMATE DRIVER",
+      "title": "GLOBAL CONVECTION CELLS",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 3.5,
+      "text": "Global winds do not blow in straight lines."
+    },
+    {
+      "start": 3.5,
+      "end": 7,
+      "text": "Because Earth rotates on its axis, moving air is deflected."
+    },
+    {
+      "start": 7,
+      "end": 10.5,
+      "text": "In the Northern Hemisphere, winds curve to the right,"
+    },
+    {
+      "start": 10.5,
+      "end": 14,
+      "text": "spinning cyclonic storms counter-clockwise."
+    },
+    {
+      "start": 14,
+      "end": 17.5,
+      "text": "In the Southern Hemisphere, they deflect to the left."
+    },
+    {
+      "start": 17.5,
+      "end": 21,
+      "text": "This atmospheric rotation dictates local hurricane pathways."
+    }
+  ],
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  }
+}

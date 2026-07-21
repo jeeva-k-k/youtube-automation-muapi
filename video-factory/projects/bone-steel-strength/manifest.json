@@ -1,0 +1,93 @@
+{
+  "project_id": "bone-steel-strength",
+  "theme": "bone-yellow",
+  "title": "IS BONE STRONGER THAN STEEL?",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.12
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.099,
+      "eyebrow": "HUMAN BODY",
+      "title": "IS BONE STRONGER THAN STEEL?",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.099,
+      "end": 10.197,
+      "eyebrow": "STRESS SCALES",
+      "title": "WEIGHT VS ABSOLUTE TENSILE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.197,
+      "end": 15.296,
+      "eyebrow": "COMPOSITE TEST",
+      "title": "BENDING COMPRESSION SANDBOX",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.296,
+      "end": 19.12,
+      "eyebrow": "SUMMARY",
+      "title": "BONE MATERIAL STRUCTURE",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.255,
+      "end": 2.549,
+      "text": "Bone is stronger than steel"
+    },
+    {
+      "start": 2.549,
+      "end": 5.099,
+      "text": "by strength-to-weight ratio"
+    },
+    {
+      "start": 5.099,
+      "end": 7.648,
+      "text": "blending hydroxyapatite crystals"
+    },
+    {
+      "start": 7.648,
+      "end": 10.197,
+      "text": "with flexible collagen fibers"
+    },
+    {
+      "start": 10.197,
+      "end": 12.747,
+      "text": "to create a living composite"
+    },
+    {
+      "start": 12.747,
+      "end": 15.296,
+      "text": "absorbing tension and compression"
+    },
+    {
+      "start": 15.296,
+      "end": 19.12,
+      "text": "without fracturing under stress"
+    }
+  ],
+  "audioPath": "bone-steel-strength-narration.wav"
+}

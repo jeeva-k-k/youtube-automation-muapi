@@ -1,0 +1,53 @@
+{
+  "build_hash": "87618e5f5c4875d609b605ff3eb300f0953acff4a6fa43aecc500c478fb9b0fd",
+  "segments": {
+    "hook": {
+      "hash": "b2fa8742ad907ae5404fb71fb15d1321b95739f200da0e6a8436806cc0faf622",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v4-production/segments/01-hook.mp4",
+      "frames": 311
+    },
+    "routes": {
+      "hash": "59235d24cc7946394f994bf582d5db3d964faf15d7057d527b01f6e1b8adf1a3",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v4-production/segments/02-routes.mp4",
+      "frames": 337
+    },
+    "air": {
+      "hash": "ecefa40d565ad505c808e03a49324c636157413730c9a64ee08a93046c05bdc2",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v4-production/segments/03-air.mp4",
+      "frames": 371
+    },
+    "bone": {
+      "hash": "dfe7204bddf2314d386a8d380bc78b812421515f5aea2c5311e9a1400caeb996",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v4-production/segments/04-bone.mp4",
+      "frames": 506
+    },
+    "mix": {
+      "hash": "03f75ed239c2f6aa54d2f4aba5824eac810ecbbd3074996943c92f2978c504ce",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v4-production/segments/05-mix.mp4",
+      "frames": 600
+    },
+    "microphone": {
+      "hash": "3958097dadd3f4cdd14617bc591f6a1ba544cc10177dcb8a079f4f4e789a638a",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v4-production/segments/06-microphone.mp4",
+      "frames": 385
+    },
+    "chain": {
+      "hash": "5dc10f8b3a10d6a4df313822bac2c137ad97aa9f2af90ee4f57af37fbcef778e",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v4-production/segments/07-chain.mp4",
+      "frames": 102
+    },
+    "resolution": {
+      "hash": "2fb4efa143b7ebd8bad1bf064b174a2dff5ffa6fd38c6bafcdefa4a9c8f6fff5",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-001-recorded-voice-v4-production/segments/08-resolution.mp4",
+      "frames": 242
+    }
+  }
+}

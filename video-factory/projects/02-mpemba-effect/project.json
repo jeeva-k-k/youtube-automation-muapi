@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-02-mpemba-effect-v4-production",
+  "title": "Why Hot Water Can Freeze Faster Than Cold Water",
+  "language": "en",
+  "generic": true,
+  "theme": "blueprint",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 25.28,
+    "crf": 18
+  },
+  "audio": "../../../outputs/visual-science/02-mpemba-effect/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/02-mpemba-effect/narration/narration-normalized.wav",
+  "assets": {
+    "hero": "",
+    "closing": ""
+  },
+  "output": "../../../outputs/visual-science/02-mpemba-effect/final/mpemba-effect-vertical-production-master.mp4",
+  "layout_contract": {
+    "header_end_y": 288,
+    "visual_end_y": 1152,
+    "caption_end_y": 1498,
+    "critical_content_limit_y": 1536,
+    "right_control_gutter_px": 180,
+    "full_bleed_background": true
+  },
+  "footer_rail": [
+    "HOT WATER",
+    "CONVECTION",
+    "EVAPORATION",
+    "FREEZING"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 5.57,
+      "eyebrow": "THE PARADOX",
+      "title": "THE MPEMBA EFFECT",
+      "visual": {
+        "type": "particles"
+      }
+    },
+    {
+      "id": "evaporation",
+      "start": 5.57,
+      "end": 10.28,
+      "eyebrow": "MASS LOSS",
+      "title": "RAPID EVAPORATION",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "convection",
+      "start": 10.28,
+      "end": 15.85,
+      "eyebrow": "HEAT CIRCULATION",
+      "title": "CONVECTION CURRENTS",
+      "visual": {
+        "type": "flow"
+      }
+    },
+    {
+      "id": "gases",
+      "start": 15.85,
+      "end": 20.57,
+      "eyebrow": "IMPURITY EXPULSION",
+      "title": "OUTGASSING EFFECTS",
+      "visual": {
+        "type": "particles"
+      }
+    },
+    {
+      "id": "conclusion",
+      "start": 20.57,
+      "end": 25.28,
+      "eyebrow": "THE TAKEAWAY",
+      "title": "HEAT FLOW DEFIES EXPECTATION",
+      "visual": {
+        "type": "waves"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.17,
+      "end": 3,
+      "text": "Ever heard of the Mpemba Effect?"
+    },
+    {
+      "start": 3,
+      "end": 4.28,
+      "text": "Under certain conditions,"
+    },
+    {
+      "start": 4.28,
+      "end": 5.57,
+      "text": "hot water freezes faster than cold water."
+    },
+    {
+      "start": 5.57,
+      "end": 7.28,
+      "text": "This physics paradox happens"
+    },
+    {
+      "start": 7.28,
+      "end": 8.57,
+      "text": "because hot water evaporates quicker,"
+    },
+    {
+      "start": 8.57,
+      "end": 10.28,
+      "text": "reducing its overall mass."
+    },
+    {
+      "start": 10.28,
+      "end": 12,
+      "text": "Convection currents also"
+    },
+    {
+      "start": 12,
+      "end": 13.28,
+      "text": "circulate heat faster,"
+    },
+    {
+      "start": 13.28,
+      "end": 15.85,
+      "text": "cooling the liquid down rapidly."
+    },
+    {
+      "start": 15.85,
+      "end": 17.57,
+      "text": "And dissolved gases"
+    },
+    {
+      "start": 17.57,
+      "end": 18.85,
+      "text": "that slow down freezing are pushed out."
+    },
+    {
+      "start": 18.85,
+      "end": 20.57,
+      "text": "Leaving purer water to crystallize."
+    },
+    {
+      "start": 20.57,
+      "end": 22.71,
+      "text": "The science of heat and cold"
+    },
+    {
+      "start": 22.71,
+      "end": 25.28,
+      "text": "is full of surprises."
+    }
+  ]
+}

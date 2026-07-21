@@ -1,0 +1,98 @@
+{
+  "id": "neuron-firing-potential",
+  "topic": "Action Potentials & Synaptic Transmission",
+  "eyebrow": "NEUROSCIENCE",
+  "title": "HOW A NEURON FIRES",
+  "theme": "electric-synapse",
+  "narration_text": "A neuron at rest holds a negative electrical charge inside its membrane. When a signal arrives, sodium channels snap open, flooding the cell with positive ions. This electrical spike races down the axon, leaping between myelin gaps. At the synapse, it triggers neurotransmitter release to fire the next neuron.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "NEUROSCIENCE",
+      "title": "RESTING VOLTAGE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "DEPOLARIZATION",
+      "title": "SODIUM ION CHANNEL INFLUX",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "ACTION POTENTIAL",
+      "title": "SALTATORY AXON CONDUCTION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 16,
+      "eyebrow": "SYNAPSE GAP",
+      "title": "VESICLE FUSION RELEASE",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "A neuron at rest"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "holds a negative charge"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "Sodium channels snap open"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "flooding positive ions inside"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "An electrical spike"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "races down the axon"
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "text": "Synaptic vesicles fuse"
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "text": "releasing chemical neurotransmitters"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

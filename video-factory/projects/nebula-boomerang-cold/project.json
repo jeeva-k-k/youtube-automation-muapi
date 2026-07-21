@@ -1,0 +1,93 @@
+{
+  "id": "nebula-boomerang-cold",
+  "topic": "Thermodynamics & Expansion",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "title": "THE COLDEST PLACE",
+  "theme": "nebula-cyan",
+  "narration_text": "Where is the coldest natural place in the universe? The Boomerang Nebula. Located five thousand light years away, it has a temperature of just one Kelvin, which is minus two hundred seventy-two degrees Celsius. Rapidly expanding gas cooling creates this deep cosmic refrigerator.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "THE COLDEST PLACE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "KELVIN GAUGE",
+      "title": "1K VS DEEP SPACE 2.7K",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "EXPANSION ENGINE",
+      "title": "ADIABATIC THERMODYNAMIC EXPANSION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 15,
+      "eyebrow": "SUMMARY",
+      "title": "BOOMERANG NEBULA STATS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "The coldest place in the universe"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "is the Boomerang Nebula"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "At just one Kelvin"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "it sits at minus 272 Celsius"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "which is colder than deep space"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "powered by rapid gas expansion"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "cooling the hourglass nebula wings"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

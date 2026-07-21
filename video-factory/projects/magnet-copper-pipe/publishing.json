@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-07-20T20:55:26.683Z",
+  "project_id": "magnet-copper-pipe",
+  "media_path": "/Users/jeeva/Documents/MUAPI/video-factory/projects/magnet-copper-pipe/renders/final.mp4",
+  "media_url": "https://cdn.muapi.ai/outputs/generated/d22046395c69413d9adbe498bc97f553.mp4",
+  "account_id": 587,
+  "title": "What Happens When a Magnet Falls Through a Copper Pipe?",
+  "description": "It falls in slow motion—even though copper is not a permanent magnet.\n\nThe magnet falls slowly because its changing magnetic field induces eddy currents in the copper, whose magnetic effect opposes the change.\n\nThis is Lenz’s law. Energy is converted into a small amount of heat in the pipe.\n\nCutting a slot along the pipe weakens the circulating currents and lets the magnet fall faster.\n\n#Science #Physics&Chemistry #Shorts #SpaceFacts #VisualScience #Education",
+  "tags": [
+    "what happens when a magnet falls through a copper pipe",
+    "magnet copper pipe",
+    "visual science",
+    "science facts",
+    "explained",
+    "education",
+    "physics",
+    "chemistry"
+  ],
+  "privacy": "private",
+  "category_id": "28",
+  "made_for_kids": false,
+  "request_id": "e6e4f7d0-9cc4-4902-8018-0bde7acec88c",
+  "youtube_url": "https://www.youtube.com/watch?v=zBQBymQWH_M",
+  "actual_cost_usd": 0.01,
+  "actual_cost_credits": 1,
+  "status": "completed"
+}

@@ -1,0 +1,89 @@
+{
+  "project_id": "spacetime-well",
+  "topic": "General Relativity",
+  "eyebrow": "COSMOLOGY",
+  "title": "THE FABRIC OF SPACETIME",
+  "theme": "cosmic",
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 31.92
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 7.448,
+      "eyebrow": "COSMOLOGY",
+      "title": "THE FABRIC OF SPACETIME",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 7.448,
+      "end": 14.896,
+      "eyebrow": "SPATIAL WARPING",
+      "title": "GEOMETRIC DEFORMATION",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 14.896,
+      "end": 23.408,
+      "eyebrow": "GRAVITATIONAL WELLS",
+      "title": "TIME DILATION TRIGGER",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 23.408,
+      "end": 31.92,
+      "eyebrow": "RELATIVITY",
+      "title": "CHRONOLOGICAL WARPING",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.213,
+      "end": 3.724,
+      "text": "Einstein's General Theory of Relativity revolutionized our view."
+    },
+    {
+      "start": 3.724,
+      "end": 7.448,
+      "text": "Gravity is not a magnetic pull; it is the bending of spacetime."
+    },
+    {
+      "start": 7.448,
+      "end": 11.172,
+      "text": "Massive bodies warp the grid of space around them"
+    },
+    {
+      "start": 11.172,
+      "end": 14.896,
+      "text": "like a heavy ball placed on a rubber sheet."
+    },
+    {
+      "start": 14.896,
+      "end": 18.62,
+      "text": "Near these massive wells, time itself slows down."
+    },
+    {
+      "start": 18.62,
+      "end": 22.344,
+      "text": "The stronger the gravity, the slower the clock ticks."
+    }
+  ],
+  "audioPath": "spacetime-well-narration.wav"
+}

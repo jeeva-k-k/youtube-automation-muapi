@@ -1,0 +1,29 @@
+{
+  "build_hash": "ff09f3409b6be0d918f206a6ad81ac3f93dd0970e15b26d6781d8defa55e46f7",
+  "segments": {
+    "hook": {
+      "hash": "8493218fc2bdcc892badaf20e9836ea0f8184894059845588224ee9bafcbe274",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-07-time-dilation-v4-production/segments/01-hook.mp4",
+      "frames": 406
+    },
+    "spacetime": {
+      "hash": "36ca97852cb51666e45f1e206a932547040d3b22235e6088b4277802c11f4616",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-07-time-dilation-v4-production/segments/02-spacetime.mp4",
+      "frames": 442
+    },
+    "dilation": {
+      "hash": "8242dd7da3ca10cfa9d9266ff7306179f33d1cd3c209ce8b5b825e866fd570df",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-07-time-dilation-v4-production/segments/03-dilation.mp4",
+      "frames": 443
+    },
+    "conclusion": {
+      "hash": "da4afcb3c9a1caebcf143d7cf24106c207842f95fb6dec55c02eadc3a2bef3bf",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-07-time-dilation-v4-production/segments/04-conclusion.mp4",
+      "frames": 442
+    }
+  }
+}

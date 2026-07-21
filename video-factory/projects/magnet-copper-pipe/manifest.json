@@ -1,0 +1,93 @@
+{
+  "project_id": "magnet-copper-pipe",
+  "theme": "magnet-orange",
+  "title": "THE MAGNETIC BRAKE",
+  "eyebrow": "PHYSICAL SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.64
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.237,
+      "eyebrow": "PHYSICAL SCIENCE",
+      "title": "THE MAGNETIC BRAKE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.237,
+      "end": 10.475,
+      "eyebrow": "LENZ FIELD",
+      "title": "OPPOSING FORCE COUPLING SCHEME",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.475,
+      "end": 15.712,
+      "eyebrow": "EDDY CURRENTS",
+      "title": "COPPER PIPE FALL SPEED RACE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.712,
+      "end": 19.64,
+      "eyebrow": "SUMMARY",
+      "title": "ELECTROMAGNETIC PHYSICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.262,
+      "end": 2.619,
+      "text": "A magnet falls slowly inside"
+    },
+    {
+      "start": 2.619,
+      "end": 5.237,
+      "text": "a copper pipe pathway"
+    },
+    {
+      "start": 5.237,
+      "end": 7.856,
+      "text": "inducing electric eddy currents"
+    },
+    {
+      "start": 7.856,
+      "end": 10.475,
+      "text": "that generate magnetic fields"
+    },
+    {
+      "start": 10.475,
+      "end": 13.093,
+      "text": "to oppose the motion"
+    },
+    {
+      "start": 13.093,
+      "end": 15.712,
+      "text": "under Lenz's law equations"
+    },
+    {
+      "start": 15.712,
+      "end": 19.64,
+      "text": "acting as a non-contact brake"
+    }
+  ],
+  "audioPath": "magnet-copper-pipe-narration.wav"
+}

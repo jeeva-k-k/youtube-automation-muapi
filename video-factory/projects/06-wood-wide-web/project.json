@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-06-wood-wide-web-v4-production",
+  "title": "How Trees Communicate Using Underground Fungal Networks",
+  "language": "en",
+  "generic": true,
+  "theme": "botanical",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 26.64,
+    "crf": 18
+  },
+  "audio": "../../../outputs/visual-science/06-wood-wide-web/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/06-wood-wide-web/narration/narration-normalized.wav",
+  "assets": {
+    "hero": "",
+    "closing": ""
+  },
+  "output": "../../../outputs/visual-science/06-wood-wide-web/final/wood-wide-web-vertical-production-master.mp4",
+  "layout_contract": {
+    "header_end_y": 288,
+    "visual_end_y": 1152,
+    "caption_end_y": 1498,
+    "critical_content_limit_y": 1536,
+    "right_control_gutter_px": 180,
+    "full_bleed_background": true
+  },
+  "footer_rail": [
+    "TREES",
+    "MYCELIUM",
+    "RESOURCE SHARING",
+    "SYMBIOSIS"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6.27,
+      "eyebrow": "UNDERGROUND NETWORK",
+      "title": "THE WOOD WIDE WEB",
+      "visual": {
+        "type": "network"
+      }
+    },
+    {
+      "id": "mycelium",
+      "start": 6.27,
+      "end": 13.58,
+      "eyebrow": "THE FUNGI LINKS",
+      "title": "MYCORRHIZAL SYMBIONT",
+      "visual": {
+        "type": "flow"
+      }
+    },
+    {
+      "id": "signals",
+      "start": 13.58,
+      "end": 20.37,
+      "eyebrow": "PHEROMONE WARNS",
+      "title": "CHEMICAL WARNING SIGNALS",
+      "visual": {
+        "type": "network"
+      }
+    },
+    {
+      "id": "conclusion",
+      "start": 20.37,
+      "end": 26.64,
+      "eyebrow": "THE FOREST",
+      "title": "COOPERATIVE ECOSYSTEM",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.21,
+      "end": 3.66,
+      "text": "Deep beneath the forest floor lies a network"
+    },
+    {
+      "start": 3.66,
+      "end": 6.27,
+      "text": "known as the wood wide web."
+    },
+    {
+      "start": 6.27,
+      "end": 9.92,
+      "text": "Trees share carbon, water, and vital nutrients"
+    },
+    {
+      "start": 9.92,
+      "end": 13.58,
+      "text": "using underground networks of mycelium."
+    },
+    {
+      "start": 13.58,
+      "end": 17.24,
+      "text": "They even send warning signals"
+    },
+    {
+      "start": 17.24,
+      "end": 20.37,
+      "text": "about incoming insect attacks."
+    },
+    {
+      "start": 20.37,
+      "end": 23.51,
+      "text": "A forest is not just a collection of trees;"
+    },
+    {
+      "start": 23.51,
+      "end": 26.64,
+      "text": "it is a single cooperative organism."
+    }
+  ]
+}

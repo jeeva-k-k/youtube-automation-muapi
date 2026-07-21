@@ -1,0 +1,93 @@
+{
+  "project_id": "antarctic-lakes-radar",
+  "theme": "vostok-blue",
+  "title": "LAKES BENEATH THE ICE",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.72
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.525,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "LAKES BENEATH THE ICE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.525,
+      "end": 11.051,
+      "eyebrow": "DEPTH BAR",
+      "title": "4 KM ICE SHEET THICKNESS",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.051,
+      "end": 16.576,
+      "eyebrow": "RADAR DISCOVER",
+      "title": "SUBGLACIAL LAKE DETECTION SCAN",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.576,
+      "end": 20.72,
+      "eyebrow": "SUMMARY",
+      "title": "UNDER-ICE HYPOTHESIS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.276,
+      "end": 2.763,
+      "text": "Antarctica hides subglacial lakes"
+    },
+    {
+      "start": 2.763,
+      "end": 5.525,
+      "text": "under kilometers of thick ice"
+    },
+    {
+      "start": 5.525,
+      "end": 8.288,
+      "text": "like Lake Vostok at 4 kilometers"
+    },
+    {
+      "start": 8.288,
+      "end": 11.051,
+      "text": "kept liquid by geothermal heat"
+    },
+    {
+      "start": 11.051,
+      "end": 13.813,
+      "text": "and intense vertical pressure"
+    },
+    {
+      "start": 13.813,
+      "end": 16.576,
+      "text": "creating isolated water habitats"
+    },
+    {
+      "start": 16.576,
+      "end": 20.72,
+      "text": "in absolute geological darkness"
+    }
+  ],
+  "audioPath": "antarctic-lakes-radar-narration.wav"
+}

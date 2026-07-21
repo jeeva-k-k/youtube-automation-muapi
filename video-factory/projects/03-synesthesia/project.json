@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-03-synesthesia-v4-production",
+  "title": "The Neurological Science of Synesthesia",
+  "language": "en",
+  "generic": true,
+  "theme": "glassmorphism",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 26.12,
+    "crf": 18
+  },
+  "audio": "../../../outputs/visual-science/03-synesthesia/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/03-synesthesia/narration/narration-normalized.wav",
+  "assets": {
+    "hero": "",
+    "closing": ""
+  },
+  "output": "../../../outputs/visual-science/03-synesthesia/final/synesthesia-vertical-production-master.mp4",
+  "layout_contract": {
+    "header_end_y": 288,
+    "visual_end_y": 1152,
+    "caption_end_y": 1498,
+    "critical_content_limit_y": 1536,
+    "right_control_gutter_px": 180,
+    "full_bleed_background": true
+  },
+  "footer_rail": [
+    "SENSORY MIX",
+    "NEURONS",
+    "CROSS CUES",
+    "PERCEPTION"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6.4,
+      "eyebrow": "SENSORY MIX",
+      "title": "HEARING COLORS",
+      "visual": {
+        "type": "network"
+      }
+    },
+    {
+      "id": "wiring",
+      "start": 6.4,
+      "end": 13.33,
+      "eyebrow": "BRAIN WIRING",
+      "title": "CROSS ACTIVATION",
+      "visual": {
+        "type": "flow"
+      }
+    },
+    {
+      "id": "cues",
+      "start": 13.33,
+      "end": 20.26,
+      "eyebrow": "SENSORY REGIONS",
+      "title": "ADJACENT PATHWAYS",
+      "visual": {
+        "type": "network"
+      }
+    },
+    {
+      "id": "conclusion",
+      "start": 20.26,
+      "end": 26.12,
+      "eyebrow": "THE MIND",
+      "title": "CONSTRUCTED REALITY",
+      "visual": {
+        "type": "waves"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.21,
+      "end": 2.13,
+      "text": "Imagine tasting a word,"
+    },
+    {
+      "start": 2.13,
+      "end": 3.73,
+      "text": "or hearing the color green."
+    },
+    {
+      "start": 3.73,
+      "end": 6.4,
+      "text": "This sensory blending is called synesthesia."
+    },
+    {
+      "start": 6.4,
+      "end": 8.53,
+      "text": "It is a neurological condition"
+    },
+    {
+      "start": 8.53,
+      "end": 10.13,
+      "text": "where stimulation of one sensory pathway"
+    },
+    {
+      "start": 10.13,
+      "end": 13.33,
+      "text": "leads to experiences in a second pathway."
+    },
+    {
+      "start": 13.33,
+      "end": 17.06,
+      "text": "This happens due to cross activation"
+    },
+    {
+      "start": 17.06,
+      "end": 20.26,
+      "text": "between adjacent brain regions."
+    },
+    {
+      "start": 20.26,
+      "end": 22.92,
+      "text": "What we call reality is entirely constructed"
+    },
+    {
+      "start": 22.92,
+      "end": 26.12,
+      "text": "by the pathways in our mind."
+    }
+  ]
+}

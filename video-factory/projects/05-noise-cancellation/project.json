@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-05-noise-cancellation-v4-production",
+  "title": "How Noise Cancelling Headphones Block Out Sound",
+  "language": "en",
+  "generic": true,
+  "theme": "tech-dark",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 25.08,
+    "crf": 18
+  },
+  "audio": "../../../outputs/visual-science/05-noise-cancellation/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/05-noise-cancellation/narration/narration-normalized.wav",
+  "assets": {
+    "hero": "",
+    "closing": ""
+  },
+  "output": "../../../outputs/visual-science/05-noise-cancellation/final/noise-cancellation-vertical-production-master.mp4",
+  "layout_contract": {
+    "header_end_y": 288,
+    "visual_end_y": 1152,
+    "caption_end_y": 1498,
+    "critical_content_limit_y": 1536,
+    "right_control_gutter_px": 180,
+    "full_bleed_background": true
+  },
+  "footer_rail": [
+    "OUTSIDE NOISE",
+    "MIC FEED",
+    "ANTI PHASE",
+    "SILENCE"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 5.87,
+      "eyebrow": "THE PROBLEM",
+      "title": "BLOCKING OUT NOISE",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "mic",
+      "start": 5.87,
+      "end": 12.27,
+      "eyebrow": "SIGNAL DETECTION",
+      "title": "EXTERNAL MICROPHONES",
+      "visual": {
+        "type": "flow"
+      }
+    },
+    {
+      "id": "antiphase",
+      "start": 12.27,
+      "end": 18.68,
+      "eyebrow": "THE WAVE COLLISION",
+      "title": "ANTI PHASE GENERATION",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "conclusion",
+      "start": 18.68,
+      "end": 25.08,
+      "eyebrow": "THE RESULT",
+      "title": "DESTRUCTIVE INTERFERENCE",
+      "visual": {
+        "type": "waves"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.21,
+      "end": 3.74,
+      "text": "How do noise cancelling headphones block out sound?"
+    },
+    {
+      "start": 3.74,
+      "end": 5.87,
+      "text": "They use the physics of sound waves."
+    },
+    {
+      "start": 5.87,
+      "end": 9.07,
+      "text": "Tiny microphones on the outside detect ambient noise."
+    },
+    {
+      "start": 9.07,
+      "end": 12.27,
+      "text": "The headphones instantly compute a matching wave,"
+    },
+    {
+      "start": 12.27,
+      "end": 15.47,
+      "text": "but shifted exactly out of phase."
+    },
+    {
+      "start": 15.47,
+      "end": 18.68,
+      "text": "When these two opposing waves collide,"
+    },
+    {
+      "start": 18.68,
+      "end": 21.88,
+      "text": "they cancel each other out,"
+    },
+    {
+      "start": 21.88,
+      "end": 25.08,
+      "text": "leaving only silence."
+    }
+  ]
+}

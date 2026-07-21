@@ -1,0 +1,93 @@
+{
+  "project_id": "cornea-no-vessels",
+  "theme": "cornea-blue",
+  "title": "THE LAYER WITHOUT BLOOD",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.88
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.301,
+      "eyebrow": "HUMAN BODY",
+      "title": "THE LAYER WITHOUT BLOOD",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.301,
+      "end": 10.603,
+      "eyebrow": "OXYGEN SOURCE",
+      "title": "DIRECT DIFFUSION INTERFACE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.603,
+      "end": 15.904,
+      "eyebrow": "NERVE DENSITY",
+      "title": "AVASCULAR NERVES OVERLAY",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.904,
+      "end": 19.88,
+      "eyebrow": "SUMMARY",
+      "title": "CORNEA ANATOMY RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.265,
+      "end": 2.651,
+      "text": "Your cornea has no blood vessels"
+    },
+    {
+      "start": 2.651,
+      "end": 5.301,
+      "text": "keeping it transparent for vision"
+    },
+    {
+      "start": 5.301,
+      "end": 7.952,
+      "text": "It absorbs oxygen directly"
+    },
+    {
+      "start": 7.952,
+      "end": 10.603,
+      "text": "from tears and surrounding air"
+    },
+    {
+      "start": 10.603,
+      "end": 13.253,
+      "text": "making it a unique avascular tissue"
+    },
+    {
+      "start": 13.253,
+      "end": 15.904,
+      "text": "that holds dense nerve paths"
+    },
+    {
+      "start": 15.904,
+      "end": 19.88,
+      "text": "without a single blood vessel"
+    }
+  ],
+  "audioPath": "cornea-no-vessels-narration.wav"
+}

@@ -1,0 +1,93 @@
+{
+  "project_id": "octopus-hearts-blue",
+  "theme": "octopus-cyan",
+  "title": "THE THREE HEART ANIMAL",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.76
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.269,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "THE THREE HEART ANIMAL",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.269,
+      "end": 10.539,
+      "eyebrow": "HEART SYSTEM",
+      "title": "BRANCHIAL VS SYSTEMIC LOOPS",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.539,
+      "end": 15.808,
+      "eyebrow": "COPPER CHEMISTRY",
+      "title": "BLUE HEMOCYANIN FLUID VECTOR",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.808,
+      "end": 19.76,
+      "eyebrow": "SUMMARY",
+      "title": "CEPHALOPOD CIRCULATION",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.263,
+      "end": 2.635,
+      "text": "Octopuses have three hearts"
+    },
+    {
+      "start": 2.635,
+      "end": 5.269,
+      "text": "powering their circulation"
+    },
+    {
+      "start": 5.269,
+      "end": 7.904,
+      "text": "Two hearts pump through gills"
+    },
+    {
+      "start": 7.904,
+      "end": 10.539,
+      "text": "while one systemic heart"
+    },
+    {
+      "start": 10.539,
+      "end": 13.173,
+      "text": "serves the rest of the body"
+    },
+    {
+      "start": 13.173,
+      "end": 15.808,
+      "text": "carrying copper-based blood"
+    },
+    {
+      "start": 15.808,
+      "end": 19.76,
+      "text": "that makes it look blue"
+    }
+  ],
+  "audioPath": "octopus-hearts-blue-narration.wav"
+}

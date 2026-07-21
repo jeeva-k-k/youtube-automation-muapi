@@ -1,0 +1,93 @@
+{
+  "project_id": "neptune-wind-speed",
+  "theme": "neptune-storm",
+  "title": "THE FASTEST WINDS",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.68
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.781,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "THE FASTEST WINDS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.781,
+      "end": 11.563,
+      "eyebrow": "SUPERSONIC SPEED",
+      "title": "1200 MPH VS SOUND BARRIER",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.563,
+      "end": 17.344,
+      "eyebrow": "VORTEX SHEAR",
+      "title": "GREAT DARK SPOT CIRCULATION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 17.344,
+      "end": 21.68,
+      "eyebrow": "SUMMARY",
+      "title": "SUPERSONIC WIND SPECS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.289,
+      "end": 2.891,
+      "text": "Neptune has the fastest winds"
+    },
+    {
+      "start": 2.891,
+      "end": 5.781,
+      "text": "reaching 1,200 miles per hour"
+    },
+    {
+      "start": 5.781,
+      "end": 8.672,
+      "text": "outrunning the speed of sound"
+    },
+    {
+      "start": 8.672,
+      "end": 11.563,
+      "text": "driven by internal heat flow"
+    },
+    {
+      "start": 11.563,
+      "end": 14.453,
+      "text": "generating intense shear zones"
+    },
+    {
+      "start": 14.453,
+      "end": 17.344,
+      "text": "and massive cyclonic storms"
+    },
+    {
+      "start": 17.344,
+      "end": 21.68,
+      "text": "like the Great Dark Spot"
+    }
+  ],
+  "audioPath": "neptune-wind-speed-narration.wav"
+}

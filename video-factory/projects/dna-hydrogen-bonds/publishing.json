@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-07-20T16:25:17.678Z",
+  "project_id": "dna-hydrogen-bonds",
+  "media_path": "/Users/jeeva/Documents/MUAPI/video-factory/projects/dna-hydrogen-bonds/renders/final.mp4",
+  "media_url": "https://cdn.muapi.ai/outputs/generated/333d34fa4efa495ab2cde15fb6388a68.mp4",
+  "account_id": 587,
+  "title": "The Invisible Bonds That Hold DNA Together",
+  "description": "DNA stores the blueprint of life, but what physically holds the double helix together?\n\nHydrogen bonds between base pairs, Adenine with Thymine and Guanine with Cytosine, are strong enough to stabilize the structure yet weak enough for enzymes to unzip during replication. A precise molecular balance that makes life possible.\n\n#Science #Biochemistry #DNA #MolecularBiology #HydrogenBonds #Genetics #BasePairs #VisualScience",
+  "tags": [
+    "DNA",
+    "hydrogen bonds",
+    "base pairs",
+    "adenine thymine",
+    "guanine cytosine",
+    "molecular biology",
+    "biochemistry",
+    "genetics",
+    "double helix",
+    "visual science"
+  ],
+  "privacy": "private",
+  "category_id": "28",
+  "made_for_kids": false,
+  "request_id": "dc17aae9-d799-4837-bcda-f26c16f77ab2",
+  "youtube_url": "https://www.youtube.com/watch?v=WHJzDPL08MU",
+  "actual_cost_usd": 0.01,
+  "actual_cost_credits": 1,
+  "status": "completed"
+}

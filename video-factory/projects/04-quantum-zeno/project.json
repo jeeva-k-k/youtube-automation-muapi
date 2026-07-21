@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-04-quantum-zeno-v4-production",
+  "title": "How Observation Prevents Quantum Change",
+  "language": "en",
+  "generic": true,
+  "theme": "cyberpunk",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 27.84,
+    "crf": 18
+  },
+  "audio": "../../../outputs/visual-science/04-quantum-zeno/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/04-quantum-zeno/narration/narration-normalized.wav",
+  "assets": {
+    "hero": "",
+    "closing": ""
+  },
+  "output": "../../../outputs/visual-science/04-quantum-zeno/final/quantum-zeno-vertical-production-master.mp4",
+  "layout_contract": {
+    "header_end_y": 288,
+    "visual_end_y": 1152,
+    "caption_end_y": 1498,
+    "critical_content_limit_y": 1536,
+    "right_control_gutter_px": 180,
+    "full_bleed_background": true
+  },
+  "footer_rail": [
+    "QUANTUM SYSTEM",
+    "OBSERVATION",
+    "DECAY RESET",
+    "STASIS"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6.82,
+      "eyebrow": "THE PHENOMENON",
+      "title": "THE WATCHED POT",
+      "visual": {
+        "type": "console"
+      }
+    },
+    {
+      "id": "collapse",
+      "start": 6.82,
+      "end": 14.77,
+      "eyebrow": "WAVE FUNCTION",
+      "title": "CONSTANT MEASUREMENT",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "stasis",
+      "start": 14.77,
+      "end": 21.59,
+      "eyebrow": "PHYSICAL STASIS",
+      "title": "FROZEN IN TIME",
+      "visual": {
+        "type": "console"
+      }
+    },
+    {
+      "id": "conclusion",
+      "start": 21.59,
+      "end": 27.84,
+      "eyebrow": "THE LESSON",
+      "title": "OBSERVATION SHAPES EXISTENCE",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.23,
+      "end": 3.98,
+      "text": "In the quantum world, a watched pot never boils."
+    },
+    {
+      "start": 3.98,
+      "end": 6.82,
+      "text": "This is the Quantum Zeno Effect."
+    },
+    {
+      "start": 6.82,
+      "end": 10.8,
+      "text": "By continuously observing a quantum particle,"
+    },
+    {
+      "start": 10.8,
+      "end": 14.77,
+      "text": "we force its wave function to collapse back."
+    },
+    {
+      "start": 14.77,
+      "end": 18.75,
+      "text": "This resets the clock on its decay,"
+    },
+    {
+      "start": 18.75,
+      "end": 21.59,
+      "text": "holding the system in perfect stasis."
+    },
+    {
+      "start": 21.59,
+      "end": 25,
+      "text": "At the smallest scales,"
+    },
+    {
+      "start": 25,
+      "end": 27.84,
+      "text": "observation shapes existence."
+    }
+  ]
+}

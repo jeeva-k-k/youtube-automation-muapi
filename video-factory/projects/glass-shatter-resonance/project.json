@@ -1,0 +1,98 @@
+{
+  "id": "glass-shatter-resonance",
+  "topic": "Resonance and Standing Waves",
+  "eyebrow": "ACOUSTICS",
+  "title": "HOW SOUND SHATTERS GLASS",
+  "theme": "cyan-stress",
+  "narration_text": "Every object has a natural frequency at which it vibrates most easily. When an external frequency matches this exact rate, the vibrations amplify through resonance. As the sound waves hit the glass, the molecular bonds stretch, creating micro-cracks. Under extreme stress, the glass shatters.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "ACOUSTICS",
+      "title": "NATURAL FREQUENCY",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "RESONANCE",
+      "title": "FREQUENCY MATCHING",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "DEFORMATION",
+      "title": "MOLECULAR LATTICE STRESS",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 16,
+      "eyebrow": "SHATTER",
+      "title": "TENSILE FRACTURE",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "Every object"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "has a natural frequency"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "When an external frequency matches"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "resonance amplifies the vibrations"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "Molecular bonds stretch"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "creating micro-cracks"
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "text": "Under extreme stress"
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "text": "the glass shatters"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      muapi-cli:
+        specifier: ^0.2.7
+        version: 0.2.7
+
+packages:
+
+  muapi-cli@0.2.7:
+    resolution: {integrity: sha512-V96vMIE+D++EvZJi9IpX8tMZzqtTMfcqC4084gEQpAwgpuP3eqGZw+MW9lpXsrs4Fl0COGpeysUX06jHobDeFw==}
+    engines: {node: '>=16'}
+    hasBin: true
+
+snapshots:
+
+  muapi-cli@0.2.7: {}

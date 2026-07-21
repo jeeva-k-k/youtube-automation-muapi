@@ -1,0 +1,93 @@
+{
+  "project_id": "everest-trench-scale",
+  "theme": "everest-blue",
+  "title": "EVEREST VS CHALLENGER DEEP",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.08
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.355,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "EVEREST VS CHALLENGER DEEP",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.355,
+      "end": 10.709,
+      "eyebrow": "HEIGHT SCALE",
+      "title": "8.8 KM VS 11 KM COMPARISON",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.709,
+      "end": 16.064,
+      "eyebrow": "OVERLAY MOUNTAIN",
+      "title": "MOUNT SUBMERGING UNDERWATER SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.064,
+      "end": 20.08,
+      "eyebrow": "SUMMARY",
+      "title": "GEOMETRIC PROFILE RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.268,
+      "end": 2.677,
+      "text": "The ocean is deeper than Everest"
+    },
+    {
+      "start": 2.677,
+      "end": 5.355,
+      "text": "which stands 8.8 kilometers high"
+    },
+    {
+      "start": 5.355,
+      "end": 8.032,
+      "text": "compared to 11 kilometers depth"
+    },
+    {
+      "start": 8.032,
+      "end": 10.709,
+      "text": "on the ocean trench floor"
+    },
+    {
+      "start": 10.709,
+      "end": 13.387,
+      "text": "leaving over two kilometers"
+    },
+    {
+      "start": 13.387,
+      "end": 16.064,
+      "text": "of liquid water cover"
+    },
+    {
+      "start": 16.064,
+      "end": 20.08,
+      "text": "flowing above the mountain peak"
+    }
+  ],
+  "audioPath": "everest-trench-scale-narration.wav"
+}

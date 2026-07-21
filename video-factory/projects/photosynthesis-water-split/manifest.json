@@ -1,0 +1,99 @@
+{
+  "project_id": "photosynthesis-water-split",
+  "topic": "Photolysis & Electron Transport",
+  "eyebrow": "BIOCHEMISTRY",
+  "title": "SPLITTING WATER",
+  "theme": "chlorophyll-green",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 24.92
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 6.23,
+      "eyebrow": "BIOCHEMISTRY",
+      "title": "SPLITTING WATER",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 6.23,
+      "end": 12.46,
+      "eyebrow": "PHOTOLYSIS",
+      "title": "MOLECULAR WATER SPLITTING",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 12.46,
+      "end": 18.69,
+      "eyebrow": "ENERGY FLUX",
+      "title": "ATP SYNTHASE TURBINE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 18.69,
+      "end": 24.92,
+      "eyebrow": "SUMMARY",
+      "title": "CHEMICAL ENERGY DRIVE",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.312,
+      "end": 3.115,
+      "text": "A light photon"
+    },
+    {
+      "start": 3.115,
+      "end": 6.23,
+      "text": "strikes chlorophyll"
+    },
+    {
+      "start": 6.23,
+      "end": 9.345,
+      "text": "An enzyme splits H₂O"
+    },
+    {
+      "start": 9.345,
+      "end": 12.46,
+      "text": "releasing oxygen gas"
+    },
+    {
+      "start": 12.46,
+      "end": 15.575,
+      "text": "Protons flow down"
+    },
+    {
+      "start": 15.575,
+      "end": 18.69,
+      "text": "spinning ATP Synthase"
+    },
+    {
+      "start": 18.69,
+      "end": 21.805,
+      "text": "generating molecular energy"
+    },
+    {
+      "start": 21.805,
+      "end": 24.92,
+      "text": "for plant metabolism"
+    }
+  ],
+  "audioPath": "photosynthesis-water-split-narration.wav"
+}

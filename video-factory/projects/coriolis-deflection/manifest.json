@@ -1,0 +1,89 @@
+{
+  "project_id": "coriolis-deflection",
+  "topic": "Coriolis Effect",
+  "eyebrow": "METEOROLOGY",
+  "title": "THE CORIOLIS DEFLECTION",
+  "theme": "chalkboard",
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 32.24
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 7.523,
+      "eyebrow": "METEOROLOGY",
+      "title": "THE CORIOLIS DEFLECTION",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 7.523,
+      "end": 15.045,
+      "eyebrow": "EARTH ROTATION",
+      "title": "CYCLONIC CORIOLIS CURVES",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 15.045,
+      "end": 23.643,
+      "eyebrow": "ATMOSPHERIC FLOW",
+      "title": "VORTEX CIRCULATION DETECTED",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 23.643,
+      "end": 32.24,
+      "eyebrow": "CLIMATE DRIVER",
+      "title": "GLOBAL CONVECTION CELLS",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.215,
+      "end": 3.761,
+      "text": "Global winds do not blow in straight lines."
+    },
+    {
+      "start": 3.761,
+      "end": 7.523,
+      "text": "Because Earth rotates on its axis, moving air is deflected."
+    },
+    {
+      "start": 7.523,
+      "end": 11.284,
+      "text": "In the Northern Hemisphere, winds curve to the right,"
+    },
+    {
+      "start": 11.284,
+      "end": 15.045,
+      "text": "spinning cyclonic storms counter-clockwise."
+    },
+    {
+      "start": 15.045,
+      "end": 18.807,
+      "text": "In the Southern Hemisphere, they deflect to the left."
+    },
+    {
+      "start": 18.807,
+      "end": 22.568,
+      "text": "This atmospheric rotation dictates local hurricane pathways."
+    }
+  ],
+  "audioPath": "coriolis-deflection-narration.wav"
+}

@@ -1,0 +1,93 @@
+{
+  "project_id": "lightning-sun-temp",
+  "theme": "lightning-orange",
+  "title": "IS LIGHTNING HOTTER THAN THE SUN?",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 17.12
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4.565,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "IS LIGHTNING HOTTER THAN THE SUN?",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4.565,
+      "end": 9.131,
+      "eyebrow": "TEMP BAR",
+      "title": "30,000 C VS 5,500 C SCALE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 9.131,
+      "end": 13.696,
+      "eyebrow": "PLASMA CONDUCT",
+      "title": "CONDUCTIVE DISCHARGE BOLT SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 13.696,
+      "end": 17.12,
+      "eyebrow": "SUMMARY",
+      "title": "HEAT CORRELATION RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.228,
+      "end": 2.283,
+      "text": "A lightning bolt is hotter"
+    },
+    {
+      "start": 2.283,
+      "end": 4.565,
+      "text": "than the surface of the Sun"
+    },
+    {
+      "start": 4.565,
+      "end": 6.848,
+      "text": "heating air to 30,000 degrees"
+    },
+    {
+      "start": 6.848,
+      "end": 9.131,
+      "text": "in a split-second flash"
+    },
+    {
+      "start": 9.131,
+      "end": 11.413,
+      "text": "outrunning solar thermal values"
+    },
+    {
+      "start": 11.413,
+      "end": 13.696,
+      "text": "which reach only 5,500"
+    },
+    {
+      "start": 13.696,
+      "end": 17.12,
+      "text": "across the visible photosphere layers"
+    }
+  ],
+  "audioPath": "lightning-sun-temp-narration.wav"
+}

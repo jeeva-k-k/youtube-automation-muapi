@@ -1,0 +1,98 @@
+{
+  "id": "laser-stimulated-emission",
+  "topic": "Coherence & Stimulated Emission",
+  "eyebrow": "QUANTUM PHYSICS",
+  "title": "HOW A LASER WORKS",
+  "theme": "stimulated-emission",
+  "narration_text": "A laser begins when energy excites atoms, raising their electrons to a higher energy level. When a seed photon passes by, it stimulates the excited electron to drop back down. This drop releases a second photon that is perfectly identical and in phase. Coherent light waves amplify into a laser beam.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "QUANTUM PHYSICS",
+      "title": "HOW A LASER WORKS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "STIMULATED EMISSION",
+      "title": "PHOTON IN-PHASE EMISSION",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "AMPLIFICATION",
+      "title": "RESONATOR WAVE AMPLIFIER",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 16,
+      "eyebrow": "SUMMARY",
+      "title": "COHERENT LASER OUTPUT",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "Excitation energy"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "raises electrons higher"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "A seed photon passes"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "stimulating identical release"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "Coherent waves mirror"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "bouncing back and forth"
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "text": "amplifying light waves"
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "text": "into a focused beam"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

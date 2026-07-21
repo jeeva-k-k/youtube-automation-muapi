@@ -1,0 +1,93 @@
+{
+  "project_id": "sleep-deprived-attention",
+  "theme": "sleep-purple",
+  "title": "SLEEP LOSS COGNITIVE DEFICIT",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.24
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.131,
+      "eyebrow": "HUMAN BODY",
+      "title": "SLEEP LOSS COGNITIVE DEFICIT",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.131,
+      "end": 10.261,
+      "eyebrow": "REACTION SPEED",
+      "title": "VIGILANCE DRIFT CHRONO SCALE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.261,
+      "end": 15.392,
+      "eyebrow": "BRAIN LAPSE",
+      "title": "MICROSLEEP ATTENTION DROPS",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.392,
+      "end": 19.24,
+      "eyebrow": "SUMMARY",
+      "title": "SLEEP DEPRIVATION METRICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.257,
+      "end": 2.565,
+      "text": "Twenty-four hours without sleep"
+    },
+    {
+      "start": 2.565,
+      "end": 5.131,
+      "text": "slows your reaction times down"
+    },
+    {
+      "start": 5.131,
+      "end": 7.696,
+      "text": "causing cognitive drift"
+    },
+    {
+      "start": 7.696,
+      "end": 10.261,
+      "text": "and brief attention lapses"
+    },
+    {
+      "start": 10.261,
+      "end": 12.827,
+      "text": "known as microsleeps"
+    },
+    {
+      "start": 12.827,
+      "end": 15.392,
+      "text": "reducing performance levels"
+    },
+    {
+      "start": 15.392,
+      "end": 19.24,
+      "text": "before you even realize it"
+    }
+  ],
+  "audioPath": "sleep-deprived-attention-narration.wav"
+}

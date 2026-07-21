@@ -8,7 +8,7 @@ A production-ready, automated pipeline for creating, validating, uploading, and 
 
 ```mermaid
 flowchart TD
-    A["1. Topic Generation / CSV Plan"] --> B["2. SQLite / JSON De-Duplication Check"]
+    A["1. Interactive Topic / Idea Prompt"] --> B["2. Database De-Duplication Check"]
     B --> C["3. Remotion Scene Generator & Audio LUFS Master"]
     C --> D["4. Pre-Render 8-Point Quality Gate"]
     D --> E["5. Local FFmpeg MP4 Render ($0.00)"]
@@ -22,7 +22,7 @@ flowchart TD
 
 ## 🌟 Key Features
 
-* **Topic Idea Generator & CSV Importer**: Provide a CSV master plan or specify a general niche (e.g., *"Space Mysteries"*), and the engine handles topic generation.
+* **Interactive Content Prompting**: Prompts for content type (Explainer Shorts vs Suno Music Videos) and topic source (idea prompt vs custom CSV upload).
 * **Smart De-Duplication Database**: Built-in zero-dependency database tracker (`database/tracker.json`) that performs fuzzy normalized title matching and concept keyword overlap checks to **prevent duplicate topics**.
 * **Action-First Pacing**: Visual action starts within **<0.5s**, title overlays last **<1.5s**, and explanatory visual scenes change every **0.8s–2.0s**.
 * **Credit & Cost Optimization**:
@@ -31,7 +31,7 @@ flowchart TD
 * **Hybrid YouTube Upload & Native Scheduling**:
   * **Upload**: Immediate private upload via MuAPI (`privacy: "private"`, $0.01 per video).
   * **Schedule**: Official YouTube Data API v3 (`videos.update` with `status.publishAt`, 50 API units per video).
-* **Dual-Variant Suno Music Video Skill**: Dedicated skill for Suno AI music production, preserving dual variants, creating distinct cover artwork, and outputting 16:9 landscape and 9:16 vertical videos.
+* **Dual-Variant Suno Music Video Pipeline**: Dedicated workflow for Suno AI music production, preserving dual variants, creating distinct cover artwork, and outputting 16:9 landscape and 9:16 vertical videos.
 
 ---
 
@@ -40,7 +40,6 @@ flowchart TD
 ```
 .
 ├── .gitignore                      # Excludes API keys, secrets, logs, & heavy media
-├── 50_engaging_science_video_master_plan.csv  # 50 Science Explainer Master Plan
 ├── AGENTS.md                       # Workspace production rules & standards
 ├── README.md                       # Repository documentation
 ├── workflow.md                     # Detailed technical workflow guide
@@ -48,8 +47,7 @@ flowchart TD
 │   ├── db.mjs                      # Atomic database engine (topics, videos, schedules)
 │   └── tracker.json                # Seeded database store
 ├── skills/
-│   ├── muapi-youtube-automation/   # Main Shorts production & scheduling skill
-│   └── muapi-suno-music-video/     # Suno Music Video & visualizer skill
+│   └── youtube-automation-muapi/   # Master Shorts & Music Video automation skill
 └── video-factory/                  # Remotion monorepo & project assets
     └── packages/remotion/          # React Three Fiber, SVG, and Shader comps
 ```
@@ -84,13 +82,10 @@ node scratch/check-muapi-publishing-info.mjs
 # 3. Verify Google OAuth YouTube channel connection
 node scratch/test-youtube-credentials.mjs
 
-# 4. Upload finished MP4s to YouTube as private ($0.01/video)
-node scratch/upload-remaining-40.mjs
-
-# 5. Audit all uploaded videos on YouTube via Official API
+# 4. Audit all uploaded videos on YouTube via Official API
 node scratch/audit-all-50-youtube-status.mjs
 
-# 6. Batch schedule private videos (1 every 30 mins)
+# 5. Batch schedule private videos (1 every 30 mins)
 node scratch/schedule-39-every-30min.mjs
 ```
 

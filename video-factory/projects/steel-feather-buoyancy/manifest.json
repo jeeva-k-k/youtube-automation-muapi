@@ -1,0 +1,93 @@
+{
+  "project_id": "steel-feather-buoyancy",
+  "theme": "scale-grey",
+  "title": "WHICH WEIGHS MORE?",
+  "eyebrow": "PHYSICAL SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.48
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.461,
+      "eyebrow": "PHYSICAL SCIENCE",
+      "title": "WHICH WEIGHS MORE?",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.461,
+      "end": 10.923,
+      "eyebrow": "MASS CALIBRATION",
+      "title": "1KG MASS BALANCE EQUIVALENCE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.923,
+      "end": 16.384,
+      "eyebrow": "AIR BUOYANCY",
+      "title": "AIR DISPLACEMENT FORCE MATRIX",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.384,
+      "end": 20.48,
+      "eyebrow": "SUMMARY",
+      "title": "BUOYANCY VARIATIONS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.273,
+      "end": 2.731,
+      "text": "A kilogram of feathers"
+    },
+    {
+      "start": 2.731,
+      "end": 5.461,
+      "text": "has the same mass as steel"
+    },
+    {
+      "start": 5.461,
+      "end": 8.192,
+      "text": "but because feathers take up"
+    },
+    {
+      "start": 8.192,
+      "end": 10.923,
+      "text": "vastly more volume space"
+    },
+    {
+      "start": 10.923,
+      "end": 13.653,
+      "text": "they experience upward buoyancy"
+    },
+    {
+      "start": 13.653,
+      "end": 16.384,
+      "text": "from the surrounding air"
+    },
+    {
+      "start": 16.384,
+      "end": 20.48,
+      "text": "making steel press down heavier"
+    }
+  ],
+  "audioPath": "steel-feather-buoyancy-narration.wav"
+}

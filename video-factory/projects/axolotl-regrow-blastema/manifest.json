@@ -1,0 +1,93 @@
+{
+  "project_id": "axolotl-regrow-blastema",
+  "theme": "axolotl-pink",
+  "title": "THE AXOLOTL REGENERATION",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.72
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.259,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "THE AXOLOTL REGENERATION",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.259,
+      "end": 10.517,
+      "eyebrow": "BLASTEMA PROCESS",
+      "title": "RECONSTRUCTION CELLS DIVISION",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.517,
+      "end": 15.776,
+      "eyebrow": "LIMB REGROWTH",
+      "title": "ANATOMICAL REBUILDING TIMELINE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.776,
+      "end": 19.72,
+      "eyebrow": "SUMMARY",
+      "title": "AXOLOTL STEM CAP RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.263,
+      "end": 2.629,
+      "text": "The axolotl can regrow limbs"
+    },
+    {
+      "start": 2.629,
+      "end": 5.259,
+      "text": "and parts of its brain"
+    },
+    {
+      "start": 5.259,
+      "end": 7.888,
+      "text": "by forming a blastema cap"
+    },
+    {
+      "start": 7.888,
+      "end": 10.517,
+      "text": "where stem cells multiply fast"
+    },
+    {
+      "start": 10.517,
+      "end": 13.147,
+      "text": "to rebuild bone and muscle"
+    },
+    {
+      "start": 13.147,
+      "end": 15.776,
+      "text": "restoring full physical forms"
+    },
+    {
+      "start": 15.776,
+      "end": 19.72,
+      "text": "without forming scar tissue"
+    }
+  ],
+  "audioPath": "axolotl-regrow-blastema-narration.wav"
+}

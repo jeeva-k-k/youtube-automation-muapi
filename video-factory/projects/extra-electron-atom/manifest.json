@@ -1,0 +1,93 @@
+{
+  "project_id": "extra-electron-atom",
+  "theme": "charge-dark",
+  "title": "ONE EXTRA ELECTRON",
+  "eyebrow": "PHYSICAL SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.24
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4.864,
+      "eyebrow": "PHYSICAL SCIENCE",
+      "title": "ONE EXTRA ELECTRON",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4.864,
+      "end": 9.728,
+      "eyebrow": "COULOMB FORCE",
+      "title": "ELECTROSTATIC REPULSION SCALES",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 9.728,
+      "end": 14.592,
+      "eyebrow": "REPULSION SIM",
+      "title": "ATOM LEVEL CHARGE EXPLOSION SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 14.592,
+      "end": 18.24,
+      "eyebrow": "SUMMARY",
+      "title": "ELECTROSTATIC DYNAMICS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.243,
+      "end": 2.432,
+      "text": "If all atoms gained electrons"
+    },
+    {
+      "start": 2.432,
+      "end": 4.864,
+      "text": "every piece of matter"
+    },
+    {
+      "start": 4.864,
+      "end": 7.296,
+      "text": "would acquire negative charges"
+    },
+    {
+      "start": 7.296,
+      "end": 9.728,
+      "text": "creating huge electrostatic forces"
+    },
+    {
+      "start": 9.728,
+      "end": 12.16,
+      "text": "that push particles apart"
+    },
+    {
+      "start": 12.16,
+      "end": 14.592,
+      "text": "causing a massive repulsion"
+    },
+    {
+      "start": 14.592,
+      "end": 18.24,
+      "text": "exploding all molecules instantly"
+    }
+  ],
+  "audioPath": "extra-electron-atom-narration.wav"
+}

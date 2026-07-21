@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-07-20T16:25:27.514Z",
+  "project_id": "spacetime-well",
+  "media_path": "/Users/jeeva/Documents/MUAPI/video-factory/projects/spacetime-well/renders/final.mp4",
+  "media_url": "https://cdn.muapi.ai/outputs/generated/9a93f9a0a8774d30be08fe50e399d827.mp4",
+  "account_id": 587,
+  "title": "How Mass Warps Space and Slows Time",
+  "description": "Einstein revealed that gravity is not a force pulling objects together, it is the curvature of spacetime caused by mass.\n\nNear a massive body, spacetime bends so strongly that clocks physically tick slower. GPS satellites must correct for this effect every day, or navigation would drift by kilometres.\n\n#Science #Physics #Relativity #Spacetime #TimeDilation #Einstein #Gravity #Cosmology #VisualScience",
+  "tags": [
+    "spacetime",
+    "general relativity",
+    "time dilation",
+    "gravity",
+    "Einstein",
+    "black holes",
+    "physics",
+    "cosmology",
+    "GPS relativity",
+    "visual science"
+  ],
+  "privacy": "private",
+  "category_id": "28",
+  "made_for_kids": false,
+  "request_id": "b5a53f5c-e9fa-4730-b394-8fd5b8850c9b",
+  "youtube_url": "https://www.youtube.com/watch?v=Q9HKMbWT9m8",
+  "actual_cost_usd": 0.01,
+  "actual_cost_credits": 1,
+  "status": "completed"
+}

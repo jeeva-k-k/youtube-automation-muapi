@@ -1,0 +1,29 @@
+{
+  "build_hash": "f671278e48888e7c651aba776f543d1c6f495b1cc4ac9de069fa398be8ca98a6",
+  "segments": {
+    "hook": {
+      "hash": "f0147ece95fd22351ef33b324c79c6263c38a49bc9f9678df897f094ac355c0e",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-06-wood-wide-web-v4-production/segments/01-hook.mp4",
+      "frames": 376
+    },
+    "mycelium": {
+      "hash": "fcc7123acc9496a26e9519199a72269410b8fd7f97aeef71d35095c1962ecacc",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-06-wood-wide-web-v4-production/segments/02-mycelium.mp4",
+      "frames": 439
+    },
+    "signals": {
+      "hash": "8dbbb0ecf6cda8928ede737aa68dbd69f8595cab10a1d4a4b0a3ccb0bedb3129",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-06-wood-wide-web-v4-production/segments/03-signals.mp4",
+      "frames": 407
+    },
+    "conclusion": {
+      "hash": "b505f66a70e07d3b0dc6e0867f5e70d12967a72f64c1faa19abe305f5e5a6fe0",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-06-wood-wide-web-v4-production/segments/04-conclusion.mp4",
+      "frames": 377
+    }
+  }
+}

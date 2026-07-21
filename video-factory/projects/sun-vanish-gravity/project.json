@@ -1,0 +1,93 @@
+{
+  "id": "sun-vanish-gravity",
+  "topic": "Gravity & Light Wave Speed",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "title": "IF THE SUN VANISHED",
+  "theme": "sun-disappear",
+  "narration_text": "What if the Sun vanished right now? For eight minutes, Earth would remain in light and orbit. Gravity and light propagate at the exact same speed: the speed of light. Once the propagation delay passes, Earth would go dark and fly off in a straight tangent line into space.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "IF THE SUN VANISHED",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "GRAVITATIONAL DELAY",
+      "title": "8 MINUTE WAVE PROPAGATION",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "ORBITAL RELEASE",
+      "title": "STRAIGHT LINE TANGENT TRAJECTORY",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 15,
+      "eyebrow": "SUMMARY",
+      "title": "LIGHT & GRAVITY propagation",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "If the Sun vanished"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "Earth would orbit for 8 minutes"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "because gravity and light"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "propagate at the same speed"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "Once that wave passes"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "Earth would plunge into dark"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "flying off in a tangent line"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

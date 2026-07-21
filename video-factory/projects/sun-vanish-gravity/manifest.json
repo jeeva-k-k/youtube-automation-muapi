@@ -1,0 +1,93 @@
+{
+  "project_id": "sun-vanish-gravity",
+  "theme": "sun-disappear",
+  "title": "IF THE SUN VANISHED",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.88
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.835,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "IF THE SUN VANISHED",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.835,
+      "end": 11.669,
+      "eyebrow": "GRAVITATIONAL DELAY",
+      "title": "8 MINUTE WAVE PROPAGATION",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.669,
+      "end": 17.504,
+      "eyebrow": "ORBITAL RELEASE",
+      "title": "STRAIGHT LINE TANGENT TRAJECTORY",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 17.504,
+      "end": 21.88,
+      "eyebrow": "SUMMARY",
+      "title": "LIGHT & GRAVITY propagation",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.292,
+      "end": 2.917,
+      "text": "If the Sun vanished"
+    },
+    {
+      "start": 2.917,
+      "end": 5.835,
+      "text": "Earth would orbit for 8 minutes"
+    },
+    {
+      "start": 5.835,
+      "end": 8.752,
+      "text": "because gravity and light"
+    },
+    {
+      "start": 8.752,
+      "end": 11.669,
+      "text": "propagate at the same speed"
+    },
+    {
+      "start": 11.669,
+      "end": 14.587,
+      "text": "Once that wave passes"
+    },
+    {
+      "start": 14.587,
+      "end": 17.504,
+      "text": "Earth would plunge into dark"
+    },
+    {
+      "start": 17.504,
+      "end": 21.88,
+      "text": "flying off in a tangent line"
+    }
+  ],
+  "audioPath": "sun-vanish-gravity-narration.wav"
+}

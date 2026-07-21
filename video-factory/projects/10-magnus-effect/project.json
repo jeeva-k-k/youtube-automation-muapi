@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-10-magnus-effect-v4-production",
+  "title": "The Physics of the Magnus Effect and Spinning Balls",
+  "language": "en",
+  "generic": true,
+  "theme": "chalkboard",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 25.64,
+    "crf": 18
+  },
+  "audio": "../../../outputs/visual-science/10-magnus-effect/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/10-magnus-effect/narration/narration-normalized.wav",
+  "assets": {
+    "hero": "",
+    "closing": ""
+  },
+  "output": "../../../outputs/visual-science/10-magnus-effect/final/magnus-effect-vertical-production-master.mp4",
+  "layout_contract": {
+    "header_end_y": 288,
+    "visual_end_y": 1152,
+    "caption_end_y": 1498,
+    "critical_content_limit_y": 1536,
+    "right_control_gutter_px": 180,
+    "full_bleed_background": true
+  },
+  "footer_rail": [
+    "BALL SPIN",
+    "AIR STREAM",
+    "FORCE PULL",
+    "CURVE"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6,
+      "eyebrow": "SPORTS FLIGHT",
+      "title": "WHY SPINNING BALLS CURVE",
+      "visual": {
+        "type": "flow"
+      }
+    },
+    {
+      "id": "boundary",
+      "start": 6,
+      "end": 12.55,
+      "eyebrow": "FLOW FIELD",
+      "title": "BOUNDARY LAYER DRAG",
+      "visual": {
+        "type": "flow"
+      }
+    },
+    {
+      "id": "pressure",
+      "start": 12.55,
+      "end": 19.09,
+      "eyebrow": "AIR PRESSURES",
+      "title": "LOW vs HIGH PRESSURE SIDES",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "conclusion",
+      "start": 19.09,
+      "end": 25.64,
+      "eyebrow": "FORCE VECTOR",
+      "title": "MAGNUS DEFLECTION PULL",
+      "visual": {
+        "type": "flow"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.22,
+      "end": 3.82,
+      "text": "Why does a spinning ball curve in mid-air?"
+    },
+    {
+      "start": 3.82,
+      "end": 6,
+      "text": "This is the Magnus Effect."
+    },
+    {
+      "start": 6,
+      "end": 9.27,
+      "text": "As the ball rotates, it drags boundary air."
+    },
+    {
+      "start": 9.27,
+      "end": 12.55,
+      "text": "On one side, this drag accelerates airflow,"
+    },
+    {
+      "start": 12.55,
+      "end": 15.82,
+      "text": "lowering pressure."
+    },
+    {
+      "start": 15.82,
+      "end": 19.09,
+      "text": "On the other side, it slows flow, raising pressure."
+    },
+    {
+      "start": 19.09,
+      "end": 22.37,
+      "text": "The ball is sucked toward the low-pressure side,"
+    },
+    {
+      "start": 22.37,
+      "end": 25.64,
+      "text": "curving its path."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dna-hydrogen-bonds",
+  "topic": "DNA Hydrogen Bonds",
+  "eyebrow": "BIOCHEMISTRY",
+  "title": "DNA MOLECULAR BONDS",
+  "theme": "glassmorphism",
+  "narration_text": "At the core of all life, the DNA double helix holds genetic information with atomic precision. The secret to its structural stability lies in hydrogen bonds between complementary base pairs. Adenine binds specifically to thymine via two hydrogen bonds, while cytosine pairs with guanine via three. These electrostatic forces are strong enough to secure the helix, yet delicate enough to unzip during cellular replication. It is a masterpiece of quantum molecular engineering.",
+  "scenes": [
+    {
+      "id": "orbit",
+      "start": 0,
+      "end": 7,
+      "eyebrow": "BIOCHEMISTRY",
+      "title": "DNA MOLECULAR BONDS",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "waves",
+      "start": 7,
+      "end": 14,
+      "eyebrow": "DOUBLE HELIX",
+      "title": "HYDROGEN BOND STABILIZATION",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "kilonova",
+      "start": 14,
+      "end": 22,
+      "eyebrow": "QUANTUM FORCES",
+      "title": "BASE PAIR LOCKING",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "outro",
+      "start": 22,
+      "end": 30,
+      "eyebrow": "REPLICATION",
+      "title": "ENZYMATIC CLEAVAGE",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 3.5,
+      "text": "At the core of all life,"
+    },
+    {
+      "start": 3.5,
+      "end": 7,
+      "text": "the DNA double helix holds genetic information with atomic precision."
+    },
+    {
+      "start": 7,
+      "end": 10.5,
+      "text": "The secret to its stability lies in hydrogen bonds."
+    },
+    {
+      "start": 10.5,
+      "end": 14,
+      "text": "Adenine binds specifically to thymine via two hydrogen bonds,"
+    },
+    {
+      "start": 14,
+      "end": 17.5,
+      "text": "while cytosine pairs with guanine via three."
+    },
+    {
+      "start": 17.5,
+      "end": 21,
+      "text": "These electrostatic forces secure the helix,"
+    },
+    {
+      "start": 21,
+      "end": 24.5,
+      "text": "yet unzip easily during cellular replication."
+    },
+    {
+      "start": 24.5,
+      "end": 28,
+      "text": "It is a masterpiece of quantum molecular engineering."
+    }
+  ],
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "photosynthesis-water-split",
+  "topic": "Photolysis & Electron Transport",
+  "eyebrow": "BIOCHEMISTRY",
+  "title": "SPLITTING WATER",
+  "theme": "chlorophyll-green",
+  "narration_text": "Inside a plant cell, a photon of light strikes a chlorophyll molecule, exciting an electron that flies away. To replace it, a special enzyme splits a water molecule, releasing oxygen gas and protons. These protons flow through ATP synthase, spinning it like a turbine to create molecular energy.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "BIOCHEMISTRY",
+      "title": "SPLITTING WATER",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "PHOTOLYSIS",
+      "title": "MOLECULAR WATER SPLITTING",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "ENERGY FLUX",
+      "title": "ATP SYNTHASE TURBINE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 16,
+      "eyebrow": "SUMMARY",
+      "title": "CHEMICAL ENERGY DRIVE",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "A light photon"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "strikes chlorophyll"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "An enzyme splits H₂O"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "releasing oxygen gas"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "Protons flow down"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "spinning ATP Synthase"
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "text": "generating molecular energy"
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "text": "for plant metabolism"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

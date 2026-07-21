@@ -1,0 +1,93 @@
+{
+  "project_id": "sound-shatter-glass",
+  "theme": "shatter-purple",
+  "title": "SHATTERING GLASS WITH SOUND",
+  "eyebrow": "PHYSICAL SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.84
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.557,
+      "eyebrow": "PHYSICAL SCIENCE",
+      "title": "SHATTERING GLASS WITH SOUND",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.557,
+      "end": 11.115,
+      "eyebrow": "RESONANT PITCH",
+      "title": "NATURAL FREQUENCY MATCH CHART",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.115,
+      "end": 16.672,
+      "eyebrow": "FRACTURE DECAY",
+      "title": "BEAKER SHATTER WAVE RESANCE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.672,
+      "end": 20.84,
+      "eyebrow": "SUMMARY",
+      "title": "ACOUSTICAL STRESS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.278,
+      "end": 2.779,
+      "text": "Sound can shatter glass objects"
+    },
+    {
+      "start": 2.779,
+      "end": 5.557,
+      "text": "by matching its natural pitch"
+    },
+    {
+      "start": 5.557,
+      "end": 8.336,
+      "text": "creating physical resonance"
+    },
+    {
+      "start": 8.336,
+      "end": 11.115,
+      "text": "that multiplies internal stresses"
+    },
+    {
+      "start": 11.115,
+      "end": 13.893,
+      "text": "making the material vibrate"
+    },
+    {
+      "start": 13.893,
+      "end": 16.672,
+      "text": "until cracks propagate fast"
+    },
+    {
+      "start": 16.672,
+      "end": 20.84,
+      "text": "and the glass explodes apart"
+    }
+  ],
+  "audioPath": "sound-shatter-glass-narration.wav"
+}

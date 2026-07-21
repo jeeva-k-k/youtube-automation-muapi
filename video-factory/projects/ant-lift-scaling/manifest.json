@@ -1,0 +1,93 @@
+{
+  "project_id": "ant-lift-scaling",
+  "theme": "ant-yellow",
+  "title": "THE POWERFUL ANT",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.96
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.056,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "THE POWERFUL ANT",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.056,
+      "end": 10.112,
+      "eyebrow": "SCALING RATIO",
+      "title": "CROSS SECTION VS MASS VOLUME",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.112,
+      "end": 15.168,
+      "eyebrow": "LIFT SANDBOX",
+      "title": "50x MASS LEAF LOAD FORCE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.168,
+      "end": 18.96,
+      "eyebrow": "SUMMARY",
+      "title": "INSECT BIOMETRICS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.253,
+      "end": 2.528,
+      "text": "Ants carry heavy leaves"
+    },
+    {
+      "start": 2.528,
+      "end": 5.056,
+      "text": "lifting fifty times their mass"
+    },
+    {
+      "start": 5.056,
+      "end": 7.584,
+      "text": "due to physical scaling laws"
+    },
+    {
+      "start": 7.584,
+      "end": 10.112,
+      "text": "where strength drops slower"
+    },
+    {
+      "start": 10.112,
+      "end": 12.64,
+      "text": "than total body volume"
+    },
+    {
+      "start": 12.64,
+      "end": 15.168,
+      "text": "making smaller organisms"
+    },
+    {
+      "start": 15.168,
+      "end": 18.96,
+      "text": "proportionally stronger lift engines"
+    }
+  ],
+  "audioPath": "ant-lift-scaling-narration.wav"
+}

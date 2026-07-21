@@ -1,0 +1,93 @@
+{
+  "project_id": "nebula-boomerang-cold",
+  "theme": "nebula-cyan",
+  "title": "THE COLDEST PLACE",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 22.72
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 6.059,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "THE COLDEST PLACE",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 6.059,
+      "end": 12.117,
+      "eyebrow": "KELVIN GAUGE",
+      "title": "1K VS DEEP SPACE 2.7K",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 12.117,
+      "end": 18.176,
+      "eyebrow": "EXPANSION ENGINE",
+      "title": "ADIABATIC THERMODYNAMIC EXPANSION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 18.176,
+      "end": 22.72,
+      "eyebrow": "SUMMARY",
+      "title": "BOOMERANG NEBULA STATS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.303,
+      "end": 3.029,
+      "text": "The coldest place in the universe"
+    },
+    {
+      "start": 3.029,
+      "end": 6.059,
+      "text": "is the Boomerang Nebula"
+    },
+    {
+      "start": 6.059,
+      "end": 9.088,
+      "text": "At just one Kelvin"
+    },
+    {
+      "start": 9.088,
+      "end": 12.117,
+      "text": "it sits at minus 272 Celsius"
+    },
+    {
+      "start": 12.117,
+      "end": 15.147,
+      "text": "which is colder than deep space"
+    },
+    {
+      "start": 15.147,
+      "end": 18.176,
+      "text": "powered by rapid gas expansion"
+    },
+    {
+      "start": 18.176,
+      "end": 22.72,
+      "text": "cooling the hourglass nebula wings"
+    }
+  ],
+  "audioPath": "nebula-boomerang-cold-narration.wav"
+}

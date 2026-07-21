@@ -1,0 +1,103 @@
+{
+  "id": "chemosynthetic-vent",
+  "topic": "Deep Ocean Chemosynthesis",
+  "eyebrow": "GEOLOGY",
+  "title": "THE DEEP OCEAN VENTS",
+  "theme": "botanical",
+  "narration_text": "Along the ocean floor's volcanic fissures, hydrothermal vents spew mineral-dense fluids at temperatures exceeding four hundred degrees Celsius. In this pitch-black abyss, survival seems impossible. Yet, life thrives. Specialized bacteria perform chemosynthesis, converting toxic hydrogen sulfide into organic energy without a single ray of sunlight. This chemical engine powers an entire deep-sea food web, proving that life can flourish in the most extreme environments in the universe.",
+  "scenes": [
+    {
+      "id": "orbit",
+      "start": 0,
+      "end": 7,
+      "eyebrow": "GEOLOGY",
+      "title": "THE DEEP OCEAN VENTS",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "waves",
+      "start": 7,
+      "end": 14,
+      "eyebrow": "HYDROTHERMAL FLUX",
+      "title": "MINERAL VENTING",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "kilonova",
+      "start": 14,
+      "end": 22,
+      "eyebrow": "CHEMOSYNTHESIS",
+      "title": "CHEMICAL CATALYSIS",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "outro",
+      "start": 22,
+      "end": 30,
+      "eyebrow": "DEEP ECOSYSTEM",
+      "title": "CHEMICALLY DRIVEN LIFE",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 3.5,
+      "text": "Along the ocean floor's volcanic fissures,"
+    },
+    {
+      "start": 3.5,
+      "end": 7,
+      "text": "hydrothermal vents spew mineral-dense fluids"
+    },
+    {
+      "start": 7,
+      "end": 10.2,
+      "text": "at temperatures exceeding four hundred degrees Celsius."
+    },
+    {
+      "start": 10.2,
+      "end": 13.5,
+      "text": "In this pitch-black abyss, survival seems impossible."
+    },
+    {
+      "start": 13.5,
+      "end": 17.2,
+      "text": "Yet, life thrives. Specialized bacteria perform chemosynthesis,"
+    },
+    {
+      "start": 17.2,
+      "end": 20.5,
+      "text": "converting toxic hydrogen sulfide into organic energy"
+    },
+    {
+      "start": 20.5,
+      "end": 23.5,
+      "text": "without a single ray of sunlight."
+    },
+    {
+      "start": 23.5,
+      "end": 27,
+      "text": "This chemical engine powers an entire deep-sea food web,"
+    },
+    {
+      "start": 27,
+      "end": 30,
+      "text": "proving that life can flourish in extreme environments."
+    }
+  ],
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  }
+}

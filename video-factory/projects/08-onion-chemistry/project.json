@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "project_id": "visual-science-08-onion-chemistry-v4-production",
+  "title": "The Chemistry Behind Why Onions Make You Cry",
+  "language": "en",
+  "generic": true,
+  "theme": "swiss-modern",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 25.56,
+    "crf": 18
+  },
+  "audio": "../../../outputs/visual-science/08-onion-chemistry/narration/narration-normalized.wav",
+  "approved_audio_master": "../../../outputs/visual-science/08-onion-chemistry/narration/narration-normalized.wav",
+  "assets": {
+    "hero": "",
+    "closing": ""
+  },
+  "output": "../../../outputs/visual-science/08-onion-chemistry/final/onion-chemistry-vertical-production-master.mp4",
+  "layout_contract": {
+    "header_end_y": 288,
+    "visual_end_y": 1152,
+    "caption_end_y": 1498,
+    "critical_content_limit_y": 1536,
+    "right_control_gutter_px": 180,
+    "full_bleed_background": true
+  },
+  "footer_rail": [
+    "CELL CRUSH",
+    "ENZYMES",
+    "GAS REACTION",
+    "TEAR DUCT"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 5.98,
+      "eyebrow": "THE TRAP",
+      "title": "ONION DEFENSE SYSTEM",
+      "visual": {
+        "type": "particles"
+      }
+    },
+    {
+      "id": "enzymes",
+      "start": 5.98,
+      "end": 12.51,
+      "eyebrow": "REACTION",
+      "title": "SYN-PROPANETHIAL-S-OXIDE",
+      "visual": {
+        "type": "flow"
+      }
+    },
+    {
+      "id": "tears",
+      "start": 12.51,
+      "end": 19.03,
+      "eyebrow": "TEAR DUCTS",
+      "title": "ACIDIC EYE STIMULUS",
+      "visual": {
+        "type": "particles"
+      }
+    },
+    {
+      "id": "conclusion",
+      "start": 19.03,
+      "end": 25.56,
+      "eyebrow": "THE LESSON",
+      "title": "BIOCHEMICAL CELL WARFARE",
+      "visual": {
+        "type": "waves"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.22,
+      "end": 3.81,
+      "text": "Why do onions make us cry?"
+    },
+    {
+      "start": 3.81,
+      "end": 5.98,
+      "text": "It is a chemical defense system."
+    },
+    {
+      "start": 5.98,
+      "end": 9.25,
+      "text": "When you slice an onion, you rupture its cells,"
+    },
+    {
+      "start": 9.25,
+      "end": 12.51,
+      "text": "mixing enzymes that form a volatile gas."
+    },
+    {
+      "start": 12.51,
+      "end": 15.77,
+      "text": "When this gas reaches your eyes,"
+    },
+    {
+      "start": 15.77,
+      "end": 19.03,
+      "text": "it reacts with water to form a mild acid."
+    },
+    {
+      "start": 19.03,
+      "end": 22.3,
+      "text": "This triggers your tear ducts."
+    },
+    {
+      "start": 22.3,
+      "end": 25.56,
+      "text": "Slicing is triggering a chemical trap."
+    }
+  ]
+}

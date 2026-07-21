@@ -1,0 +1,93 @@
+{
+  "project_id": "finger-wrinkle-constriction",
+  "theme": "wrinkle-cyan",
+  "title": "WHY DO FINGERS WRINKLE?",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.2
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4.853,
+      "eyebrow": "HUMAN BODY",
+      "title": "WHY DO FINGERS WRINKLE?",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4.853,
+      "end": 9.707,
+      "eyebrow": "AUTONOMIC SHIFT",
+      "title": "VESSEL CONSTRICTION PATHWAY",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 9.707,
+      "end": 14.56,
+      "eyebrow": "WET GRIP",
+      "title": "TREAD WATER DRAINAGE RIDGES",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 14.56,
+      "end": 18.2,
+      "eyebrow": "SUMMARY",
+      "title": "WRINKLING UTILITY RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.243,
+      "end": 2.427,
+      "text": "Fingers wrinkle in water"
+    },
+    {
+      "start": 2.427,
+      "end": 4.853,
+      "text": "due to active nerve controls"
+    },
+    {
+      "start": 4.853,
+      "end": 7.28,
+      "text": "constricting local blood vessels"
+    },
+    {
+      "start": 7.28,
+      "end": 9.707,
+      "text": "pulling skin surface inward"
+    },
+    {
+      "start": 9.707,
+      "end": 12.133,
+      "text": "forming distinct ridges"
+    },
+    {
+      "start": 12.133,
+      "end": 14.56,
+      "text": "that may improve your grip"
+    },
+    {
+      "start": 14.56,
+      "end": 18.2,
+      "text": "by draining water away"
+    }
+  ],
+  "audioPath": "finger-wrinkle-constriction-narration.wav"
+}

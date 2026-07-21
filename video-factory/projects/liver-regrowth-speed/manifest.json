@@ -1,0 +1,93 @@
+{
+  "project_id": "liver-regrowth-speed",
+  "theme": "liver-orange",
+  "title": "THE REBUILDING ORGAN",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.6
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.493,
+      "eyebrow": "HUMAN BODY",
+      "title": "THE REBUILDING ORGAN",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.493,
+      "end": 10.987,
+      "eyebrow": "MASS RECOVERY",
+      "title": "RESTORATION TIME MATRIX",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.987,
+      "end": 16.48,
+      "eyebrow": "CELL DIVISION",
+      "title": "HEPATOCYTE REPLICATION SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.48,
+      "end": 20.6,
+      "eyebrow": "SUMMARY",
+      "title": "LIVER REGULATION STATUS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.275,
+      "end": 2.747,
+      "text": "Your liver can regrow itself"
+    },
+    {
+      "start": 2.747,
+      "end": 5.493,
+      "text": "even after major tissue loss"
+    },
+    {
+      "start": 5.493,
+      "end": 8.24,
+      "text": "when a lobe is removed"
+    },
+    {
+      "start": 8.24,
+      "end": 10.987,
+      "text": "remaining cells divide fast"
+    },
+    {
+      "start": 10.987,
+      "end": 13.733,
+      "text": "to restore functional mass"
+    },
+    {
+      "start": 13.733,
+      "end": 16.48,
+      "text": "returning the liver back"
+    },
+    {
+      "start": 16.48,
+      "end": 20.6,
+      "text": "to its normal size in weeks"
+    }
+  ],
+  "audioPath": "liver-regrowth-speed-narration.wav"
+}

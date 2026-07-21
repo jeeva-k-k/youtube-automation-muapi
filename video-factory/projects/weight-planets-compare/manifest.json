@@ -1,0 +1,93 @@
+{
+  "project_id": "weight-planets-compare",
+  "theme": "gravity-purple",
+  "title": "WEIGHT ON OTHER PLANETS",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.56
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.749,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "WEIGHT ON OTHER PLANETS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.749,
+      "end": 11.499,
+      "eyebrow": "GRAVITY SCALES",
+      "title": "EARTH VS MARS VS JUPITER DIALS",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.499,
+      "end": 17.248,
+      "eyebrow": "BOUNCE SIMULATION",
+      "title": "GRAVITATIONAL LEAP Sandbox",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 17.248,
+      "end": 21.56,
+      "eyebrow": "SUMMARY",
+      "title": "MASS VS WEIGHT METRICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.287,
+      "end": 2.875,
+      "text": "How much do you weigh in space?"
+    },
+    {
+      "start": 2.875,
+      "end": 5.749,
+      "text": "It depends on planet gravity"
+    },
+    {
+      "start": 5.749,
+      "end": 8.624,
+      "text": "Seventy kilograms on Earth"
+    },
+    {
+      "start": 8.624,
+      "end": 11.499,
+      "text": "becomes just twenty-six on Mars"
+    },
+    {
+      "start": 11.499,
+      "end": 14.373,
+      "text": "But on massive Jupiter"
+    },
+    {
+      "start": 14.373,
+      "end": 17.248,
+      "text": "gravity pulls you down hard"
+    },
+    {
+      "start": 17.248,
+      "end": 21.56,
+      "text": "multiplying your weight to 175 kilograms"
+    }
+  ],
+  "audioPath": "weight-planets-compare-narration.wav"
+}

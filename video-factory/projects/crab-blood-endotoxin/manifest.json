@@ -1,0 +1,93 @@
+{
+  "project_id": "crab-blood-endotoxin",
+  "theme": "crab-cyan",
+  "title": "HORSESHOE CRAB BLUE BLOOD",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.64
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.771,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "HORSESHOE CRAB BLUE BLOOD",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.771,
+      "end": 11.541,
+      "eyebrow": "CLOTTING REACTION",
+      "title": "AMOEBOBCYTE ENDOTOXIN DETECTOR",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.541,
+      "end": 17.312,
+      "eyebrow": "ASSAY LAB",
+      "title": "GELATION TEST CHAMBER VISUAL",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 17.312,
+      "end": 21.64,
+      "eyebrow": "SUMMARY",
+      "title": "CONSERVATION & SYNTHETICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.289,
+      "end": 2.885,
+      "text": "Horseshoe crab blood is blue"
+    },
+    {
+      "start": 2.885,
+      "end": 5.771,
+      "text": "due to copper-based hemocyanin"
+    },
+    {
+      "start": 5.771,
+      "end": 8.656,
+      "text": "containing amoebocyte cells"
+    },
+    {
+      "start": 8.656,
+      "end": 11.541,
+      "text": "that react to bacterial toxins"
+    },
+    {
+      "start": 11.541,
+      "end": 14.427,
+      "text": "clotting the liquid instantly"
+    },
+    {
+      "start": 14.427,
+      "end": 17.312,
+      "text": "enabling sensitive medical checks"
+    },
+    {
+      "start": 17.312,
+      "end": 21.64,
+      "text": "to protect global health"
+    }
+  ],
+  "audioPath": "crab-blood-endotoxin-narration.wav"
+}

@@ -1,0 +1,93 @@
+{
+  "project_id": "woodpecker-hammer-decel",
+  "theme": "woodpecker-orange",
+  "title": "WHY WOODPECKERS DONT GET CONCUSSIONS",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.12
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.099,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "WHY WOODPECKERS DONT GET CONCUSSIONS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.099,
+      "end": 10.197,
+      "eyebrow": "IMPACT FORCE",
+      "title": "1200 Gs DECELERATION WAVE",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.197,
+      "end": 15.296,
+      "eyebrow": "HAMMER SKULL",
+      "title": "STIFF COLLISION SIMULATOR",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.296,
+      "end": 19.12,
+      "eyebrow": "SUMMARY",
+      "title": "BIOMECHANICAL STATS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.255,
+      "end": 2.549,
+      "text": "Woodpeckers avoid concussions"
+    },
+    {
+      "start": 2.549,
+      "end": 5.099,
+      "text": "without shock-absorbing skulls"
+    },
+    {
+      "start": 5.099,
+      "end": 7.648,
+      "text": "using their head as a stiff hammer"
+    },
+    {
+      "start": 7.648,
+      "end": 10.197,
+      "text": "withstanding 1,200 G forces"
+    },
+    {
+      "start": 10.197,
+      "end": 12.747,
+      "text": "distributing impact pressures"
+    },
+    {
+      "start": 12.747,
+      "end": 15.296,
+      "text": "across rigid bone paths"
+    },
+    {
+      "start": 15.296,
+      "end": 19.12,
+      "text": "to protect their small brain structure"
+    }
+  ],
+  "audioPath": "woodpecker-hammer-decel-narration.wav"
+}

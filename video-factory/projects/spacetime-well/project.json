@@ -1,0 +1,88 @@
+{
+  "id": "spacetime-well",
+  "topic": "General Relativity",
+  "eyebrow": "COSMOLOGY",
+  "title": "THE FABRIC OF SPACETIME",
+  "theme": "cosmic",
+  "narration_text": "Einstein's General Theory of Relativity revolutionized how we perceive the universe. Gravity is not a magnetic pulling force; it is the geometric bending of spacetime. Massive cosmic bodies, like stars and black holes, warp the grid of space around them like a heavy ball on a rubber sheet. Near these massive wells, time itself slows down relative to a distant observer. The stronger the gravity, the slower the clock ticks.",
+  "scenes": [
+    {
+      "id": "orbit",
+      "start": 0,
+      "end": 7,
+      "eyebrow": "COSMOLOGY",
+      "title": "THE FABRIC OF SPACETIME",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "waves",
+      "start": 7,
+      "end": 14,
+      "eyebrow": "SPATIAL WARPING",
+      "title": "GEOMETRIC DEFORMATION",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "kilonova",
+      "start": 14,
+      "end": 22,
+      "eyebrow": "GRAVITATIONAL WELLS",
+      "title": "TIME DILATION TRIGGER",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "outro",
+      "start": 22,
+      "end": 30,
+      "eyebrow": "RELATIVITY",
+      "title": "CHRONOLOGICAL WARPING",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 3.5,
+      "text": "Einstein's General Theory of Relativity revolutionized our view."
+    },
+    {
+      "start": 3.5,
+      "end": 7,
+      "text": "Gravity is not a magnetic pull; it is the bending of spacetime."
+    },
+    {
+      "start": 7,
+      "end": 10.5,
+      "text": "Massive bodies warp the grid of space around them"
+    },
+    {
+      "start": 10.5,
+      "end": 14,
+      "text": "like a heavy ball placed on a rubber sheet."
+    },
+    {
+      "start": 14,
+      "end": 17.5,
+      "text": "Near these massive wells, time itself slows down."
+    },
+    {
+      "start": 17.5,
+      "end": 21,
+      "text": "The stronger the gravity, the slower the clock ticks."
+    }
+  ],
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  }
+}

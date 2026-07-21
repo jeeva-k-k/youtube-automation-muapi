@@ -1,0 +1,52 @@
+{
+  "project_id": "test-kilonova",
+  "topic": "How Neutron Star Collisions Create Gold",
+  "audience": "general",
+  "language": "en",
+  "generic": true,
+  "theme": "cosmic",
+  "footer_rail": ["ORBIT", "GRAVITY WAVES", "KILONOVA", "GOLD ORIGIN"],
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "crf": 18
+  },
+  "style_profile": "cinematic-science",
+  "brand_profile": "default-science-brand",
+  "caption_profile": "keyword-highlight",
+  "audio_profile": "narration-web",
+  "providers": {
+    "tts": "muapi",
+    "image": "muapi",
+    "video": "auto",
+    "alignment": "auto",
+    "publishing": "muapi"
+  },
+  "publishing": {
+    "platform": "youtube",
+    "privacy": "private",
+    "category_id": "28",
+    "language": "en",
+    "requires_human_approval": true
+  },
+  "narration_text": "Deep in the cosmic void, two ultra-dense neutron stars spiral closer and closer. Gravity deforms space-time around them, unleashing massive ripples known as gravitational waves. When they finally collide, a cataclysmic explosion—a kilonova—erupts. Under this extreme pressure and heat, heavy elements are synthesized. This cosmic forge is the origin of almost all the gold and platinum in our universe.",
+  "scenes": [
+    { "id": "orbit", "start": 0, "end": 6.0, "eyebrow": "ASTROPHYSICS", "title": "THE SPIRAL", "visual": { "type": "orbit" } },
+    { "id": "waves", "start": 6.0, "end": 12.0, "eyebrow": "GRAVITY WAVES", "title": "SPACE-TIME RIPPLES", "visual": { "type": "waves" } },
+    { "id": "kilonova", "start": 12.0, "end": 20.0, "eyebrow": "NUCLEOSYNTHESIS", "title": "THE KILONOVA BURST", "visual": { "type": "kilonova" } },
+    { "id": "outro", "start": 20.0, "end": 26.0, "eyebrow": "HEAVY METALS", "title": "ORIGIN OF GOLD", "visual": { "type": "particles" } }
+  ],
+  "captions": [
+    { "start": 0.2, "end": 2.5, "text": "Deep in the cosmic void," },
+    { "start": 2.5, "end": 6.0, "text": "two ultra-dense neutron stars spiral closer and closer." },
+    { "start": 6.0, "end": 9.0, "text": "Gravity deforms space-time around them," },
+    { "start": 9.0, "end": 12.0, "text": "unleashing massive ripples known as gravitational waves." },
+    { "start": 12.0, "end": 14.5, "text": "When they finally collide," },
+    { "start": 14.5, "end": 17.5, "text": "a cataclysmic explosion—a kilonova—erupts." },
+    { "start": 17.5, "end": 20.0, "text": "Under this extreme pressure, heavy elements are synthesized." },
+    { "start": 20.0, "end": 23.0, "text": "This cosmic forge is the origin" },
+    { "start": 23.0, "end": 26.0, "text": "of almost all the gold and platinum in our universe." }
+  ]
+}

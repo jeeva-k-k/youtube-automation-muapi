@@ -1,0 +1,35 @@
+{
+  "build_hash": "3eadfae6ff8cf5db60530c6d57008219f24ae165f30cf7a4cd8eb5ceb69efbdc",
+  "segments": {
+    "hook": {
+      "hash": "2bcfe478886ad318044a525c472322993abe1dbc3af8c771c442767401cd2085",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-02-mpemba-effect-v4-production/segments/01-hook.mp4",
+      "frames": 334
+    },
+    "evaporation": {
+      "hash": "db169fbab0f2d4d0f225e8168905402be4e083068ad863d48823a24017edce7c",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-02-mpemba-effect-v4-production/segments/02-evaporation.mp4",
+      "frames": 283
+    },
+    "convection": {
+      "hash": "d584df75446e43027f90b6f832ff496410bb26e91d0af9d99487be4e85eefae6",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-02-mpemba-effect-v4-production/segments/03-convection.mp4",
+      "frames": 334
+    },
+    "gases": {
+      "hash": "b73daa47b3be453b82db05016779433fc64372bed37da20431da0e8394876535",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-02-mpemba-effect-v4-production/segments/04-gases.mp4",
+      "frames": 283
+    },
+    "conclusion": {
+      "hash": "0ac4e7f21ebf04f95a6631b72a992411427e6c7fc4d5f1211d30433e52bed25d",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-02-mpemba-effect-v4-production/segments/05-conclusion.mp4",
+      "frames": 283
+    }
+  }
+}

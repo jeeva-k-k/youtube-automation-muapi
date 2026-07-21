@@ -1,0 +1,29 @@
+{
+  "build_hash": "6160860ac473ccf7b46366b747049612d70b354ee140c35c75441f822516ae58",
+  "segments": {
+    "hook": {
+      "hash": "3bb82eec206b7a2f41b67dc12a1c65cfe9306aa6c26d49b4b6397b20de2ff067",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-03-synesthesia-v4-production/segments/01-hook.mp4",
+      "frames": 384
+    },
+    "wiring": {
+      "hash": "4d839f4cad081e692e40195457868fd5f37b771bbc843d19a44526eb4d3b6fa8",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-03-synesthesia-v4-production/segments/02-wiring.mp4",
+      "frames": 416
+    },
+    "cues": {
+      "hash": "8725c951a72d3eeb91b4b68a972a2b7e440609b5793e988c6cf5106935480f74",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-03-synesthesia-v4-production/segments/03-cues.mp4",
+      "frames": 416
+    },
+    "conclusion": {
+      "hash": "bcc0e90e4ef9ec6a23fd0d6ac592a102e588173363169f2143a4907bf8b6d0fa",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-03-synesthesia-v4-production/segments/04-conclusion.mp4",
+      "frames": 352
+    }
+  }
+}

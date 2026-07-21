@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-07-20T16:25:37.605Z",
+  "project_id": "coriolis-deflection",
+  "media_path": "/Users/jeeva/Documents/MUAPI/video-factory/projects/coriolis-deflection/renders/final.mp4",
+  "media_url": "https://cdn.muapi.ai/outputs/generated/d57a3c90ed29400189cf3959c0c5a471.mp4",
+  "account_id": 587,
+  "title": "Why Storms Spin - The Coriolis Effect Explained",
+  "description": "The Coriolis effect is not a real force. It is an apparent deflection caused by Earth rotating beneath moving air and water.\n\nIn the Northern Hemisphere, moving objects deflect to the right. In the Southern Hemisphere, to the left. This shapes trade winds, jet streams, and the rotation direction of every hurricane on the planet.\n\n#Science #Meteorology #CoriolisEffect #Weather #Hurricanes #EarthScience #Atmosphere #VisualScience",
+  "tags": [
+    "Coriolis effect",
+    "meteorology",
+    "weather science",
+    "hurricanes",
+    "cyclones",
+    "Earth rotation",
+    "trade winds",
+    "atmosphere",
+    "earth science",
+    "visual science"
+  ],
+  "privacy": "private",
+  "category_id": "28",
+  "made_for_kids": false,
+  "request_id": "b5d0ff2b-12d3-4d86-a47b-0885a0252f6c",
+  "youtube_url": "https://www.youtube.com/watch?v=C_DFQ-W630A",
+  "actual_cost_usd": 0.01,
+  "actual_cost_credits": 1,
+  "status": "completed"
+}

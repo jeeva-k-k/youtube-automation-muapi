@@ -1,0 +1,93 @@
+{
+  "project_id": "sahara-desert-scale",
+  "theme": "sahara-yellow",
+  "title": "THE SCALE OF THE SAHARA",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.6
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4.96,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "THE SCALE OF THE SAHARA",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4.96,
+      "end": 9.92,
+      "eyebrow": "AREA ESTIMATE",
+      "title": "9.2 MILLION SQ KM DIAL",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 9.92,
+      "end": 14.88,
+      "eyebrow": "MAP COMPARISON",
+      "title": "US VS SAHARA BOUNDARY MORPH",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 14.88,
+      "end": 18.6,
+      "eyebrow": "SUMMARY",
+      "title": "DESERT GEOMETRY RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.248,
+      "end": 2.48,
+      "text": "The Sahara Desert is massive"
+    },
+    {
+      "start": 2.48,
+      "end": 4.96,
+      "text": "matching China or the United States"
+    },
+    {
+      "start": 4.96,
+      "end": 7.44,
+      "text": "at 9.2 million square kilometers"
+    },
+    {
+      "start": 7.44,
+      "end": 9.92,
+      "text": "spreading across North Africa"
+    },
+    {
+      "start": 9.92,
+      "end": 12.4,
+      "text": "filled with gravel and stone plateaus"
+    },
+    {
+      "start": 12.4,
+      "end": 14.88,
+      "text": "and not just sand dune fields"
+    },
+    {
+      "start": 14.88,
+      "end": 18.6,
+      "text": "as commonly imagined"
+    }
+  ],
+  "audioPath": "sahara-desert-scale-narration.wav"
+}

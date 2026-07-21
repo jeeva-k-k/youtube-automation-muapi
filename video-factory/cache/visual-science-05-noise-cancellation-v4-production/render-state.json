@@ -1,0 +1,29 @@
+{
+  "build_hash": "debf4ab0dc4ee5bd9941a0e61f15bfae027f558fe0a4743f2accfd78710ef610",
+  "segments": {
+    "hook": {
+      "hash": "81e0fbc47c821c4cdd32b243de54cfa47bac376800493a495b1ad46556f94f59",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-05-noise-cancellation-v4-production/segments/01-hook.mp4",
+      "frames": 352
+    },
+    "mic": {
+      "hash": "a53fae73bc9b43622c8569fe9e0b7826cd98dbd5745546a29a1c79495eca4548",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-05-noise-cancellation-v4-production/segments/02-mic.mp4",
+      "frames": 384
+    },
+    "antiphase": {
+      "hash": "f7b7c523f8cbe7ffce6444318cff1bb517584d3810e0983dea7ddc651d534122",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-05-noise-cancellation-v4-production/segments/03-antiphase.mp4",
+      "frames": 385
+    },
+    "conclusion": {
+      "hash": "fe1c551dcc9a812858393f3674a00fe521301acc0fd0e44dfeb02d57d961d47f",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-05-noise-cancellation-v4-production/segments/04-conclusion.mp4",
+      "frames": 384
+    }
+  }
+}

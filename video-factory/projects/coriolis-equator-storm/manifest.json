@@ -1,0 +1,93 @@
+{
+  "project_id": "coriolis-equator-storm",
+  "theme": "coriolis-blue",
+  "title": "CYCLONES AT THE EQUATOR",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 19.64
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.237,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "CYCLONES AT THE EQUATOR",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.237,
+      "end": 10.475,
+      "eyebrow": "DEFLECTION GAUGE",
+      "title": "ZERO CORIOLIS DEFLECTION BOUNDARY",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.475,
+      "end": 15.712,
+      "eyebrow": "STORM ROTATE",
+      "title": "LATITUDE SPIN DIFFERENCE SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.712,
+      "end": 19.64,
+      "eyebrow": "SUMMARY",
+      "title": "CYCLONE METRICS RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.262,
+      "end": 2.619,
+      "text": "Hurricanes cannot form"
+    },
+    {
+      "start": 2.619,
+      "end": 5.237,
+      "text": "directly on the Equator line"
+    },
+    {
+      "start": 5.237,
+      "end": 7.856,
+      "text": "because the Coriolis deflection"
+    },
+    {
+      "start": 7.856,
+      "end": 10.475,
+      "text": "is essentially zero there"
+    },
+    {
+      "start": 10.475,
+      "end": 13.093,
+      "text": "preventing the wind flows"
+    },
+    {
+      "start": 13.093,
+      "end": 15.712,
+      "text": "from spinning into spiral storms"
+    },
+    {
+      "start": 15.712,
+      "end": 19.64,
+      "text": "needed to build cyclonic paths"
+    }
+  ],
+  "audioPath": "coriolis-equator-storm-narration.wav"
+}

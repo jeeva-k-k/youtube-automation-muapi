@@ -1,0 +1,93 @@
+{
+  "project_id": "shrimp-vision-photoreceptors",
+  "theme": "shrimp-yellow",
+  "title": "MANTIS SHRIMP SIGHT",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.48
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4.928,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "MANTIS SHRIMP SIGHT",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4.928,
+      "end": 9.856,
+      "eyebrow": "SPECTRUM CHANNELS",
+      "title": "16 RECEPTOR BANDS COMPARISON",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 9.856,
+      "end": 14.784,
+      "eyebrow": "POLARIZATION",
+      "title": "CIRCULAR LIGHT POLARIZATION GAUGE",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 14.784,
+      "end": 18.48,
+      "eyebrow": "SUMMARY",
+      "title": "MANTIS VISION RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.246,
+      "end": 2.464,
+      "text": "Mantis shrimp see hidden colors"
+    },
+    {
+      "start": 2.464,
+      "end": 4.928,
+      "text": "holding 16 color receptors"
+    },
+    {
+      "start": 4.928,
+      "end": 7.392,
+      "text": "compared to only three in humans"
+    },
+    {
+      "start": 7.392,
+      "end": 9.856,
+      "text": "detecting ultraviolet bands"
+    },
+    {
+      "start": 9.856,
+      "end": 12.32,
+      "text": "and circular polarized light"
+    },
+    {
+      "start": 12.32,
+      "end": 14.784,
+      "text": "making their visual landscape"
+    },
+    {
+      "start": 14.784,
+      "end": 18.48,
+      "text": "an invisible spectrum map"
+    }
+  ],
+  "audioPath": "shrimp-vision-photoreceptors-narration.wav"
+}

@@ -1,0 +1,93 @@
+{
+  "project_id": "krakatoa-sound-pressure",
+  "theme": "krakatoa-red",
+  "title": "THE LOUDEST RECORDED SOUND",
+  "eyebrow": "EARTH SCIENCE",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.4
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.44,
+      "eyebrow": "EARTH SCIENCE",
+      "title": "THE LOUDEST RECORDED SOUND",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.44,
+      "end": 10.88,
+      "eyebrow": "SOUND RANGE",
+      "title": "4800 KM HEARD BOUNDARY MAP",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.88,
+      "end": 16.32,
+      "eyebrow": "PRESSURE WAVE",
+      "title": "ATMOSPHERIC GLOBE SHOCK RINGS",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.32,
+      "end": 20.4,
+      "eyebrow": "SUMMARY",
+      "title": "VOLCANIC EXPLOSION RECAP",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.272,
+      "end": 2.72,
+      "text": "Krakatoa created the loudest sound"
+    },
+    {
+      "start": 2.72,
+      "end": 5.44,
+      "text": "heard five thousand kilometers away"
+    },
+    {
+      "start": 5.44,
+      "end": 8.16,
+      "text": "in the historical 1883 eruption"
+    },
+    {
+      "start": 8.16,
+      "end": 10.88,
+      "text": "generating intense pressure waves"
+    },
+    {
+      "start": 10.88,
+      "end": 13.6,
+      "text": "that barometers tracked easily"
+    },
+    {
+      "start": 13.6,
+      "end": 16.32,
+      "text": "as the atmospheric shock rings"
+    },
+    {
+      "start": 16.32,
+      "end": 20.4,
+      "text": "circled the entire planet four times"
+    }
+  ],
+  "audioPath": "krakatoa-sound-pressure-narration.wav"
+}

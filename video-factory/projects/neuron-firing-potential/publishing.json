@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-07-20T17:01:26.212Z",
+  "project_id": "neuron-firing-potential",
+  "media_path": "/Users/jeeva/Documents/MUAPI/video-factory/projects/neuron-firing-potential/renders/final.mp4",
+  "media_url": "https://cdn.muapi.ai/outputs/generated/ae51959a7705466392673f7d69bf9728.mp4",
+  "account_id": 587,
+  "title": "How a Neuron Fires - The Action Potential",
+  "description": "A neuron at rest holds a negative electrical charge inside its membrane.\n\nWhen a signal arrives, sodium channels snap open, flooding the cell with positive ions. This electrical spike races down the axon, leaping between myelin gaps. At the synapse, it triggers neurotransmitter release to fire the next neuron.\n\n#Science #Neuroscience #Neuron #ActionPotential #Biology #BrainScience #Synapse #VisualScience",
+  "tags": [
+    "neuron",
+    "action potential",
+    "how a neuron fires",
+    "neuroscience",
+    "synapse",
+    "neurotransmitters",
+    "myelin sheath",
+    "biology",
+    "brain science",
+    "visual science"
+  ],
+  "privacy": "private",
+  "category_id": "28",
+  "made_for_kids": false,
+  "request_id": "47728e39-5bb9-4e36-8a2b-a0378a88e85d",
+  "youtube_url": "https://www.youtube.com/watch?v=OOevQHYTu5s",
+  "actual_cost_usd": 0.01,
+  "actual_cost_credits": 1,
+  "status": "completed"
+}

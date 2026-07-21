@@ -1,0 +1,29 @@
+{
+  "build_hash": "b58ee81ad7b66e15c75d617b72eb5de8e61030e2e108141cb704c8a068c8fa92",
+  "segments": {
+    "hook": {
+      "hash": "05bbad6e7ae6dbedc3a0c74f6a1f4b97aff61686d06b33e4c6124d8baed79b7f",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-09-gps-relativity-v4-production/segments/01-hook.mp4",
+      "frames": 360
+    },
+    "drift": {
+      "hash": "475cec4690ab504a7cdc2bfbff95728b8cb0d9cd279326fbf50d5a7af3c6cbef",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-09-gps-relativity-v4-production/segments/02-drift.mp4",
+      "frames": 420
+    },
+    "math": {
+      "hash": "8144d414add839b7005b6aec3fea2a74f3c674503a70de30290f2df59f4818c4",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-09-gps-relativity-v4-production/segments/03-math.mp4",
+      "frames": 420
+    },
+    "conclusion": {
+      "hash": "d4704dc44b7db7b90f852c59e789ee86383dfb3401c3ae4a95593113b4582787",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-09-gps-relativity-v4-production/segments/04-conclusion.mp4",
+      "frames": 360
+    }
+  }
+}

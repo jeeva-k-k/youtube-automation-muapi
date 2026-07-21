@@ -1,0 +1,93 @@
+{
+  "project_id": "tardigrade-space-survival",
+  "theme": "tardigrade-purple",
+  "title": "THE VACUUM SURVIVOR",
+  "eyebrow": "ANIMAL KINGDOM",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 21.2
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.653,
+      "eyebrow": "ANIMAL KINGDOM",
+      "title": "THE VACUUM SURVIVOR",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.653,
+      "end": 11.307,
+      "eyebrow": "CRYPTOBIOSIS",
+      "title": "DESICCATED TUN METABOLIC HALT",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.307,
+      "end": 16.96,
+      "eyebrow": "SPACE SHIELD",
+      "title": "RADIATION VACUUM CHAMBER SIM",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.96,
+      "end": 21.2,
+      "eyebrow": "SUMMARY",
+      "title": "TARDIGRADE SURVIVAL STATS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.283,
+      "end": 2.827,
+      "text": "Tardigrades can survive space"
+    },
+    {
+      "start": 2.827,
+      "end": 5.653,
+      "text": "enduring vacuum and radiation"
+    },
+    {
+      "start": 5.653,
+      "end": 8.48,
+      "text": "by entering a desiccated tun state"
+    },
+    {
+      "start": 8.48,
+      "end": 11.307,
+      "text": "shutting down metabolic rates"
+    },
+    {
+      "start": 11.307,
+      "end": 14.133,
+      "text": "to protect cell structures"
+    },
+    {
+      "start": 14.133,
+      "end": 16.96,
+      "text": "until water is reintroduced"
+    },
+    {
+      "start": 16.96,
+      "end": 21.2,
+      "text": "bringing them back to active life"
+    }
+  ],
+  "audioPath": "tardigrade-space-survival-narration.wav"
+}

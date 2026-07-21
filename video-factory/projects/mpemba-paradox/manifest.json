@@ -1,0 +1,84 @@
+{
+  "project_id": "mpemba-paradox",
+  "topic": "Mpemba Paradox",
+  "eyebrow": "THERMODYNAMICS",
+  "title": "THE MPEMBA PHENOMENON",
+  "theme": "blueprint",
+  "format": {
+    "preset": "youtube-landscape",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 30.28
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 7.065,
+      "eyebrow": "THERMODYNAMICS",
+      "title": "THE MPEMBA PHENOMENON",
+      "visual": {
+        "type": "orbit"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 7.065,
+      "end": 14.131,
+      "eyebrow": "HEAT GRADIENT",
+      "title": "MOLECULAR CONVECTION DYNAMICS",
+      "visual": {
+        "type": "waves"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 14.131,
+      "end": 22.205,
+      "eyebrow": "FREEZING WAVE",
+      "title": "CONVECTIVE EVAPORATION PHASE",
+      "visual": {
+        "type": "kilonova"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 22.205,
+      "end": 30.28,
+      "eyebrow": "PARADOX RECAP",
+      "title": "COOLING FLUX SPECS",
+      "visual": {
+        "type": "particles"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.202,
+      "end": 3.533,
+      "text": "Under specific conditions, hot water freezes faster than cold."
+    },
+    {
+      "start": 3.533,
+      "end": 7.065,
+      "text": "This thermodynamic mystery is the Mpemba Effect."
+    },
+    {
+      "start": 7.065,
+      "end": 10.598,
+      "text": "Key factors include rapid evaporation of hot water volume"
+    },
+    {
+      "start": 10.598,
+      "end": 14.131,
+      "text": "and strong convection currents accelerating heat loss."
+    },
+    {
+      "start": 14.131,
+      "end": 17.663,
+      "text": "While still researched, it challenges basic assumptions."
+    }
+  ],
+  "audioPath": "mpemba-paradox-narration.wav"
+}

@@ -1,0 +1,4 @@
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-03-synesthesia-v4-production/segments/01-hook.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-03-synesthesia-v4-production/segments/02-wiring.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-03-synesthesia-v4-production/segments/03-cues.mp4'
+file '/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-03-synesthesia-v4-production/segments/04-conclusion.mp4'

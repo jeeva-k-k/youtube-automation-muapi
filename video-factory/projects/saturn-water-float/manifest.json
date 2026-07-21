@@ -1,0 +1,93 @@
+{
+  "project_id": "saturn-water-float",
+  "theme": "saturn-ocean",
+  "title": "THE PLANET THAT FLOATS",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 23.12
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 6.165,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "THE PLANET THAT FLOATS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 6.165,
+      "end": 12.331,
+      "eyebrow": "DENSITY BALANCE",
+      "title": "WATER COMPARISON METRICS",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 12.331,
+      "end": 18.496,
+      "eyebrow": "BUOYANCY FORCE",
+      "title": "OCEAN FLOAT SIMULATION",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 18.496,
+      "end": 23.12,
+      "eyebrow": "SUMMARY",
+      "title": "SATURN FLOATING MECHANICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.308,
+      "end": 3.083,
+      "text": "In a giant ocean"
+    },
+    {
+      "start": 3.083,
+      "end": 6.165,
+      "text": "Saturn would float"
+    },
+    {
+      "start": 6.165,
+      "end": 9.248,
+      "text": "Its average density"
+    },
+    {
+      "start": 9.248,
+      "end": 12.331,
+      "text": "is lower than water"
+    },
+    {
+      "start": 12.331,
+      "end": 15.413,
+      "text": "At point six eight grams"
+    },
+    {
+      "start": 15.413,
+      "end": 18.496,
+      "text": "per cubic centimetre"
+    },
+    {
+      "start": 18.496,
+      "end": 23.12,
+      "text": "making it light enough to float"
+    }
+  ],
+  "audioPath": "saturn-water-float-narration.wav"
+}

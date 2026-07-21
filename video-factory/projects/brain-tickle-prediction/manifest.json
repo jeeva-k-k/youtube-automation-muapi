@@ -1,0 +1,93 @@
+{
+  "project_id": "brain-tickle-prediction",
+  "theme": "tickle-purple",
+  "title": "WHY YOU CANT TICKLE YOURSELF",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.2
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4.853,
+      "eyebrow": "HUMAN BODY",
+      "title": "WHY YOU CANT TICKLE YOURSELF",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4.853,
+      "end": 9.707,
+      "eyebrow": "SENSORY FILTER",
+      "title": "CEREBELLUM PREDICTION SIGNAL",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 9.707,
+      "end": 14.56,
+      "eyebrow": "ATTENUATION",
+      "title": "SOMATOSENSORY CANCELLATION PATH",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 14.56,
+      "end": 18.2,
+      "eyebrow": "SUMMARY",
+      "title": "TICKLING ANATOMY RULES",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.243,
+      "end": 2.427,
+      "text": "You cannot tickle yourself"
+    },
+    {
+      "start": 2.427,
+      "end": 4.853,
+      "text": "because your brain predicts it"
+    },
+    {
+      "start": 4.853,
+      "end": 7.28,
+      "text": "the cerebellum anticipates touch"
+    },
+    {
+      "start": 7.28,
+      "end": 9.707,
+      "text": "from your own movements"
+    },
+    {
+      "start": 9.707,
+      "end": 12.133,
+      "text": "matching sensory expectations"
+    },
+    {
+      "start": 12.133,
+      "end": 14.56,
+      "text": "to attenuate the response"
+    },
+    {
+      "start": 14.56,
+      "end": 18.2,
+      "text": "and silence the ticklish feeling"
+    }
+  ],
+  "audioPath": "brain-tickle-prediction-narration.wav"
+}

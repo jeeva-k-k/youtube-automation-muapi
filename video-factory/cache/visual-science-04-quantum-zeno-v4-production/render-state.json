@@ -1,0 +1,29 @@
+{
+  "build_hash": "11481c99bc98b224c43bf37fc3028eb91dbc0a8ef3d9c7e5e2d2b8bd577f6fc9",
+  "segments": {
+    "hook": {
+      "hash": "9f0b670e2d24f31bffe59ce5bea7e567cc1fe6025c4d35c5cef56d83b3931a85",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-04-quantum-zeno-v4-production/segments/01-hook.mp4",
+      "frames": 409
+    },
+    "collapse": {
+      "hash": "70691eceec21405bdebf03fc9b6c16ad494b1f27db19ce7931bea21ac6011579",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-04-quantum-zeno-v4-production/segments/02-collapse.mp4",
+      "frames": 477
+    },
+    "stasis": {
+      "hash": "fbdc1a3b889ecc3c6a9a30e300dfa8704b81895cf6b85c55cebd79a3d0fcbff4",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-04-quantum-zeno-v4-production/segments/03-stasis.mp4",
+      "frames": 409
+    },
+    "conclusion": {
+      "hash": "a4444f37dd229539598d02baafcc457a97989b2873691f4fd1592166512321f5",
+      "status": "completed",
+      "path": "/Users/jeeva/Documents/MUAPI/video-factory/cache/visual-science-04-quantum-zeno-v4-production/segments/04-conclusion.mp4",
+      "frames": 376
+    }
+  }
+}

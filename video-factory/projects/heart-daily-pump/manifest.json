@@ -1,0 +1,93 @@
+{
+  "project_id": "heart-daily-pump",
+  "theme": "heart-red",
+  "title": "HEART PUMPING CAPACITY",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.68
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.515,
+      "eyebrow": "HUMAN BODY",
+      "title": "HEART PUMPING CAPACITY",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.515,
+      "end": 11.029,
+      "eyebrow": "BEAT ESTIMATE",
+      "title": "DAILY GALLON PUMP QUANTITY",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 11.029,
+      "end": 16.544,
+      "eyebrow": "FLOW QUANTITY",
+      "title": "2000 GALLON CONTAINER VOLUME",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 16.544,
+      "end": 20.68,
+      "eyebrow": "SUMMARY",
+      "title": "CARDIAC OUTPUT METRICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.276,
+      "end": 2.757,
+      "text": "Your heart pumps blood daily"
+    },
+    {
+      "start": 2.757,
+      "end": 5.515,
+      "text": "reaching 2,000 gallons total"
+    },
+    {
+      "start": 5.515,
+      "end": 8.272,
+      "text": "enough to fill a giant tank"
+    },
+    {
+      "start": 8.272,
+      "end": 11.029,
+      "text": "circulating oxygenated blood"
+    },
+    {
+      "start": 11.029,
+      "end": 13.787,
+      "text": "across your entire body"
+    },
+    {
+      "start": 13.787,
+      "end": 16.544,
+      "text": "beating 2.5 billion times"
+    },
+    {
+      "start": 16.544,
+      "end": 20.68,
+      "text": "over an average lifetime"
+    }
+  ],
+  "audioPath": "heart-daily-pump-narration.wav"
+}

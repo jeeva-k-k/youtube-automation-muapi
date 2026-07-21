@@ -104,41 +104,42 @@ export async function recordSchedule(scheduleObj) {
   await saveDb(db);
 }
 
-// Populate database from existing CSV and Ledgers
+// Populate database from existing Project Ledgers
 export async function seedFromLedgers() {
   const db = await loadDb();
-  console.log('Seeding Database from Master Plan CSV and Upload Ledgers...');
+  console.log('Seeding Database from Upload Ledgers...');
 
-  // 1. Read CSV
-  try {
-    const csvData = await readFile('/Users/jeeva/Documents/MUAPI/50_engaging_science_video_master_plan.csv', 'utf8');
-    const lines = csvData.split('\n');
-    for (let i = 1; i < lines.length; i++) {
-      const line = lines[i].trim();
-      if (!line) continue;
-      const parts = line.split(',');
-      const code = parts[0];
-      const category = parts[1];
-      const workingTitle = parts[3]?.replace(/^"|"$/g, '') || '';
+  const ledgerFiles = [
+    '/Users/jeeva/Documents/MUAPI/video-factory/projects/upload-ledger-masterplan-1.json',
+    '/Users/jeeva/Documents/MUAPI/video-factory/projects/upload-ledger-masterplan-2.json',
+    '/Users/jeeva/Documents/MUAPI/video-factory/projects/upload-ledger-remaining-40.json'
+  ];
 
-      if (code && code.startsWith('V') && workingTitle) {
-        const norm = normalizeTitle(workingTitle);
-        if (!db.topics.some(t => t.code === code)) {
-          db.topics.push({
-            code,
-            category,
-            working_title: workingTitle,
-            normalized_title: norm,
-            created_at: new Date().toISOString()
+  for (const file of ledgerFiles) {
+    if (fs.existsSync(file)) {
+      try {
+        const ledger = JSON.parse(await readFile(file, 'utf8'));
+        if (ledger.entries) {
+          ledger.entries.forEach(e => {
+            const norm = normalizeTitle(e.title);
+            if (!db.topics.some(t => t.normalized_title === norm || t.working_title === e.title)) {
+              db.topics.push({
+                code: e.project_id,
+                category: 'Science',
+                working_title: e.title,
+                normalized_title: norm,
+                created_at: e.timestamp || new Date().toISOString()
+              });
+            }
           });
         }
+      } catch (err) {
+        console.error(`Error reading ${file}:`, err.message);
       }
     }
-  } catch (e) {
-    console.error('CSV seed skipped:', e.message);
   }
 
-  // 2. Read Schedule Ledger
+  // Read Schedule Ledger
   try {
     const schedData = JSON.parse(await readFile('/Users/jeeva/Documents/MUAPI/video-factory/projects/schedule-ledger-30min.json', 'utf8'));
     if (schedData.entries) {
@@ -157,7 +158,7 @@ export async function seedFromLedgers() {
       });
     }
   } catch (e) {
-    console.error('Schedule ledger seed skipped:', e.message);
+    // Optional schedule seed
   }
 
   await saveDb(db);

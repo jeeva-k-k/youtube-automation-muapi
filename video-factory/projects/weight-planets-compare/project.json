@@ -1,0 +1,93 @@
+{
+  "id": "weight-planets-compare",
+  "topic": "Comparative Gravity Mechanics",
+  "eyebrow": "SPACE & ASTRONOMY",
+  "title": "WEIGHT ON OTHER PLANETS",
+  "theme": "gravity-purple",
+  "narration_text": "How much would you weigh on other planets? It depends on gravity. If you weigh seventy kilograms on Earth, you would weigh only twenty-six kilograms on Mars due to its low mass. But step on Jupiter's crushed gas surface, and you would weigh a massive one hundred and seventy-five kilograms.",
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 4,
+      "eyebrow": "SPACE & ASTRONOMY",
+      "title": "WEIGHT ON OTHER PLANETS",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 4,
+      "end": 8,
+      "eyebrow": "GRAVITY SCALES",
+      "title": "EARTH VS MARS VS JUPITER DIALS",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 8,
+      "end": 12,
+      "eyebrow": "BOUNCE SIMULATION",
+      "title": "GRAVITATIONAL LEAP Sandbox",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 12,
+      "end": 15,
+      "eyebrow": "SUMMARY",
+      "title": "MASS VS WEIGHT METRICS",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2,
+      "text": "How much do you weigh in space?"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "It depends on planet gravity"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "Seventy kilograms on Earth"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "becomes just twenty-six on Mars"
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "But on massive Jupiter"
+    },
+    {
+      "start": 10,
+      "end": 12,
+      "text": "gravity pulls you down hard"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "multiplying your weight to 175 kilograms"
+    }
+  ],
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  }
+}

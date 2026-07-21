@@ -1,0 +1,93 @@
+{
+  "project_id": "nerve-impulse-saltatory",
+  "theme": "nerve-green",
+  "title": "HOW NERVE SIGNALS TRAVEL",
+  "eyebrow": "HUMAN BODY",
+  "format": {
+    "preset": "youtube-shorts",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 18.76
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 5.003,
+      "eyebrow": "HUMAN BODY",
+      "title": "HOW NERVE SIGNALS TRAVEL",
+      "visual": {
+        "type": "wave"
+      }
+    },
+    {
+      "id": "diagram",
+      "start": 5.003,
+      "end": 10.005,
+      "eyebrow": "SIGNAL VELOCITY",
+      "title": "120 METERS PER SECOND TARGET",
+      "visual": {
+        "type": "diagram"
+      }
+    },
+    {
+      "id": "simulation",
+      "start": 10.005,
+      "end": 15.008,
+      "eyebrow": "MYELIN LEAP",
+      "title": "SALTATORY CONDUCTION TRAJECTORY",
+      "visual": {
+        "type": "sim"
+      }
+    },
+    {
+      "id": "summary",
+      "start": 15.008,
+      "end": 18.76,
+      "eyebrow": "SUMMARY",
+      "title": "NERVE CONDUCTION MATRIX",
+      "visual": {
+        "type": "outro"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.25,
+      "end": 2.501,
+      "text": "Nerve signals travel fast"
+    },
+    {
+      "start": 2.501,
+      "end": 5.003,
+      "text": "reaching 120 meters per second"
+    },
+    {
+      "start": 5.003,
+      "end": 7.504,
+      "text": "in myelinated nerve fibers"
+    },
+    {
+      "start": 7.504,
+      "end": 10.005,
+      "text": "where the electrical pulse leaps"
+    },
+    {
+      "start": 10.005,
+      "end": 12.507,
+      "text": "between Nodes of Ranvier"
+    },
+    {
+      "start": 12.507,
+      "end": 15.008,
+      "text": "utilizing insulation blocks"
+    },
+    {
+      "start": 15.008,
+      "end": 18.76,
+      "text": "to speed up signal transmission"
+    }
+  ],
+  "audioPath": "nerve-impulse-saltatory-narration.wav"
+}
