@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-07-21T14:34:47.529Z",
+  "updated_at": "2026-07-21T15:04:27.390Z",
   "topics": [
     {
       "code": "V001",
@@ -351,9 +351,33 @@
       "working_title": "What If Every Atom Gained One Extra Electron?",
       "normalized_title": "what if every atom gained one extra electron",
       "created_at": "2026-07-21T14:34:47.521Z"
+    },
+    {
+      "code": "V051",
+      "category": "Space & Cosmology",
+      "working_title": "The Boötes Void: Universe's Longest Silence",
+      "concept_keywords": [
+        "bootes",
+        "void",
+        "space",
+        "galaxy",
+        "isolation",
+        "cosmology"
+      ],
+      "normalized_title": "the botes void universes longest silence",
+      "created_at": "2026-07-21T15:03:55.521Z",
+      "updated_at": "2026-07-21T15:04:22.447Z"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "project_id": "V051",
+      "working_title": "The Boötes Void: Universe's Longest Silence",
+      "rendered_file": "/Users/jeeva/Documents/MUAPI/renders/V051_BootesVoid.mp4",
+      "status": "rendered_and_validated",
+      "created_at": "2026-07-21T15:04:27.390Z"
+    }
+  ],
   "schedules": [
     {
       "youtube_id": "VXvtXfneHJw",

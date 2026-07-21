@@ -1,0 +1,53 @@
+{
+  "project_id": "V051",
+  "slug": "bootes-void-universe-silence",
+  "working_title": "The Boötes Void: Universe's Longest Silence",
+  "category": "Space & Cosmology",
+  "duration_sec": 14,
+  "aspect_ratio": "9:16",
+  "resolution": "1080x1920",
+  "script": {
+    "hook": "Imagine a hole in space so vast, it could hold 2,000 Milky Ways... but it's almost empty!",
+    "body_1": "This is the Boötes Void, a super-sphere 330 million light-years wide.",
+    "body_2": "Where thousands of galaxies should exist, astronomers found only sixty.",
+    "conclusion": "If our galaxy was in the center, we wouldn't have known other galaxies existed until the 1960s!"
+  },
+  "audio": {
+    "target_lufs": -16,
+    "master_file": "video-factory/projects/bootes-void-universe-silence/audio_master.mp3"
+  },
+  "scenes": [
+    {
+      "id": "scene_1",
+      "start_sec": 0,
+      "end_sec": 2.5,
+      "type": "threejs_orbital_void",
+      "title": "THE BOÖTES VOID",
+      "description": "Massive dark space sphere with glowing galaxies pushed to outer boundary"
+    },
+    {
+      "id": "scene_2",
+      "start_sec": 2.5,
+      "end_sec": 5.5,
+      "type": "svg_scale_comparison",
+      "label": "330 MILLION LIGHT-YEARS",
+      "description": "Scale counter measuring cosmic void diameter"
+    },
+    {
+      "id": "scene_3",
+      "start_sec": 5.5,
+      "end_sec": 9.5,
+      "type": "canvas_density_split",
+      "label": "2,000 GALAXIES vs 60 GALAXIES",
+      "description": "Side by side visual comparison of normal cosmic web vs Boötes Void"
+    },
+    {
+      "id": "scene_4",
+      "start_sec": 9.5,
+      "end_sec": 14.0,
+      "type": "animated_conclusion",
+      "title": "TOTAL COSMIC ISOLATION",
+      "description": "3-second animated wrap-up card"
+    }
+  ]
+}
