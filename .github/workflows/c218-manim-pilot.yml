@@ -33,7 +33,7 @@ jobs:
           python -m pip install "manim==0.20.1" "numpy>=2.0" "scipy>=1.12"
           manim --version
 
-      - name: Apply ImageMobject group compatibility patch
+      - name: Apply pilot QC patches
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -44,6 +44,15 @@ jobs:
               "VGroup(shell, head, tip, curved, call, sub, liquid)": "Group(shell, head, tip, curved, call, sub, liquid)",
               "VGroup(shell, head, tracers, box, badge, sub, liquid)": "Group(shell, head, tracers, box, badge, sub, liquid)",
               "VGroup(shell, head, seed_marks, sub, liquid, payoff)": "Group(shell, head, seed_marks, sub, liquid, payoff)",
+              "phase = ValueTracker(0)\n        nodes = VGroup": "phase = ValueTracker(0)\n        reactor = always_redraw(lambda: Circle(3.18, fill_color=hex_interp(CYAN, MAGENTA, 0.5 + 0.5 * np.sin(10.0 * phase.get_value())), fill_opacity=0.24, stroke_color=BLUE, stroke_width=1.5, stroke_opacity=0.18).move_to([0, -0.45, 0]))\n        nodes = VGroup",
+              "group = VGroup(head, nodes, node_txt, arrows, axes, words)": "group = VGroup(reactor, head, nodes, node_txt, arrows, axes, words)",
+              "self.play(FadeOut(VGroup(group, curve, cursor, halo), run_time=0.46))": "reactor.clear_updaters()\n        self.play(FadeOut(VGroup(group, curve, cursor, halo), run_time=0.46))",
+              "r = ValueTracker(0.06)": "r = ValueTracker(0.38)",
+              "wake = always_redraw(lambda: Circle(max(0.04, r.get_value() - 0.23), stroke_color=MAGENTA, stroke_width=3.4, stroke_opacity=0.46).move_to([cx, cy, 0]))": "wake = always_redraw(lambda: Circle(max(0.04, r.get_value() - 0.23), stroke_color=MAGENTA, stroke_width=3.4, stroke_opacity=0.46).move_to([cx, cy, 0]))\n        wash = always_redraw(lambda: Circle(max(0.10, r.get_value()), fill_color=MAGENTA, fill_opacity=0.10, stroke_width=0).move_to([cx, cy, 0]))",
+              "self.add(front, wake)": "self.add(wash, front, wake)",
+              "front.clear_updaters(); wake.clear_updaters()": "front.clear_updaters(); wake.clear_updaters(); wash.clear_updaters()",
+              "VGroup(shell, head, grid, seed, arrows, sub, front, wake)": "VGroup(shell, head, grid, seed, arrows, sub, front, wake, wash)",
+              "RoundedRectangle(width=0.34, height=0.62, corner_radius=0.09": "RoundedRectangle(width=0.46, height=1.70, corner_radius=0.10"
           }
           for old, new in replacements.items():
               if old not in s:
