@@ -1,0 +1,43 @@
+name: C218 Manim Pilot
+on:
+  push:
+    branches: [c218-manim-pilot]
+    paths:
+      - 'c218_manim_pilot/**'
+      - '.github/workflows/c218-manim-pilot.yml'
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: System dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libcairo2-dev libpango1.0-dev pkg-config
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install Manim
+        run: |
+          python -m pip install --upgrade pip
+          pip install 'manim==0.20.1' 'numpy>=2.1' 'scipy>=1.15'
+      - name: Render visual master
+        run: |
+          cd c218_manim_pilot
+          manim --format=mp4 --renderer=cairo --fps 60 --resolution 1440,2560 --media_dir media main.py C218Pilot
+          find media -type f -name '*.mp4' -print
+          VIDEO=$(find media -type f -name 'C218Pilot.mp4' | head -1)
+          ffmpeg -y -i "$VIDEO" -an -c:v libx264 -profile:v high -pix_fmt yuv420p -preset slow -crf 15 -movflags +faststart C218_Manim_Visual_Master.mp4
+          ffprobe -v error -show_entries stream=codec_name,profile,width,height,pix_fmt,r_frame_rate -show_entries format=duration,size -of json C218_Manim_Visual_Master.mp4 > C218_visual_probe.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: C218-Manim-Visual-Master
+          path: |
+            c218_manim_pilot/C218_Manim_Visual_Master.mp4
+            c218_manim_pilot/C218_visual_probe.json
+            c218_manim_pilot/main.py
+          compression-level: 0
+          retention-days: 1
