@@ -1,0 +1,53 @@
+name: C218 Manim Pilot Render
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - "c218_manim_pilot/**"
+      - ".github/workflows/c218-manim-pilot.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install native dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libcairo2-dev libpango1.0-dev pkg-config
+
+      - name: Install Manim stack
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "manim==0.20.1" "numpy>=2.0" "scipy>=1.12"
+          manim --version
+
+      - name: Render portrait pilot
+        run: |
+          manim --disable_caching -r 1440,2560 --fps 60 \
+            -o C218_silent.mp4 c218_manim_pilot/main.py C218Scene
+          find media -type f -name "C218_silent.mp4" -print
+          VIDEO=$(find media -type f -name "C218_silent.mp4" | head -n 1)
+          mkdir -p c218_artifact
+          cp "$VIDEO" c218_artifact/C218_silent.mp4
+          ffprobe -v error -show_entries stream=codec_name,profile,width,height,pix_fmt,r_frame_rate \
+            -show_entries format=duration,size -of json "$VIDEO" > c218_artifact/render_probe.json
+          sha256sum "$VIDEO" > c218_artifact/render_sha256.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: c218-manim-pilot
+          path: c218_artifact/
+          compression-level: 0
+          retention-days: 1
