@@ -33,6 +33,25 @@ jobs:
           python -m pip install "manim==0.20.1" "numpy>=2.0" "scipy>=1.12"
           manim --version
 
+      - name: Apply ImageMobject group compatibility patch
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path("c218_manim_pilot/main.py")
+          s = p.read_text()
+          replacements = {
+              "VGroup(shell, head, sub, badge_box, badge, liquid)": "Group(shell, head, sub, badge_box, badge, liquid)",
+              "VGroup(shell, head, tip, curved, call, sub, liquid)": "Group(shell, head, tip, curved, call, sub, liquid)",
+              "VGroup(shell, head, tracers, box, badge, sub, liquid)": "Group(shell, head, tracers, box, badge, sub, liquid)",
+              "VGroup(shell, head, seed_marks, sub, liquid, payoff)": "Group(shell, head, seed_marks, sub, liquid, payoff)",
+          }
+          for old, new in replacements.items():
+              if old not in s:
+                  raise SystemExit(f"missing expected pattern: {old}")
+              s = s.replace(old, new)
+          p.write_text(s)
+          PY
+
       - name: Render portrait pilot
         run: |
           manim --disable_caching -r 1440,2560 --fps 60 \
