@@ -5,6 +5,11 @@ on:
     paths:
       - 'c218_manim_pilot/**'
       - '.github/workflows/c218-manim-pilot.yml'
+  pull_request:
+    branches: [master]
+    paths:
+      - 'c218_manim_pilot/**'
+      - '.github/workflows/c218-manim-pilot.yml'
   workflow_dispatch:
 
 jobs:
@@ -28,7 +33,6 @@ jobs:
         run: |
           cd c218_manim_pilot
           manim --format=mp4 --renderer=cairo --fps 60 --resolution 1440,2560 --media_dir media main.py C218Pilot
-          find media -type f -name '*.mp4' -print
           VIDEO=$(find media -type f -name 'C218Pilot.mp4' | head -1)
           ffmpeg -y -i "$VIDEO" -an -c:v libx264 -profile:v high -pix_fmt yuv420p -preset slow -crf 15 -movflags +faststart C218_Manim_Visual_Master.mp4
           ffprobe -v error -show_entries stream=codec_name,profile,width,height,pix_fmt,r_frame_rate -show_entries format=duration,size -of json C218_Manim_Visual_Master.mp4 > C218_visual_probe.json
